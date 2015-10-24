@@ -1,0 +1,46 @@
+package fr.beneth.wxslib
+
+import groovy.util.slurpersupport.NodeChild
+
+class Layer {
+
+	boolean queryable, opaque
+	String name, title, _abstract
+	ArrayList<String> keywords = new ArrayList<String>()
+	
+	String attributionTitle
+	ArrayList<MetadataUrl> metadataUrls = new ArrayList<MetadataUrl>()
+
+	ArrayList<Style> styles = new ArrayList<Style>()
+		
+	// A layer can contain sub-layers
+	ArrayList<Layer> layers = new ArrayList<Layer>()
+
+	static Layer mapFromXmlFragment(NodeChild xml) {
+		Layer l =  new Layer()
+		l.queryable = xml["@queryable"]
+		l.opaque = xml["@opaque"]
+		
+		l.name = xml.Name
+		l.title = xml.Title
+		l._abstract = xml.Abstract
+		xml.KeywordList.children().each { kw ->
+			l.keywords << kw
+		}
+		
+		l.attributionTitle = xml.Attribution.Title
+
+		xml.children().each {
+			child ->
+			if (child.name() == "Layer") {
+				l.layers << Layer.mapFromXmlFragment(child)
+			} else if (child.name() == "Style") {
+				l.styles << Style.mapFromXmlFragment(child)
+			} else if (child.name() == "MetadataURL") {
+				l.metadataUrls << MetadataUrl.mapFromXmlFragment(child)
+			}
+		}
+		return l
+	}
+	
+}
