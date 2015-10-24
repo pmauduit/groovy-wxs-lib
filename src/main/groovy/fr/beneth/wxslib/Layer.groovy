@@ -16,6 +16,15 @@ class Layer {
 	// A layer can contain sub-layers
 	ArrayList<Layer> layers = new ArrayList<Layer>()
 
+	Layer findLayerByName(String name) {
+		for (Layer it : layers) {
+			if (it.name == name) return it
+			Layer l = it.findLayerByName(name)
+			if (l != null) return l
+		}
+		return null
+	}
+	
 	static Layer mapFromXmlFragment(NodeChild xml) {
 		Layer l =  new Layer()
 		l.queryable = xml["@queryable"]

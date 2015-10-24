@@ -23,6 +23,16 @@ class Capabilities {
 	// list of available layers in this server
 	ArrayList<Layer> layers = new ArrayList<Layer>();
 	
+	Layer findLayerByName(String name) {
+		for (Layer it : layers) { 
+			if (it.name == name)
+				return it
+			Layer l = it.findLayerByName(name)
+			if (l != null) return l
+		}
+		return null
+	}
+	
 	static Capabilities mapFromDocument(String uriEndpoint) {
 		def xmlData = new XmlSlurper().parse(uriEndpoint)
 		Capabilities cap = new Capabilities()
