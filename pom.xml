@@ -4,7 +4,7 @@
   <groupId>fr.beneth</groupId>
   <artifactId>wxslib</artifactId>
   <name>WxS library</name>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <distributionManagement>
     <repository>
       <id>local fs</id>
@@ -15,7 +15,7 @@
     <url>https://github.com/pmauduit/groovy-wxs-lib</url>
     <connection>scm:git:git://github.com/pmauduit/groovy-wxs-lib.git</connection>
     <developerConnection>scm:git:git@github.com:pmauduit/groovy-wxs-lib.git</developerConnection>
-    <tag>v1.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <dependencies>
     <dependency>
