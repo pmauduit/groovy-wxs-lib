@@ -4,7 +4,20 @@
   <groupId>fr.beneth</groupId>
   <artifactId>wxslib</artifactId>
   <name>WxS library</name>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.1-SNAPSHOT</version>
+  <distributionManagement>
+    <repository>
+      <id>internal.repo</id>
+      <name>Temporary Staging Repository</name>
+      <url>file://${project.build.directory}/mvn-repo</url>
+    </repository>
+  </distributionManagement>
+  <scm>
+    <url>https://github.com/pmauduit/groovy-wxs-lib</url>
+    <connection>scm:git:git://github.com/pmauduit/groovy-wxs-lib.git</connection>
+    <developerConnection>scm:git:git@github.com:pmauduit/groovy-wxs-lib.git</developerConnection>
+    <tag>HEAD</tag>
+  </scm>
   <dependencies>
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
@@ -37,6 +50,13 @@
             </goals>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <version>2.8.1</version>
+        <configuration>
+          <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo</altDeploymentRepository>
+        </configuration>
       </plugin>
     </plugins>
   </build>
