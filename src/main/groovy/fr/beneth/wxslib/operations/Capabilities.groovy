@@ -57,7 +57,7 @@ class Capabilities {
 		xmlData.Capability.children().each {
 			child ->
 			if (child.name() == "Layer") {
-				cap.layers << Layer.mapFromXmlFragment(child)	
+				cap.layers << Layer.mapFromXmlFragment(child)
 			}
 		}
 		

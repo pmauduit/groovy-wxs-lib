@@ -12,7 +12,9 @@ class Layer {
 	ArrayList<MetadataUrl> metadataUrls = new ArrayList<MetadataUrl>()
 
 	ArrayList<Style> styles = new ArrayList<Style>()
-		
+
+	Layer parentLayer = null
+			
 	// A layer can contain sub-layers
 	ArrayList<Layer> layers = new ArrayList<Layer>()
 
@@ -24,6 +26,13 @@ class Layer {
 		}
 		return null
 	}
+	
+	static Layer mapFromXmlFragment(NodeChild xml, Layer parent) {
+		Layer l = mapFromXmlFragment(xml)
+		l.parentLayer = parent
+		return l
+	}
+
 	
 	static Layer mapFromXmlFragment(NodeChild xml) {
 		Layer l =  new Layer()
@@ -42,7 +51,7 @@ class Layer {
 		xml.children().each {
 			child ->
 			if (child.name() == "Layer") {
-				l.layers << Layer.mapFromXmlFragment(child)
+				l.layers << Layer.mapFromXmlFragment(child, l)
 			} else if (child.name() == "Style") {
 				l.styles << Style.mapFromXmlFragment(child)
 			} else if (child.name() == "MetadataURL") {
