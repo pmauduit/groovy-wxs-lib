@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WMS_Capabilities xmlns:srv="http://schemas.opengis.net/iso/19139/20060504/srv/srv.xsd" xmlns:gmd="http://schemas.opengis.net/iso/19139/20060504/gmd/gmd.xsd" xmlns:gco="http://schemas.opengis.net/iso/19139/20060504/gco/gco.xsd" xmlns:inspire_vs="http://inspire.ec.europa.eu/schemas/inspire_vs/1.0" xmlns:gml="http://schemas.opengis.net/gml" xmlns:inspire_common="http://inspire.ec.europa.eu/schemas/common/1.0" version="1.3.0" updateSequence="2406" xmlns="http://www.opengis.net/wms" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/wms http://sdi.georchestra.org/geoserver/schemas/wms/1.3.0/capabilities_1_3_0.xsd http://inspire.ec.europa.eu/schemas/inspire_vs/1.0 http://sdi.georchestra.org/geoserver/www/inspire/inspire_vs.xsd">
+  <Service>
+    <Name>WMS</Name>
+    <Title>geOrchestra Web Map Service</Title>
+    <Abstract>geOrchestra WMS+SLD. geOrchestra is an interoperable, modular and opensource spatial data infrastructure. This service comes with no warranty. It is used for demos and interoperability tests. If it suit your needs, feel free to use it.</Abstract>
+    <KeywordList>
+      <Keyword>GEORCHESTRA</Keyword>
+      <Keyword vocabulary="ISO">InfoMapAccessService</Keyword>
+    </KeywordList>
+    <OnlineResource xlink:type="simple" xlink:href="http://www.georchestra.org/"/>
+    <ContactInformation>
+      <ContactPersonPrimary>
+        <ContactPerson>geOrchestra PSC</ContactPerson>
+        <ContactOrganization>geOrchestra PSC</ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition>Admin team</ContactPosition>
+      <ContactAddress>
+        <AddressType>Work</AddressType>
+        <Address/>
+        <City/>
+        <StateOrProvince/>
+        <PostCode/>
+        <Country>France</Country>
+      </ContactAddress>
+      <ContactVoiceTelephone>NONE</ContactVoiceTelephone>
+      <ContactFacsimileTelephone>NONE</ContactFacsimileTelephone>
+      <ContactElectronicMailAddress>psc@georchestra.org</ContactElectronicMailAddress>
+    </ContactInformation>
+    <Fees>NONE</Fees>
+    <AccessConstraints>Fair use : bulk download prohibited; Referer http header is mandatory; heavy traffic websites, please set up your own cache; clearly display data and service attributions.</AccessConstraints>
+  </Service>
+  <Capability>
+    <Request>
+      <GetCapabilities>
+        <Format>text/xml</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?SERVICE=WMS&amp;"/>
+            </Get>
+            <Post>
+              <OnlineResource xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?SERVICE=WMS&amp;"/>
+            </Post>
+          </HTTP>
+        </DCPType>
+      </GetCapabilities>
+      <GetMap>
+        <Format>image/png</Format>
+        <Format>application/atom+xml</Format>
+        <Format>application/pdf</Format>
+        <Format>application/rss+xml</Format>
+        <Format>application/vnd.google-earth.kml+xml</Format>
+        <Format>application/vnd.google-earth.kml+xml;mode=networklink</Format>
+        <Format>application/vnd.google-earth.kmz</Format>
+        <Format>image/geotiff</Format>
+        <Format>image/geotiff8</Format>
+        <Format>image/gif</Format>
+        <Format>image/jpeg</Format>
+        <Format>image/png; mode=8bit</Format>
+        <Format>image/svg+xml</Format>
+        <Format>image/tiff</Format>
+        <Format>image/tiff8</Format>
+        <Format>text/html; subtype=openlayers</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?SERVICE=WMS&amp;"/>
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetMap>
+      <GetFeatureInfo>
+        <Format>text/plain</Format>
+        <Format>application/vnd.ogc.gml</Format>
+        <Format>application/vnd.ogc.gml/3.1.1</Format>
+        <Format>text/html</Format>
+        <Format>application/json</Format>
+        <DCPType>
+          <HTTP>
+            <Get>
+              <OnlineResource xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?SERVICE=WMS&amp;"/>
+            </Get>
+          </HTTP>
+        </DCPType>
+      </GetFeatureInfo>
+    </Request>
+    <Exception>
+      <Format>XML</Format>
+      <Format>INIMAGE</Format>
+      <Format>BLANK</Format>
+    </Exception>
+    <inspire_vs:ExtendedCapabilities>
+      <inspire_common:MetadataUrl xsi:type="inspire_common:resourceLocatorType">
+        <inspire_common:URL/>
+        <inspire_common:MediaType>application/vnd.iso.19139+xml</inspire_common:MediaType>
+      </inspire_common:MetadataUrl>
+      <inspire_common:SupportedLanguages xsi:type="inspire_common:supportedLanguagesType">
+        <inspire_common:DefaultLanguage>
+          <inspire_common:Language>fre</inspire_common:Language>
+        </inspire_common:DefaultLanguage>
+        <inspire_common:SupportedLanguage>
+          <inspire_common:Language>fre</inspire_common:Language>
+        </inspire_common:SupportedLanguage>
+      </inspire_common:SupportedLanguages>
+      <inspire_common:ResponseLanguage>
+        <inspire_common:Language>fre</inspire_common:Language>
+      </inspire_common:ResponseLanguage>
+    </inspire_vs:ExtendedCapabilities>
+    <Layer>
+      <Title>geOrchestra Web Map Service</Title>
+      <Abstract>geOrchestra WMS+SLD. geOrchestra is an interoperable, modular and opensource spatial data infrastructure. This service comes with no warranty. It is used for demos and interoperability tests. If it suit your needs, feel free to use it.</Abstract>
+      <!--Limited list of EPSG projections:-->
+      <CRS>EPSG:2154</CRS>
+      <CRS>EPSG:3035</CRS>
+      <CRS>EPSG:3857</CRS>
+      <CRS>EPSG:3948</CRS>
+      <CRS>EPSG:4171</CRS>
+      <CRS>EPSG:4258</CRS>
+      <CRS>EPSG:4326</CRS>
+      <CRS>CRS:84</CRS>
+      <EX_GeographicBoundingBox>
+        <westBoundLongitude>-180.0</westBoundLongitude>
+        <eastBoundLongitude>180.00666679012568</eastBoundLongitude>
+        <southBoundLatitude>-90.00666691358941</southBoundLatitude>
+        <northBoundLatitude>90.0</northBoundLatitude>
+      </EX_GeographicBoundingBox>
+      <BoundingBox CRS="CRS:84" minx="-180.0" miny="-90.00666691358941" maxx="180.00666679012568" maxy="90.0"/>
+      <BoundingBox CRS="EPSG:4326" minx="-90.00666691358941" miny="-180.0" maxx="90.0" maxy="180.00666679012568"/>
+      <BoundingBox CRS="EPSG:4258" minx="-90.0" miny="-180.0" maxx="90.0" maxy="180.0"/>
+      <BoundingBox CRS="EPSG:4171" minx="-90.0" miny="-180.0" maxx="90.0" maxy="180.0"/>
+      <BoundingBox CRS="EPSG:3035" minx="-8828174.467965135" miny="-6034629.963726852" maxx="1.4740401897870736E7" maxy="1.3662634898238575E7"/>
+      <AuthorityURL name="georchestra">
+        <OnlineResource xlink:type="simple" xlink:href="http://www.georchestra.org/"/>
+      </AuthorityURL>
+      <Layer queryable="0">
+        <Name>dem:altitude</Name>
+        <Title>Altitude : color and shaded relief</Title>
+        <Abstract>Altitude map derived from a 3" DEM (90m on equator) covering latitudes from -90S to +60N. Jarvis A., H.I. Reuter, A.  Nelson, E. Guevara, 2008, Hole-filled  seamless SRTM data V4, International  Centre for Tropical  Agriculture (CIAT), available  from http://srtm.csi.cgiar.org.</Abstract>
+        <CRS>EPSG:4326</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.00000000000495</eastBoundLongitude>
+          <southBoundLatitude>-60.00000000000164</southBoundLatitude>
+          <northBoundLatitude>60.0</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="EPSG:4326" minx="-60.00000000000164" miny="-180.0" maxx="60.0" maxy="180.00000000000495"/>
+        <AuthorityURL name="geOrchestra">
+          <OnlineResource xlink:type="simple" xlink:href="http://www.georchestra.org/"/>
+        </AuthorityURL>
+        <MetadataURL type="other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.cgiar-csi.org/data/srtm-90m-digital-elevation-database-v4-1"/>
+        </MetadataURL>
+        <MetadataURL type="other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.naturalearthdata.com/downloads/10m-ocean-bottom/ocean-bottom-base/"/>
+        </MetadataURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>text/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.geopicardie.fr/geonetwork/srv/fre/xml.metadata.get?uuid=bd427799-8035-4ff8-b0fb-4c75fe9b4848"/>
+        </MetadataURL>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>gshhs:GSHHS_l_L1</Name>
+        <Title>boundaries : shorelines (GSHSS)</Title>
+        <Abstract>The GSHHG is a high-resolution geography data set, amalgamated from two databases in the public domain: World Vector Shorelines (WVS) and CIA World Data Bank II (WDBII). The former is the basis for shorelines while the latter is the basis for lakes, although there are instances where differences in coastline representations necessitated adding WDBII islands to GSHHG. The WDBII source also provides all political borders and rivers. GSHHG data have undergone extensive processing and should be free of internal inconsistencies such as erratic points and crossing segments. The shorelines are constructed entirely from hierarchically arranged closed polygons. &#13;
+&#13;
+GSHHG combines the older GSHHS shoreline database with WDBII rivers and borders, available for file download in either ESRI shapefile format or in a native binary format. The GSHHG geography data come in five different resolutions: crude(c), low(l), intermediate(i), high(h), and full(f). Shorelines are further organized into 4 hierarchical levels: boundary between land and ocean (L1), boundary between lake and land (L2), boundary between island-in-lake and lake (L3), and boundary between pond-in-island and island (L4). The primary GSHHG web site (http://www.soest.hawaii.edu/pwessel/gshhg/) contains additional information.</Abstract>
+        <KeywordList/>
+        <CRS>EPSG:4326</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-90.0</southBoundLatitude>
+          <northBoundLatitude>83.626833</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-90.0" maxx="180.0" maxy="83.626833"/>
+        <BoundingBox CRS="EPSG:4326" minx="-90.0" miny="-180.0" maxx="83.626833" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:4258" minx="-90.0" miny="-180.0" maxx="83.6268330006596" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:4171" minx="-90.0" miny="-180.0" maxx="83.6268330006596" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:3035" minx="-8828174.554292856" miny="-5928730.593008356" maxx="1.4641622039468508E7" maxy="1.46402855468874E7"/>
+        <Attribution>
+          <Title>NOAA</Title>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.ngdc.noaa.gov/mgg/shorelines/gshhs.html"/>
+          <LogoURL height="100" width="100">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.weather.gov/images/nws/noaa_logo.png"/>
+          </LogoURL>
+        </Attribution>
+        <AuthorityURL name="NOAA">
+          <OnlineResource xlink:type="simple" xlink:href="http://www.weather.gov/"/>
+        </AuthorityURL>
+        <MetadataURL type="other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.ngdc.noaa.gov/mgg/shorelines/gshhs.html"/>
+        </MetadataURL>
+        <Style>
+          <Name>polygon</Name>
+          <Title>Default Polygon</Title>
+          <Abstract>A sample style that draws a polygon</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=GSHHS_l_L1"/>
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>boundaries_shorelines</Name>
+          <Title>boundaries_horelines</Title>
+          <Abstract>boundaries_shorelines</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=GSHHS_l_L1&amp;style=boundaries_shorelines"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>gshhs:GSHHS_l_L2</Name>
+        <Title>GSHHS_l_L2</Title>
+        <Abstract/>
+        <KeywordList>
+          <Keyword>features</Keyword>
+          <Keyword>GSHHS_l_L2</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-55.140278</southBoundLatitude>
+          <northBoundLatitude>82.2625</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-55.140278" maxx="180.0" maxy="82.2625"/>
+        <BoundingBox CRS="EPSG:4326" minx="-55.140278" miny="-180.0" maxx="82.2625" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:2154" minx="-2.6433306945877675E7" miny="-1.44604391103515E7" maxx="2.7728041145361427E7" maxy="2.9522938064583167E7"/>
+        <BoundingBox CRS="EPSG:3948" minx="-2.5798524250602324E7" miny="-1.4533136387779418E7" maxx="2.9167894381478313E7" maxy="3.119401090261704E7"/>
+        <BoundingBox CRS="EPSG:4258" minx="-55.140278035502675" miny="-180.0" maxx="82.26250000105033" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:4171" minx="-55.140278035502675" miny="-180.0" maxx="82.26250000105033" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:3035" minx="-6986930.507418545" miny="-6746316.815758551" maxx="1.48644041920255E7" maxy="1.513727744048195E7"/>
+        <BoundingBox CRS="EPSG:3857" minx="-2.0037508342789244E7" miny="-7389138.948080457" maxx="2.0037508342789244E7" maxy="1.7181260444587965E7"/>
+        <Style>
+          <Name>water</Name>
+          <Title>Water</Title>
+          <Abstract>A sample style that draws a water polygon</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=GSHHS_l_L2"/>
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>polygon</Name>
+          <Title>Default Polygon</Title>
+          <Abstract>A sample style that draws a polygon</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=GSHHS_l_L2&amp;style=polygon"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>ci:adminVectorLayer</Name>
+        <Title>administrable vector layer</Title>
+        <Abstract>Anonymous can read this layer&#13;
+ROLE_EL_TEST can administer this layer</Abstract>
+        <KeywordList/>
+        <CRS>EPSG:4326</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-181.0</westBoundLongitude>
+          <eastBoundLongitude>179.0</eastBoundLongitude>
+          <southBoundLatitude>-81.0</southBoundLatitude>
+          <northBoundLatitude>81.0</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-181.0" miny="-81.0" maxx="179.0" maxy="81.0"/>
+        <BoundingBox CRS="EPSG:4326" minx="-81.0" miny="-181.0" maxx="81.0" maxy="179.0"/>
+        <BoundingBox CRS="EPSG:2154" minx="-7.329278816344379E7" miny="-6.124226570903215E7" maxx="7.4310144758242E7" maxy="5.7911325163208395E7"/>
+        <BoundingBox CRS="EPSG:3948" minx="-7.509372108265316E7" miny="-6.3791655830800906E7" maxx="7.8379646178776E7" maxy="6.316415083850604E7"/>
+        <BoundingBox CRS="EPSG:4258" minx="-81.00000000153224" miny="-180.0" maxx="81.00000000153224" maxy="179.00000000000006"/>
+        <BoundingBox CRS="EPSG:4171" minx="-81.00000000153224" miny="-180.0" maxx="81.00000000153224" maxy="179.00000000000006"/>
+        <BoundingBox CRS="EPSG:3035" minx="-9089525.126173124" miny="-6328295.529365575" maxx="1.4662251120029649E7" maxy="1.6189958109560492E7"/>
+        <BoundingBox CRS="EPSG:3857" minx="-2.0148827833582513E7" miny="-1.6213801067583973E7" maxx="1.992618885199597E7" maxy="1.6213801067583967E7"/>
+        <Style>
+          <Name>polygon</Name>
+          <Title>Default Polygon</Title>
+          <Abstract>A sample style that draws a polygon</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=adminVectorLayer"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>osm:amenity</Name>
+        <Title>Equipements utiles et importants (amenity)</Title>
+        <Abstract>Pour marquer les équipements utiles et importants.&#13;
+http://wiki.openstreetmap.org/wiki/FR:Key:amenity</Abstract>
+        <KeywordList>
+          <Keyword>amenity</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-25.330127799999975</westBoundLongitude>
+          <eastBoundLongitude>57.70466210000007</eastBoundLongitude>
+          <southBoundLatitude>-46.876165500000006</southBoundLatitude>
+          <northBoundLatitude>43.40416500000003</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-25.330127799999975" miny="-46.876165500000006" maxx="57.70466210000007" maxy="43.40416500000003"/>
+        <BoundingBox CRS="EPSG:3857" minx="-2819736.92842454" miny="-5921884.5024234" maxx="6423653.60136992" maxy="5373693.61911716"/>
+        <BoundingBox CRS="EPSG:2154" minx="-7366942.747197216" miny="-1.0317716912153967E7" maxx="1.53733114978517E7" maxy="7731423.808093568"/>
+        <BoundingBox CRS="EPSG:3948" minx="-6632664.391273068" miny="-1.024104916491238E7" maxx="1.68113505002513E7" maxy="8200562.328054803"/>
+        <BoundingBox CRS="EPSG:4326" minx="-46.876165500000006" miny="-25.330127799999975" maxx="43.40416500000003" maxy="57.70466210000007"/>
+        <BoundingBox CRS="EPSG:4258" minx="-46.876165542563605" miny="-25.330127799999975" maxx="43.40416504261522" maxy="57.70466210000007"/>
+        <BoundingBox CRS="EPSG:4171" minx="-46.876165542563605" miny="-25.330127799999975" maxx="43.40416504261522" maxy="57.70466210000007"/>
+        <BoundingBox CRS="EPSG:3035" minx="-6431073.036393382" miny="-140763.4824622292" maxx="3460780.857914533" maxy="1.0233607945126098E7"/>
+        <Style>
+          <Name>point</Name>
+          <Title>Default Point</Title>
+          <Abstract>A sample style that draws a point</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=amenity"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>pmauduit_test:armoires-fo</Name>
+        <Title>armoires</Title>
+        <Abstract>Recensement des armoires de réseau de fibres optiques sur la métropole Chambérienne. Le déploiement horizontal de la métropole est assuré par Orange.&#13;
+&#13;
+Le relevé a eu lieu en mai 2015 dans le cadre de l'enrichissement des données du projet OpenStreetMap.</Abstract>
+        <KeywordList>
+          <Keyword>features</Keyword>
+          <Keyword>armoires</Keyword>
+          <Keyword>fibre optique</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>5.9111448</westBoundLongitude>
+          <eastBoundLongitude>5.9357422</eastBoundLongitude>
+          <southBoundLatitude>45.5659364</southBoundLatitude>
+          <northBoundLatitude>45.573772</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="5.9111448" miny="45.5659364" maxx="5.9357422" maxy="45.573772"/>
+        <BoundingBox CRS="EPSG:4326" minx="45.5659364" miny="5.9111448" maxx="45.573772" maxy="5.9357422"/>
+        <BoundingBox CRS="EPSG:2154" minx="926995.6972386781" miny="6500456.119351229" maxx="928945.136803541" maxy="6501396.700918554"/>
+        <BoundingBox CRS="EPSG:3948" minx="1927359.1062446882" miny="6933649.766653669" maxx="1929312.4075684391" maxy="6934593.557252476"/>
+        <BoundingBox CRS="EPSG:4258" minx="45.56593644280097" miny="5.911144799999999" maxx="45.57377204280034" maxy="5.935742200000001"/>
+        <BoundingBox CRS="EPSG:4171" minx="45.56593644280097" miny="5.911144799999999" maxx="45.57377204280034" maxy="5.935742200000001"/>
+        <BoundingBox CRS="EPSG:3035" minx="2503490.710848877" miny="4001514.4683073172" maxx="2504464.445802081" maxy="4003479.5598941497"/>
+        <BoundingBox CRS="EPSG:3857" minx="658025.6291413069" miny="5711060.992085242" maxx="660763.7991841454" maxy="5712307.000959471"/>
+        <MetadataURL type="19139">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="http://sdi.georchestra.org/geonetwork/apps/georchestra/?uuid=22a81c1a-59e4-4e8e-a97b-ea1f94e84325"/>
+        </MetadataURL>
+        <Style>
+          <Name>fo</Name>
+          <Title>Fibre optique</Title>
+          <Abstract>Un style symbolisant les points sous forme d'icone "laser".</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=armoires-fo"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>osm:boundary</Name>
+        <Title>Frontières (boundary)</Title>
+        <Abstract>Les frontières marquent le bord d'un territoire, principalement politique, mais aussi d'autres zones administratives.&#13;
+http://wiki.openstreetmap.org/wiki/FR:Key:boundary</Abstract>
+        <KeywordList>
+          <Keyword>boundary</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-25.573107276304714</westBoundLongitude>
+          <eastBoundLongitude>58.02343645278595</eastBoundLongitude>
+          <southBoundLatitude>-54.65399995017592</southBoundLatitude>
+          <northBoundLatitude>37.76120518433751</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-25.573107276304714" miny="-54.65399995017592" maxx="58.02343645278595" maxy="37.76120518433751"/>
+        <BoundingBox CRS="EPSG:3857" minx="-2846785.28" miny="-7295002.07" maxx="6459139.4" maxy="4545746.82"/>
+        <BoundingBox CRS="EPSG:2154" minx="-8804220.586422758" miny="-1.4190524992027447E7" maxx="1.793027682726893E7" maxy="7265200.420057717"/>
+        <BoundingBox CRS="EPSG:3948" minx="-8154184.617253995" miny="-1.425341272241998E7" maxx="1.9510797727762002E7" maxy="7739833.422263095"/>
+        <BoundingBox CRS="EPSG:4326" minx="-54.65399995017592" miny="-25.573107276304714" maxx="37.76120518433751" maxy="58.02343645278595"/>
+        <BoundingBox CRS="EPSG:4258" minx="-54.65399998632178" miny="-25.573107276304718" maxx="37.76120522322171" maxy="58.023436452785944"/>
+        <BoundingBox CRS="EPSG:4171" minx="-54.65399998632178" miny="-25.573107276304718" maxx="37.76120522322171" maxy="58.023436452785944"/>
+        <BoundingBox CRS="EPSG:3035" minx="-6975531.574601514" miny="-140982.58431675564" maxx="2944386.262001061" maxy="1.0245386599567452E7"/>
+        <Style>
+          <Name>polygon</Name>
+          <Title>Default Polygon</Title>
+          <Abstract>A sample style that draws a polygon</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=boundary"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>geor:clients</Name>
+        <Title>Origin of the sdi.georchestra.org HTTP clients</Title>
+        <Abstract>The layer was created on 2014-12-01 from data exported by https://github.com/pmauduit/weblogstoshapefile with the current server's logs</Abstract>
+        <KeywordList>
+          <Keyword>geoip_privacy</Keyword>
+          <Keyword>features</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-122.39330291748</westBoundLongitude>
+          <eastBoundLongitude>139.751403808594</eastBoundLongitude>
+          <southBoundLatitude>-29.0</southBoundLatitude>
+          <northBoundLatitude>62.0</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-122.39330291748" miny="-29.0" maxx="139.751403808594" maxy="62.0"/>
+        <BoundingBox CRS="EPSG:4326" minx="-29.0" miny="-122.39330291748" maxx="62.0" maxy="139.751403808594"/>
+        <BoundingBox CRS="EPSG:2154" minx="-1.6514306343918167E7" miny="-4516736.546563741" maxx="1.7694042920313317E7" maxy="1.5416533406586494E7"/>
+        <BoundingBox CRS="EPSG:3948" minx="-1.5534584235463519E7" miny="-4261601.896882275" maxx="1.8606979738679852E7" maxy="1.6432322462331861E7"/>
+        <BoundingBox CRS="EPSG:4258" minx="-29.000000026280055" miny="-122.39330291748" maxx="62.000000024705585" maxy="139.751403808594"/>
+        <BoundingBox CRS="EPSG:4171" minx="-29.000000026280055" miny="-122.39330291748" maxx="62.000000024705585" maxy="139.751403808594"/>
+        <BoundingBox CRS="EPSG:3035" minx="-5041008.388928917" miny="-7210115.152165759" maxx="9999426.292986903" maxy="1.5906639791899305E7"/>
+        <BoundingBox CRS="EPSG:3857" minx="-1.3624760157280758E7" miny="-3375646.034919311" maxx="1.5557055109617837E7" maxy="8859142.800565697"/>
+        <Style>
+          <Name>classification_clients</Name>
+          <Title/>
+          <Abstract/>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=clients"/>
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>point</Name>
+          <Title>Default Point</Title>
+          <Abstract>A sample style that draws a point</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=clients&amp;style=point"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>geor_loc:countries</Name>
+        <Title>Countries</Title>
+        <Abstract>Countries names and boundaries from Natural Earth. This feeds the recenter on referential function. Do not use in maps.</Abstract>
+        <KeywordList>
+          <Keyword>ne_10m_admin_0_countries</Keyword>
+          <Keyword>features</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-179.9999999999999</westBoundLongitude>
+          <eastBoundLongitude>180.0000000000002</eastBoundLongitude>
+          <southBoundLatitude>-90.0</southBoundLatitude>
+          <northBoundLatitude>83.63410065300012</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-179.9999999999999" miny="-90.0" maxx="180.0000000000002" maxy="83.63410065300012"/>
+        <BoundingBox CRS="EPSG:4326" minx="-90.0" miny="-179.9999999999999" maxx="83.63410065300012" maxy="180.0000000000002"/>
+        <BoundingBox CRS="EPSG:4258" minx="-90.0" miny="-179.99999999999986" maxx="83.63410065365798" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:4171" minx="-90.0" miny="-179.99999999999986" maxx="83.63410065365798" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:3035" minx="-8828174.554292856" miny="-5928860.742541609" maxx="1.4641756128478087E7" maxy="1.4639114464419654E7"/>
+        <Style>
+          <Name>polygon</Name>
+          <Title>Default Polygon</Title>
+          <Abstract>A sample style that draws a polygon</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=countries"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>ci:editableVectorLayer</Name>
+        <Title>editable vector layer</Title>
+        <Abstract>anonymous can read this layer&#13;
+ROLE_EL_TEST can edit this layer</Abstract>
+        <KeywordList>
+          <Keyword>Agriculture_projects</Keyword>
+          <Keyword>features</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-115.0</westBoundLongitude>
+          <eastBoundLongitude>161.78517</eastBoundLongitude>
+          <southBoundLatitude>-54.666667</southBoundLatitude>
+          <northBoundLatitude>49.5</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-115.0" miny="-54.666667" maxx="161.78517" maxy="49.5"/>
+        <BoundingBox CRS="EPSG:4326" minx="-54.666667" miny="-115.0" maxx="49.5" maxy="161.78517"/>
+        <BoundingBox CRS="EPSG:2154" minx="-2.6076276673372056E7" miny="-1.3308443826656643E7" maxx="2.727625497921417E7" maxy="2.4096443815305516E7"/>
+        <BoundingBox CRS="EPSG:3948" minx="-2.549311230140073E7" miny="-1.3315774866499905E7" maxx="2.875189197505056E7" maxy="2.5731219904474482E7"/>
+        <BoundingBox CRS="EPSG:4258" minx="-54.666667036129375" miny="-115.00000000000003" maxx="49.50000004131144" maxy="161.78517"/>
+        <BoundingBox CRS="EPSG:4171" minx="-54.666667036129375" miny="-115.00000000000003" maxx="49.50000004131144" maxy="161.78517"/>
+        <BoundingBox CRS="EPSG:3035" minx="-6927082.982256269" miny="-7626227.629255863" maxx="1.2435036373503592E7" maxy="1.6154502265367653E7"/>
+        <BoundingBox CRS="EPSG:3857" minx="-1.280174144122646E7" miny="-7297439.889297926" maxx="1.80098427423032E7" maxy="6360130.740921419"/>
+        <Style>
+          <Name>point</Name>
+          <Title>Default Point</Title>
+          <Abstract>A sample style that draws a point</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=editableVectorLayer"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>ci:forbiddenVectorLayer</Name>
+        <Title>forbiddenVectorLayer</Title>
+        <Abstract>USER et Anonyme canot read.&#13;
+ROLE_EL_TEST can read</Abstract>
+        <KeywordList>
+          <Keyword>pcmdi_long_anom.tas.sresa2.2080-2099.median</Keyword>
+          <Keyword>features</Keyword>
+        </KeywordList>
+        <CRS>EPSG:2154</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-1.364234958140351</westBoundLongitude>
+          <eastBoundLongitude>-1.3619399155280045</eastBoundLongitude>
+          <southBoundLatitude>-5.984423100535196</southBoundLatitude>
+          <northBoundLatitude>-5.983290216870761</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-1.364234958140351" miny="-5.984423100535196" maxx="-1.3619399155280045" maxy="-5.983290216870761"/>
+        <BoundingBox CRS="EPSG:2154" minx="-181.0" miny="-81.0" maxx="179.0" maxy="81.0"/>
+        <BoundingBox CRS="EPSG:3948" minx="986350.9891992955" miny="359154.125630795" maxx="986718.1433548924" maxy="359319.7362720063"/>
+        <BoundingBox CRS="EPSG:4326" minx="-5.984423100907011" miny="-1.364234958140351" maxx="-5.983290217242369" maxy="-1.3619399155280045"/>
+        <BoundingBox CRS="EPSG:4258" minx="-5.9844231007311235" miny="-1.3642349581403512" maxx="-5.983290217066652" maxy="-1.3619399155280045"/>
+        <BoundingBox CRS="EPSG:4171" minx="-5.9844231007311235" miny="-1.3642349581403506" maxx="-5.983290217066652" maxy="-1.3619399155280039"/>
+        <BoundingBox CRS="EPSG:3035" minx="-2860929.0782169616" miny="2888319.2145211287" maxx="-2860807.729847027" maxy="2888603.2046318995"/>
+        <BoundingBox CRS="EPSG:3857" minx="-151865.9408625667" miny="-667397.518032375" maxx="-151610.4578876114" maxy="-667270.7150894217"/>
+        <Style>
+          <Name>polygon</Name>
+          <Title>Default Polygon</Title>
+          <Abstract>A sample style that draws a polygon</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=forbiddenVectorLayer"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>gadm:gadm_for_countries</Name>
+        <Title>boundaries : administrative areas (GADM)</Title>
+        <Abstract>GADM is a spatial database of the location of the world's administrative areas (or adminstrative boundaries) for use in GIS and similar software. Administrative areas in this database are countries and lower level subdivisions such as provinces, departments, bibhag, bundeslander, daerah istimewa, fivondronana, krong, landsvæðun, opština, sous-préfectures, counties, and thana. GADM describes where these administrative areas are (the "spatial features"), and for each area it provides some attributes, such as the name and variant names.&#13;
+&#13;
+The current version is 2.0 (January 2012)</Abstract>
+        <KeywordList/>
+        <CRS>EPSG:4326</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.00001453831646</westBoundLongitude>
+          <eastBoundLongitude>179.9999992795274</eastBoundLongitude>
+          <southBoundLatitude>-90.00000043739237</southBoundLatitude>
+          <northBoundLatitude>83.62741895545878</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.00001453831646" miny="-90.00000043739237" maxx="179.9999992795274" maxy="83.62741895545878"/>
+        <BoundingBox CRS="EPSG:4326" minx="-90.00000043739237" miny="-180.00001453831646" maxx="83.62741895545878" maxy="179.9999992795274"/>
+        <BoundingBox CRS="EPSG:4258" minx="-90.0" miny="-180.0" maxx="83.62741895611825" maxy="179.99999927952737"/>
+        <BoundingBox CRS="EPSG:4171" minx="-90.0" miny="-180.0" maxx="83.62741895611825" maxy="179.99999927952737"/>
+        <BoundingBox CRS="EPSG:3035" minx="-8828174.554292856" miny="-5928741.880693153" maxx="1.4641632689036362E7" maxy="1.4640197329539897E7"/>
+        <Attribution>
+          <Title>GADM</Title>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.gadm.org/"/>
+        </Attribution>
+        <AuthorityURL name="GADM">
+          <OnlineResource xlink:type="simple" xlink:href="http://www.gadm.org/"/>
+        </AuthorityURL>
+        <Style>
+          <Name>boundaries_administrative</Name>
+          <Title>boundaries administrative</Title>
+          <Abstract>boundaries administrative</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=gadm_for_countries"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>osm:highway</Name>
+        <Title>Routes (highway, railway)</Title>
+        <Abstract>Routes, chemins, sentiers, chemins de fer&#13;
+http://wiki.openstreetmap.org/wiki/FR:Key:highway</Abstract>
+        <KeywordList>
+          <Keyword>roads</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-25.573107276304714</westBoundLongitude>
+          <eastBoundLongitude>58.02343645278595</eastBoundLongitude>
+          <southBoundLatitude>-54.65399995017592</southBoundLatitude>
+          <northBoundLatitude>37.82550724310807</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-25.573107276304714" miny="-54.65399995017592" maxx="58.02343645278595" maxy="37.82550724310807"/>
+        <BoundingBox CRS="EPSG:3857" minx="-2846785.28" miny="-7295002.07" maxx="6459139.4" maxy="4554805.08"/>
+        <BoundingBox CRS="EPSG:2154" minx="-8804220.586422758" miny="-1.4190524992027447E7" maxx="1.793027682726893E7" maxy="7270729.184298049"/>
+        <BoundingBox CRS="EPSG:3948" minx="-8154184.617253995" miny="-1.425341272241998E7" maxx="1.9510797727762002E7" maxy="7745309.594732719"/>
+        <BoundingBox CRS="EPSG:4326" minx="-54.65399995017592" miny="-25.573107276304714" maxx="37.82550724310807" maxy="58.02343645278595"/>
+        <BoundingBox CRS="EPSG:4258" minx="-54.65399998632178" miny="-25.573107276304718" maxx="37.82550728205894" maxy="58.023436452785944"/>
+        <BoundingBox CRS="EPSG:4171" minx="-54.65399998632178" miny="-25.573107276304718" maxx="37.82550728205894" maxy="58.023436452785944"/>
+        <BoundingBox CRS="EPSG:3035" minx="-6975531.574601514" miny="-141183.53867691197" maxx="2950500.604987324" maxy="1.0245621336947344E7"/>
+        <Style>
+          <Name>style_osm_line.sld</Name>
+          <Title>'Line'</Title>
+          <Abstract/>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=highway"/>
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>1000.0</MinScaleDenominator>
+        <MaxScaleDenominator>2.5E11</MaxScaleDenominator>
+      </Layer>
+      <Layer queryable="0" opaque="1">
+        <Name>dem:hillshading</Name>
+        <Title>Altitude : shaded relief</Title>
+        <Abstract>Shaded relief from CGIAR DEM 3" resolution. Process mixes gdaldem hillshade and slope.</Abstract>
+        <KeywordList>
+          <Keyword vocabulary="ISO">Altitude</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.00000000000495</eastBoundLongitude>
+          <southBoundLatitude>-56.05333333333493</southBoundLatitude>
+          <northBoundLatitude>60.0</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-56.05333333333493" maxx="180.00000000000495" maxy="60.0"/>
+        <BoundingBox CRS="EPSG:4326" minx="-56.05333333333493" miny="-180.0" maxx="60.0" maxy="180.00000000000495"/>
+        <BoundingBox CRS="EPSG:2154" minx="-2.6993133865376495E7" miny="-1.5019910000511821E7" maxx="2.8285696172250707E7" maxy="2.9870952524518628E7"/>
+        <BoundingBox CRS="EPSG:3948" minx="-2.6379759854030944E7" miny="-1.5114107783753373E7" maxx="2.974848256214712E7" maxy="3.1579573048815217E7"/>
+        <BoundingBox CRS="EPSG:4258" minx="-56.05333336757121" miny="-180.0" maxx="60.000000028080215" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:4171" minx="-56.05333336757121" miny="-180.0" maxx="60.000000028080215" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:3035" minx="-7048214.7227184065" miny="-6573539.403503217" maxx="1.483555899406327E7" maxy="1.4272551079459542E7"/>
+        <BoundingBox CRS="EPSG:3857" minx="-2.0037508342789244E7" miny="-7569040.148545089" maxx="2.0037508342789795E7" maxy="8399737.889818355"/>
+        <Attribution>
+          <Title>geOrchestra+CGIAR</Title>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://georchestra.org/"/>
+          <LogoURL height="25" width="98">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/header/img/logo.png"/>
+          </LogoURL>
+        </Attribution>
+        <AuthorityURL name="geOrchestra">
+          <OnlineResource xlink:type="simple" xlink:href="http://georchestra.org/"/>
+        </AuthorityURL>
+        <MetadataURL type="ISO19115:2003">
+          <Format>text/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.geopicardie.fr/geonetwork/srv/fre/xml.metadata.get?uuid=bd427799-8035-4ff8-b0fb-4c75fe9b4848"/>
+        </MetadataURL>
+        <Style>
+          <Name>raster</Name>
+          <Title>Default Raster</Title>
+          <Abstract>A sample style that draws a raster, good for displaying imagery</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=hillshading"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>osm:landuse</Name>
+        <Title>Usage des sols (landuse)</Title>
+        <Abstract>Identification des sols concernés par l'activité humaine. Ceci exclut donc les zones naturelles sauvages mais vise par exemple les zones de production agricole (ou sylvestre), les pâturages, les zones urbaines, militaires, pour le loisirs ou le transport.&#13;
+http://wiki.openstreetmap.org/wiki/FR:Landuse</Abstract>
+        <KeywordList>
+          <Keyword>landuse</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-25.332410792615633</westBoundLongitude>
+          <eastBoundLongitude>57.75491438367668</eastBoundLongitude>
+          <southBoundLatitude>-37.105676051150226</southBoundLatitude>
+          <northBoundLatitude>37.53082877056371</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-25.332410792615633" miny="-37.105676051150226" maxx="57.75491438367668" maxy="37.53082877056371"/>
+        <BoundingBox CRS="EPSG:3857" minx="-2819991.07" miny="-4453846.92" maxx="6429247.66" maxy="4513358.03"/>
+        <BoundingBox CRS="EPSG:2154" minx="-6130906.242155971" miny="-6796218.740178298" maxx="1.3133596532389099E7" maxy="7230019.7496056"/>
+        <BoundingBox CRS="EPSG:3948" minx="-5327558.823842221" miny="-6606820.819668375" maxx="1.4453221067599582E7" maxy="7704455.422320725"/>
+        <BoundingBox CRS="EPSG:4326" minx="-37.105676051150226" miny="-25.332410792615633" maxx="37.53082877056371" maxy="57.75491438367668"/>
+        <BoundingBox CRS="EPSG:4258" minx="-37.10567608932657" miny="-25.332410792615633" maxx="37.53082880920495" maxy="57.75491438367667"/>
+        <BoundingBox CRS="EPSG:4171" minx="-37.10567608932657" miny="-25.332410792615633" maxx="37.53082880920495" maxy="57.75491438367667"/>
+        <BoundingBox CRS="EPSG:3035" minx="-5685650.827632111" miny="-141966.2256154418" maxx="2908053.643418207" maxy="1.0241250415701164E7"/>
+        <Style>
+          <Name>polygon</Name>
+          <Title>Default Polygon</Title>
+          <Abstract>A sample style that draws a polygon</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=landuse"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>geor:menhir</Name>
+        <Title>menhir</Title>
+        <Abstract>test d'authentification</Abstract>
+        <KeywordList>
+          <Keyword>menhir</Keyword>
+          <Keyword>features</Keyword>
+        </KeywordList>
+        <CRS>EPSG:900913</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-0.4074749999999906</westBoundLongitude>
+          <eastBoundLongitude>46.64215200000004</eastBoundLongitude>
+          <southBoundLatitude>3.1952999999999827</southBoundLatitude>
+          <northBoundLatitude>48.853299999999955</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-0.4074749999999906" miny="3.1952999999999827" maxx="46.64215200000004" maxy="48.853299999999955"/>
+        <BoundingBox CRS="EPSG:900913" minx="-45359.9095109881" miny="355883.690639631" maxx="5192180.61014247" maxy="6250006.03276712"/>
+        <BoundingBox CRS="EPSG:2154" minx="212912.95626989438" miny="1375201.3065226125" maxx="6627539.696683568" maxy="7724146.176202787"/>
+        <BoundingBox CRS="EPSG:3948" minx="1204926.2426580377" miny="1758742.8868694063" maxx="7709496.321154951" maxy="8177441.734175372"/>
+        <BoundingBox CRS="EPSG:4326" minx="3.1952999999999827" miny="-0.4074749999999906" maxx="48.853299999999955" maxy="46.64215200000004"/>
+        <BoundingBox CRS="EPSG:4258" minx="3.19530000016263" miny="-0.40747499999999065" maxx="48.85330004171385" maxy="46.64215200000006"/>
+        <BoundingBox CRS="EPSG:4171" minx="3.19530000016263" miny="-0.40747499999999065" maxx="48.85330004171385" maxy="46.64215200000006"/>
+        <BoundingBox CRS="EPSG:3035" minx="-2039591.6396010704" miny="3055282.5872130347" maxx="3519633.926277125" maxy="8651755.417761557"/>
+        <BoundingBox CRS="EPSG:3857" minx="-45359.9095109881" miny="355883.690639631" maxx="5192180.61014247" maxy="6250006.03276712"/>
+        <Attribution>
+          <Title>Michel Matheron</Title>
+        </Attribution>
+        <Style>
+          <Name>point</Name>
+          <Title>Default Point</Title>
+          <Abstract>A sample style that draws a point</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=menhir"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>geor:menhirs</Name>
+        <Title>menhirs</Title>
+        <Abstract/>
+        <KeywordList>
+          <Keyword>menhirs</Keyword>
+          <Keyword>features</Keyword>
+        </KeywordList>
+        <CRS>EPSG:2154</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-4.774006519406977</westBoundLongitude>
+          <eastBoundLongitude>72.23982609393875</eastBoundLongitude>
+          <southBoundLatitude>-6.406791558385503</southBoundLatitude>
+          <northBoundLatitude>56.346927615057595</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-4.774006519406977" miny="-6.406791558385503" maxx="72.23982609393875" maxy="56.346927615057595"/>
+        <BoundingBox CRS="EPSG:2154" minx="212912.95626989438" miny="1375201.3065226125" maxx="6627539.696683568" maxy="7724146.176202787"/>
+        <BoundingBox CRS="EPSG:3948" minx="1204926.2426580358" miny="1758742.8868693635" maxx="7730763.865100653" maxy="8228625.345652944"/>
+        <BoundingBox CRS="EPSG:4326" minx="-6.406791558840283" miny="-4.774006519406977" maxx="56.34692764800186" maxy="72.23982609393875"/>
+        <BoundingBox CRS="EPSG:4258" minx="-6.406791558595034" miny="-4.774006519406977" maxx="56.346927615927235" maxy="72.23982609393875"/>
+        <BoundingBox CRS="EPSG:4171" minx="-6.406791558595034" miny="-4.774006519406975" maxx="56.346927615927235" maxy="72.23982609393875"/>
+        <BoundingBox CRS="EPSG:3035" minx="-2328431.9865854224" miny="3055282.587213033" maxx="3787490.2343513537" maxy="9597139.776269197"/>
+        <BoundingBox CRS="EPSG:3857" minx="-531439.9747841527" miny="-714691.7026015694" maxx="8041700.655771898" maxy="7627791.422549002"/>
+        <Attribution>
+          <Title>Michel Matheron</Title>
+        </Attribution>
+        <Style>
+          <Name>point</Name>
+          <Title>Default Point</Title>
+          <Abstract>A sample style that draws a point</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=menhirs"/>
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>menhirs_test</Name>
+          <Title/>
+          <Abstract/>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=menhirs&amp;style=menhirs_test"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="1">
+        <Name>nasa:night_2012</Name>
+        <Title>Earth at night 2012</Title>
+        <Abstract>This new global view and animation of Earth's city lights is a composite assembled from data acquired by the Suomi NPP satellite. The data was acquired over nine days in April 2012 and 13 days in October 2012. It took 312 orbits to get a clear shot of every parcel of Earth's land surface and islands. This new data was then mapped over existing Blue Marble imagery of Earth to provide a realistic view of the planet.</Abstract>
+        <KeywordList/>
+        <CRS>EPSG:4326</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-179.99999999999997</westBoundLongitude>
+          <eastBoundLongitude>180.00666679012568</eastBoundLongitude>
+          <southBoundLatitude>-90.00666691358941</southBoundLatitude>
+          <northBoundLatitude>89.99999999999999</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-179.99999999999997" miny="-90.00666691358941" maxx="180.00666679012568" maxy="89.99999999999999"/>
+        <BoundingBox CRS="EPSG:4326" minx="-183.6067335197588" miny="-183.60006666790122" maxx="183.60006660616935" maxy="183.60673345802692"/>
+        <BoundingBox CRS="EPSG:4258" minx="-90.0" miny="-180.0" maxx="90.0" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:4171" minx="-90.0" miny="-180.0" maxx="90.0" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:3035" minx="-8890968.47153483" miny="-5264089.584833141" maxx="1.453587634972088E7" maxy="1.413994996986077E7"/>
+        <Attribution>
+          <Title>NASA Earth Observatory/NOAA NGDC</Title>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://earthobservatory.nasa.gov/Features/NightLights/page3.php"/>
+          <LogoURL height="98" width="140">
+            <Format>image/gif</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.nasa.gov/templateimages/redesign/modules/header/header_logo.gif"/>
+          </LogoURL>
+        </Attribution>
+        <AuthorityURL name="NASA Earth Observatory">
+          <OnlineResource xlink:type="simple" xlink:href="http://earthobservatory.nasa.gov/"/>
+        </AuthorityURL>
+        <Style>
+          <Name>imagerie_seuil_min_25k</Name>
+          <Title>Imagerie - couleurs normales - seuil d'échelle à 25000e</Title>
+          <Abstract>Styles pour limiter la visibilité aux plus grandes échelles</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=night_2012"/>
+          </LegendURL>
+        </Style>
+        <MinScaleDenominator>25000.0</MinScaleDenominator>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>dem:oceanbottom</Name>
+        <Title>Ocean Bottom</Title>
+        <Abstract>Blended depth colors and relief shading of the ocean bottom derived from CleanTOPO2 data. The ocean color extends beneath land areas as a flat tint—mask it with the 10m Natural Earth vector shoreline, or a shoreline from another data source.</Abstract>
+        <KeywordList/>
+        <CRS>EPSG:3857</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-179.99999999999986</westBoundLongitude>
+          <eastBoundLongitude>179.98782010582556</eastBoundLongitude>
+          <southBoundLatitude>-60.002328474493446</southBoundLatitude>
+          <northBoundLatitude>60.000000000002935</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-179.99999999999986" miny="-60.002328474493446" maxx="179.98782010582556" maxy="60.000000000002935"/>
+        <BoundingBox CRS="EPSG:3857" minx="-2.003750834278923E7" miny="-8400256.317254577" maxx="2.0036152483171824E7" maxy="8399737.889819011"/>
+        <BoundingBox CRS="EPSG:2154" minx="-2.9734289744103886E7" miny="-1.7759223121418417E7" maxx="3.1015859021018337E7" maxy="3.15749761921318E7"/>
+        <BoundingBox CRS="EPSG:3948" minx="-2.9229716687707353E7" miny="-1.796269400551129E7" maxx="3.2595067972980883E7" maxy="3.3470102804386567E7"/>
+        <BoundingBox CRS="EPSG:4326" minx="-60.002328474493446" miny="-179.99999999999986" maxx="60.000000000002935" maxy="179.98782010582556"/>
+        <BoundingBox CRS="EPSG:4258" minx="-60.002328502569796" miny="-179.99999999999986" maxx="60.00000002808314" maxy="179.98782010582556"/>
+        <BoundingBox CRS="EPSG:4171" minx="-60.002328502569796" miny="-179.99999999999986" maxx="60.00000002808314" maxy="179.98782010582556"/>
+        <BoundingBox CRS="EPSG:3035" minx="-7677021.305144561" miny="-6387295.147544155" maxx="1.4858319296885798E7" maxy="1.3587673025371933E7"/>
+        <Attribution>
+          <Title>NaturalEarth</Title>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.naturalearthdata.com/"/>
+          <LogoURL height="72" width="216">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.naturalearthdata.com/wp-content/uploads/2009/08/NEV-Logo-color_sm.png"/>
+          </LogoURL>
+        </Attribution>
+        <AuthorityURL name="NaturalEarth">
+          <OnlineResource xlink:type="simple" xlink:href="http://www.naturalearthdata.com/"/>
+        </AuthorityURL>
+        <Identifier authority="NaturalEarth">OB_LR</Identifier>
+        <MetadataURL type="other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.naturalearthdata.com/downloads/10m-ocean-bottom/ocean-bottom-base/"/>
+        </MetadataURL>
+        <Style>
+          <Name>raster</Name>
+          <Title>Default Raster</Title>
+          <Abstract>A sample style that draws a raster, good for displaying imagery</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=oceanbottom"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>osm:place</Name>
+        <Title>Place (place)</Title>
+        <Abstract>Places comprennent villes, villages, hameaux, voisinage, lieux-dits...&#13;
+http://wiki.openstreetmap.org/wiki/FR:Places</Abstract>
+        <KeywordList>
+          <Keyword>place</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-25.332100199999974</westBoundLongitude>
+          <eastBoundLongitude>57.71853310000003</eastBoundLongitude>
+          <southBoundLatitude>-46.876165500000006</southBoundLatitude>
+          <northBoundLatitude>37.58333300000001</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-25.332100199999974" miny="-46.876165500000006" maxx="57.71853310000003" maxy="37.58333300000001"/>
+        <BoundingBox CRS="EPSG:3857" minx="-2819956.49498818" miny="-5921884.5024234" maxx="6425197.71402671" maxy="4520730.80902081"/>
+        <BoundingBox CRS="EPSG:2154" minx="-7367480.073463726" miny="-1.0317724839136504E7" maxx="1.5376416650875114E7" maxy="7232474.1352023445"/>
+        <BoundingBox CRS="EPSG:3948" minx="-6633218.175576891" miny="-1.0241057560036302E7" maxx="1.6814516195624188E7" maxy="7706815.923767896"/>
+        <BoundingBox CRS="EPSG:4326" minx="-46.876165500000006" miny="-25.332100199999974" maxx="37.58333300000001" maxy="57.71853310000003"/>
+        <BoundingBox CRS="EPSG:4258" minx="-46.876165542563605" miny="-25.332100199999978" maxx="37.58333303869718" maxy="57.71853310000003"/>
+        <BoundingBox CRS="EPSG:4171" minx="-46.876165542563605" miny="-25.332100199999978" maxx="37.58333303869718" maxy="57.71853310000003"/>
+        <BoundingBox CRS="EPSG:3035" minx="-6431040.934577014" miny="-143366.1536987219" maxx="2911112.070183272" maxy="1.0241898878192615E7"/>
+        <Style>
+          <Name>point</Name>
+          <Title>Default Point</Title>
+          <Abstract>A sample style that draws a point</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=place"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>ci:protectedVectorLayer</Name>
+        <Title>protected vector layer</Title>
+        <Abstract>anonymous cannot read this layer&#13;
+USER can read this layer</Abstract>
+        <KeywordList/>
+        <CRS>EPSG:4326</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-181.0</westBoundLongitude>
+          <eastBoundLongitude>179.0</eastBoundLongitude>
+          <southBoundLatitude>-81.0</southBoundLatitude>
+          <northBoundLatitude>81.0</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-181.0" miny="-81.0" maxx="179.0" maxy="81.0"/>
+        <BoundingBox CRS="EPSG:4326" minx="-81.0" miny="-181.0" maxx="81.0" maxy="179.0"/>
+        <BoundingBox CRS="EPSG:2154" minx="-7.329278816344379E7" miny="-6.124226570903215E7" maxx="7.4310144758242E7" maxy="5.7911325163208395E7"/>
+        <BoundingBox CRS="EPSG:3948" minx="-7.509372108265316E7" miny="-6.3791655830800906E7" maxx="7.8379646178776E7" maxy="6.316415083850604E7"/>
+        <BoundingBox CRS="EPSG:4258" minx="-81.00000000153224" miny="-180.0" maxx="81.00000000153224" maxy="179.00000000000006"/>
+        <BoundingBox CRS="EPSG:4171" minx="-81.00000000153224" miny="-180.0" maxx="81.00000000153224" maxy="179.00000000000006"/>
+        <BoundingBox CRS="EPSG:3035" minx="-9089525.126173124" miny="-6328295.529365575" maxx="1.4662251120029649E7" maxy="1.6189958109560492E7"/>
+        <BoundingBox CRS="EPSG:3857" minx="-2.0148827833582513E7" miny="-1.6213801067583973E7" maxx="1.992618885199597E7" maxy="1.6213801067583967E7"/>
+        <Style>
+          <Name>polygon</Name>
+          <Title>Default Polygon</Title>
+          <Abstract>A sample style that draws a polygon</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=protectedVectorLayer"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>osm:railway</Name>
+        <Title>Voies ferrées (railway)</Title>
+        <Abstract>Toute forme de transport utilisant des rails en métal, incluant les lignes principales, métros, anciennes lignes et tramways.&#13;
+http://wiki.openstreetmap.org/wiki/FR:Railways</Abstract>
+        <KeywordList>
+          <Keyword>railway</Keyword>
+        </KeywordList>
+        <CRS>EPSG:3857</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-17.44189068925674</westBoundLongitude>
+          <eastBoundLongitude>55.62044989496239</eastBoundLongitude>
+          <southBoundLatitude>-34.53004126978261</southBoundLatitude>
+          <northBoundLatitude>37.26881999154912</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-17.44189068925674" miny="-34.53004126978261" maxx="55.62044989496239" maxy="37.26881999154912"/>
+        <BoundingBox CRS="EPSG:3857" minx="-1941622.39" miny="-4100197.62" maxx="6191640.16" maxy="4476643.36"/>
+        <BoundingBox CRS="EPSG:2154" minx="-4084286.7156215264" miny="-6025975.854997035" maxx="1.2252576111403154E7" maxy="7087011.309314198"/>
+        <BoundingBox CRS="EPSG:3948" minx="-3219763.4614024907" miny="-5813787.661955146" maxx="1.3541866389503252E7" maxy="7558605.872336119"/>
+        <BoundingBox CRS="EPSG:4326" minx="-34.53004126978261" miny="-17.44189068925674" maxx="37.26881999154912" maxy="55.62044989496239"/>
+        <BoundingBox CRS="EPSG:4258" minx="-34.530041304724755" miny="-17.441890689256745" maxx="37.26882002990635" maxy="55.62044989496239"/>
+        <BoundingBox CRS="EPSG:4171" minx="-34.530041304724755" miny="-17.441890689256745" maxx="37.26882002990635" maxy="55.62044989496239"/>
+        <BoundingBox CRS="EPSG:3035" minx="-5494338.532635478" miny="826447.3985702018" maxx="2770778.72903569" maxy="1.0000511847621422E7"/>
+        <Style>
+          <Name>line</Name>
+          <Title>Default Line</Title>
+          <Abstract>A sample style that draws a line</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=railway"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>savoie:savoie</Name>
+        <Title>Savoie</Title>
+        <Abstract/>
+        <KeywordList>
+          <Keyword>73-Savoie</Keyword>
+          <Keyword>features</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>5.621827368597834</westBoundLongitude>
+          <eastBoundLongitude>7.185934145939658</eastBoundLongitude>
+          <southBoundLatitude>45.05161877665054</southBoundLatitude>
+          <northBoundLatitude>45.93851815782479</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="5.621827368597834" miny="45.05161877665054" maxx="7.185934145939658" maxy="45.93851815782479"/>
+        <BoundingBox CRS="EPSG:4326" minx="45.05161877665054" miny="5.621827368597834" maxx="45.93851815782479" maxy="7.185934145939658"/>
+        <BoundingBox CRS="EPSG:2154" minx="903100.3267919837" miny="6442578.398464444" maxx="1029390.7492381997" maxy="6546240.743475106"/>
+        <BoundingBox CRS="EPSG:3948" minx="1903393.425823422" miny="6875654.541295979" maxx="2029989.0077716545" maxy="6979610.32807792"/>
+        <BoundingBox CRS="EPSG:4258" minx="45.05161881947256" miny="5.621827368597833" maxx="45.93851820058507" maxy="7.185934145939659"/>
+        <BoundingBox CRS="EPSG:4171" minx="45.05161881947256" miny="5.621827368597833" maxx="45.93851820058507" maxy="7.185934145939659"/>
+        <BoundingBox CRS="EPSG:3035" minx="2441943.3916355483" miny="3975741.355169711" maxx="2546179.280568054" maxy="4102550.826179561"/>
+        <BoundingBox CRS="EPSG:3857" minx="625818.96" miny="5629651.47" maxx="799934.5299999999" maxy="5770502.179999997"/>
+        <MetadataURL type="19139">
+          <Format>application/xml</Format>
+          <OnlineResource xlink:type="simple" xlink:href="http://sdi.georchestra.org/geonetwork/apps/georchestra/?uuid=517971e2-c902-46d0-b206-887a7393ba41"/>
+        </MetadataURL>
+        <Style>
+          <Name>polygon</Name>
+          <Title>Default Polygon</Title>
+          <Abstract>A sample style that draws a polygon</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=savoie"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>geor:sdi</Name>
+        <Title>geOrchestra SDI instances</Title>
+        <Abstract>geOrchestra SDI across the world. The geOrchestra project aims to develop a customizable, interoperable and free Spatial Data Infrastructure, based on the best map components available.</Abstract>
+        <KeywordList/>
+        <CRS>EPSG:4326</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-85.9166668898194</westBoundLongitude>
+          <eastBoundLongitude>76.4367145732618</eastBoundLongitude>
+          <southBoundLatitude>-16.5407778122446</southBoundLatitude>
+          <northBoundLatitude>50.291802079231</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-85.9166668898194" miny="-16.5407778122446" maxx="76.4367145732618" maxy="50.291802079231"/>
+        <BoundingBox CRS="EPSG:4326" minx="-16.5407778122446" miny="-85.9166668898194" maxx="50.291802079231" maxy="76.4367145732618"/>
+        <BoundingBox CRS="EPSG:2154" minx="-1.24043384709862E7" miny="-1791126.8865173254" maxx="1.233683039563406E7" maxy="1.0231738176282804E7"/>
+        <BoundingBox CRS="EPSG:3948" minx="-1.1549069171592057E7" miny="-1468063.1560392473" maxx="1.3510842191957494E7" maxy="1.0723668320800584E7"/>
+        <BoundingBox CRS="EPSG:4258" minx="-16.54077781954421" miny="-85.9166668898194" maxx="50.291802119969205" maxy="76.4367145732618"/>
+        <BoundingBox CRS="EPSG:4171" minx="-16.54077781954421" miny="-85.9166668898194" maxx="50.291802119969205" maxy="76.4367145732618"/>
+        <BoundingBox CRS="EPSG:3035" minx="-3845609.5434555337" miny="-5840446.277239783" maxx="6998970.599018433" maxy="1.2190714698025107E7"/>
+        <BoundingBox CRS="EPSG:3857" minx="-9564199.608830003" miny="-1867433.697758103" maxx="8508896.144206297" maxy="6496965.025120003"/>
+        <Attribution>
+          <Title>geOrchestra PSC</Title>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/"/>
+          <LogoURL height="50" width="196">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/header/img/logo.png"/>
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>geor_sdi</Name>
+          <Title>stars</Title>
+          <Abstract>This style represents stars for geOrchestra SDI instances</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=sdi"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="1">
+        <Name>dem:srtm</Name>
+        <Title>Altitude : digital elevation model</Title>
+        <Abstract>DEM 3" resolution (90m on equator) covering latitudes from -90S to +60N. Jarvis A., H.I. Reuter, A.  Nelson, E. Guevara, 2008, Hole-filled  seamless SRTM data V4, International  Centre for Tropical  Agriculture (CIAT), available  from http://srtm.csi.cgiar.org.</Abstract>
+        <KeywordList>
+          <Keyword vocabulary="ISO">Altimetrie</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.00000000000495</eastBoundLongitude>
+          <southBoundLatitude>-60.00000000000164</southBoundLatitude>
+          <northBoundLatitude>60.0</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-60.00000000000164" maxx="180.00000000000495" maxy="60.0"/>
+        <BoundingBox CRS="EPSG:4326" minx="-60.00000000000164" miny="-180.0" maxx="60.0" maxy="180.00000000000495"/>
+        <BoundingBox CRS="EPSG:2154" minx="-2.9732487602478996E7" miny="-1.775752160935102E7" maxx="3.1014422370859355E7" maxy="3.1573862259977095E7"/>
+        <BoundingBox CRS="EPSG:3948" minx="-2.9227871592830062E7" miny="-1.796092487998627E7" maxx="3.2593421865617897E7" maxy="3.3468865563145343E7"/>
+        <BoundingBox CRS="EPSG:4258" minx="-60.000000028081864" miny="-180.0" maxx="60.000000028080215" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:4171" minx="-60.000000028081864" miny="-180.0" maxx="60.000000028080215" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:3035" minx="-7676044.977138624" miny="-6402945.8394311275" maxx="1.4860421742782252E7" maxy="1.351626575607617E7"/>
+        <BoundingBox CRS="EPSG:3857" minx="-2.0037508342789244E7" miny="-8399737.889818726" maxx="2.0037508342789795E7" maxy="8399737.889818355"/>
+        <Attribution>
+          <Title>CGIAR-CSI</Title>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.cgiar-csi.org/"/>
+          <LogoURL height="46" width="200">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.cgiar-csi.org/wp-content/uploads/2012/11/logo_200x46_s1.png"/>
+          </LogoURL>
+        </Attribution>
+        <AuthorityURL name="CGIAR-CSI">
+          <OnlineResource xlink:type="simple" xlink:href="http://www.cgiar-csi.org/"/>
+        </AuthorityURL>
+        <Identifier authority="CGIAR-CSI">SRTM-90m-Digital-Elevation-Database-v4.1</Identifier>
+        <MetadataURL type="other">
+          <Format>text/html</Format>
+          <OnlineResource xlink:type="simple" xlink:href="http://www.cgiar-csi.org/data/srtm-90m-digital-elevation-database-v4-1"/>
+        </MetadataURL>
+        <Style>
+          <Name>altitude-wikipediatopo</Name>
+          <Title>altitude</Title>
+          <Abstract>http://fr.wikipedia.org/wiki/Aide:Cartographie</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=srtm"/>
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>altitude-2012themovie</Name>
+          <Title>apres le deluge</Title>
+          <Abstract>apres le deluge</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=srtm&amp;style=altitude-2012themovie"/>
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>altitude-contour</Name>
+          <Title>Contour from DEM</Title>
+          <Abstract>Extracts contours from DEM</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=srtm&amp;style=altitude-contour"/>
+          </LegendURL>
+        </Style>
+        <Style>
+          <Name>altitude-warmhumid</Name>
+          <Title>Simple DEM style</Title>
+          <Abstract>http://www.shadedrelief.com/world_relief/ warm-humid regions</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=srtm&amp;style=altitude-warmhumid"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>pmauduit_test:toilettes_publiques</Name>
+        <Title>toilettes_publiques</Title>
+        <Abstract/>
+        <KeywordList>
+          <Keyword>features</Keyword>
+          <Keyword>toilettes_publiques</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-1.745904276407694</westBoundLongitude>
+          <eastBoundLongitude>-1.6358915291800151</eastBoundLongitude>
+          <southBoundLatitude>48.07875497189455</southBoundLatitude>
+          <northBoundLatitude>48.139942939520026</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-1.745904276407694" miny="48.07875497189455" maxx="-1.6358915291800151" maxy="48.139942939520026"/>
+        <BoundingBox CRS="EPSG:4326" minx="48.07875497189455" miny="-1.745904276407694" maxx="48.139942939520026" maxy="-1.6358915291800151"/>
+        <BoundingBox CRS="EPSG:2154" minx="346791.15804716176" miny="6785506.6354695745" maxx="355368.2062925703" maxy="6792780.580737723"/>
+        <BoundingBox CRS="EPSG:3948" minx="1346627.7466557277" miny="7219137.532244477" maxx="1355217.9505275295" maxy="7226426.122513471"/>
+        <BoundingBox CRS="EPSG:4258" minx="48.0787550140106" miny="-1.7459042764076942" maxx="48.139942981607525" maxy="-1.635891529180015"/>
+        <BoundingBox CRS="EPSG:4171" minx="48.0787550140106" miny="-1.7459042764076942" maxx="48.139942981607525" maxy="-1.635891529180015"/>
+        <BoundingBox CRS="EPSG:3035" minx="2842122.444545557" miny="3449575.252161656" maxx="2850147.8242004337" maxy="3458700.0250951676"/>
+        <BoundingBox CRS="EPSG:3857" minx="-194353.17502350325" miny="6119966.8709797915" maxx="-182106.61202134893" maxy="6130168.011196566"/>
+        <Style>
+          <Name>point</Name>
+          <Title>Default Point</Title>
+          <Abstract>A sample style that draws a point</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=toilettes_publiques"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="1">
+        <Name>unearthedoutdoors:truemarble</Name>
+        <Title>True Marble</Title>
+        <Abstract>A 250m res. global image composited from LandSat7 (1999-2002). True Marble by Unearthed Outdoors, LLC is licensed under a Creative Commons Attribution 3.0 United States License.</Abstract>
+        <KeywordList>
+          <Keyword>WCS</Keyword>
+          <Keyword>ImagePyramid</Keyword>
+          <Keyword>truemarble</Keyword>
+        </KeywordList>
+        <CRS>EPSG:4326</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-90.0</southBoundLatitude>
+          <northBoundLatitude>90.0</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-90.0" maxx="180.0" maxy="90.0"/>
+        <BoundingBox CRS="EPSG:4326" minx="-90.0" miny="-180.0" maxx="90.0" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:4258" minx="-90.0" miny="-180.0" maxx="90.0" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:4171" minx="-90.0" miny="-180.0" maxx="90.0" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:3035" minx="-8828174.554292856" miny="-6035062.438986087" maxx="1.473936130716652E7" maxy="1.3659732821548471E7"/>
+        <Attribution>
+          <Title>Unearthed Outdoors, LLC</Title>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://unearthedoutdoors.net/global_data/true_marble/"/>
+          <LogoURL height="47" width="549">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://www.unearthedoutdoors.net/imgs/uo.png"/>
+          </LogoURL>
+        </Attribution>
+        <Style>
+          <Name>raster</Name>
+          <Title>Default Raster</Title>
+          <Abstract>A sample style that draws a raster, good for displaying imagery</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=truemarble"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+      <Layer queryable="1" opaque="0">
+        <Name>ci:unprotectedVectorLayer</Name>
+        <Title>unprotected vector layer</Title>
+        <Abstract>anonymous can read this layer</Abstract>
+        <KeywordList/>
+        <CRS>EPSG:4326</CRS>
+        <CRS>CRS:84</CRS>
+        <EX_GeographicBoundingBox>
+          <westBoundLongitude>-180.0</westBoundLongitude>
+          <eastBoundLongitude>180.0</eastBoundLongitude>
+          <southBoundLatitude>-50.27</southBoundLatitude>
+          <northBoundLatitude>90.0</northBoundLatitude>
+        </EX_GeographicBoundingBox>
+        <BoundingBox CRS="CRS:84" minx="-180.0" miny="-50.27" maxx="180.0" maxy="90.0"/>
+        <BoundingBox CRS="EPSG:4326" minx="-50.27" miny="-180.0" maxx="90.0" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:2154" minx="-2.3810046088084653E7" miny="-1.1838846550018746E7" maxx="2.5114957434596937E7" maxy="2.789219706429615E7"/>
+        <BoundingBox CRS="EPSG:3948" minx="-2.3078911260614336E7" miny="-1.181475962974558E7" maxx="2.6451310695506502E7" maxy="2.9389957924686696E7"/>
+        <BoundingBox CRS="EPSG:4258" minx="-50.27000004075515" miny="-180.0" maxx="90.0" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:4171" minx="-50.27000004075515" miny="-180.0" maxx="90.0" maxy="180.0"/>
+        <BoundingBox CRS="EPSG:3035" minx="-6649518.161328761" miny="-7430862.268865576" maxx="1.4825265133230828E7" maxy="1.6794108559771374E7"/>
+        <Attribution>
+          <Title>World Bank</Title>
+          <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://climate4development.worldbank.org/open/"/>
+        </Attribution>
+        <Style>
+          <Name>point</Name>
+          <Title>Default Point</Title>
+          <Abstract>A sample style that draws a point</Abstract>
+          <LegendURL width="20" height="20">
+            <Format>image/png</Format>
+            <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://sdi.georchestra.org/geoserver/ows?service=WMS&amp;request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=unprotectedVectorLayer"/>
+          </LegendURL>
+        </Style>
+      </Layer>
+    </Layer>
+  </Capability>
+</WMS_Capabilities>

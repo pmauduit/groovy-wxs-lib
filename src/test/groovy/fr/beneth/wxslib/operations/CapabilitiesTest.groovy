@@ -9,7 +9,8 @@ import static org.junit.Assert.assertTrue
 class CapabilitiesTest {
 	@Test
 	void testSdiGeorchestraOrgWmsCapabilities() {
-		def capInfo = Capabilities.mapFromDocument("http://sdi.georchestra.org/geoserver/wms?service=wms&request=getcapabilities")
+		def getCapResp = this.getClass().getResource("sdi-geor.getcap.xml")
+		def capInfo = Capabilities.mapFromDocument(getCapResp.toString())
 		
 		assertTrue(capInfo.name == "WMS")
 		assertTrue(capInfo._abstract ==~ /.*modular and opensource spatial data infrastructure.*/)
@@ -22,5 +23,6 @@ class CapabilitiesTest {
 		Layer fo = capInfo.findLayerByName("pmauduit_test:armoires-fo")
 		assertTrue(fo != null)
 		assertTrue(fo.styles.size == 1)
+		assertTrue(capInfo.getLayersCount() == 29)
 	}
 }

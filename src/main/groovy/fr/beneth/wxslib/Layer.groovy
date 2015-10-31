@@ -18,7 +18,7 @@ class Layer {
 	// A layer can contain sub-layers
 	ArrayList<Layer> layers = new ArrayList<Layer>()
 
-	Layer findLayerByName(String name) {
+	public Layer findLayerByName(String name) {
 		for (Layer it : layers) {
 			if (it.name == name) return it
 			Layer l = it.findLayerByName(name)
@@ -26,6 +26,13 @@ class Layer {
 		}
 		return null
 	}
+	
+	public int getLayersCount() {
+		int count = layers.size		
+		layers.each { count += it.getLayersCount() }
+		return count
+	}
+	
 	
 	static Layer mapFromXmlFragment(NodeChild xml, Layer parent) {
 		Layer l = mapFromXmlFragment(xml)

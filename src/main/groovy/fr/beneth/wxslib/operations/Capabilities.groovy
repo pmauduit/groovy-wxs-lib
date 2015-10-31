@@ -33,6 +33,12 @@ class Capabilities {
 		return null
 	}
 	
+	public int getLayersCount() {
+		int count = layers.size
+		layers.each  { count += it.getLayersCount() }
+		return count
+	}
+	
 	static Capabilities mapFromDocument(String uriEndpoint) {
 		def xmlData = new XmlSlurper().parse(uriEndpoint)
 		Capabilities cap = new Capabilities()
