@@ -24,5 +24,8 @@ class CapabilitiesTest {
 		assertTrue(fo != null)
 		assertTrue(fo.styles.size == 1)
 		assertTrue(capInfo.getLayersCount() == 29)
+		println capInfo.getStylesCount()
+		// grep -A1 '<Style' src/test/resources/fr/beneth/wxslib/operations/sdi-geor.getcap.xml | grep Name | sort -u | wc -l
+		assertTrue(capInfo.getStylesCount() == 17)
 	}
 }

@@ -2,6 +2,7 @@ package fr.beneth.wxslib.operations
 
 import fr.beneth.wxslib.CapabilityRequest
 import fr.beneth.wxslib.Layer
+import fr.beneth.wxslib.Style
 
 class Capabilities {
 
@@ -23,7 +24,7 @@ class Capabilities {
 	// list of available layers in this server
 	ArrayList<Layer> layers = new ArrayList<Layer>();
 	
-	Layer findLayerByName(String name) {
+	public Layer findLayerByName(String name) {
 		for (Layer it : layers) { 
 			if (it.name == name)
 				return it
@@ -39,7 +40,19 @@ class Capabilities {
 		return count
 	}
 	
-	static Capabilities mapFromDocument(String uriEndpoint) {
+	public int getStylesCount() {
+		getAllStyles().size
+	}
+	
+	public ArrayList<Style> getAllStyles() {
+		HashMap<String, Style> styles = new HashMap<String, Style>()
+		layers.each {
+			styles << it.getAllStyles()
+		}
+		styles.values()
+	}
+	
+	public static Capabilities mapFromDocument(String uriEndpoint) {
 		def xmlData = new XmlSlurper().parse(uriEndpoint)
 		Capabilities cap = new Capabilities()
 

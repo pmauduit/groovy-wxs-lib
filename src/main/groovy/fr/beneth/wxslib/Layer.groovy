@@ -33,6 +33,22 @@ class Layer {
 		return count
 	}
 	
+	public int getStylesCount() {
+		int count = styles.size
+		layers.each { count += it.getStylesCount() }
+		return count
+	}
+	
+	public HashMap<String, Style> getAllStyles() {
+		HashMap<String, Style> hmStyles = new HashMap<String, Style>()
+		styles.each {
+			hmStyles.put(it.name, it)
+		}
+		layers.each {  
+			hmStyles << it.getAllStyles()
+		}
+		hmStyles
+	}
 	
 	static Layer mapFromXmlFragment(NodeChild xml, Layer parent) {
 		Layer l = mapFromXmlFragment(xml)
