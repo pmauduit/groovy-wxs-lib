@@ -25,7 +25,6 @@ class CapabilitiesTest {
 		assertTrue(fo != null)
 		assertTrue(fo.styles.size == 1)
 		assertTrue(capInfo.getLayersCount() == 29)
-		println capInfo.getStylesCount()
 		// grep -A1 '<Style' src/test/resources/fr/beneth/wxslib/operations/sdi-geor.getcap.xml | grep Name | sort -u | wc -l
 		assertTrue(capInfo.getStylesCount() == 17)
 	}
@@ -35,8 +34,10 @@ class CapabilitiesTest {
 		def getCapResp = this.getClass().getResource("sdi-geor.getcap.xml")
 		def capInfo = Capabilities.mapFromDocument(getCapResp.toString())
 		def gshhsLayer = capInfo.findLayerByName("gshhs:GSHHS_l_L1")
+		def mainLayer = (Layer) capInfo.layers.first()
 		assertFalse(gshhsLayer.opaque)
 		assertTrue(gshhsLayer.queryable)
-		
+		assertFalse(mainLayer.opaque)
+		assertFalse(mainLayer.queryable)
 	}
 }

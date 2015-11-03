@@ -59,8 +59,8 @@ class Layer {
 	
 	static Layer mapFromXmlFragment(NodeChild xml) {
 		Layer l =  new Layer()
-		l.queryable = xml["@queryable"] != 0
-		l.opaque = xml["@opaque"] != 0
+		l.queryable = xml["@queryable"] == 1
+		l.opaque = xml["@opaque"] == 1
 
 		l.name = xml.Name
 		l.title = xml.Title
