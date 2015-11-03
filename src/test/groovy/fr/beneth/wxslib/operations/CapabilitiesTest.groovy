@@ -4,6 +4,7 @@ package fr.beneth.wxslib.operations;
 import fr.beneth.wxslib.Layer
 import org.junit.Test
 import static org.junit.Assert.assertTrue
+import static org.junit.Assert.assertFalse
 
 
 class CapabilitiesTest {
@@ -27,5 +28,15 @@ class CapabilitiesTest {
 		println capInfo.getStylesCount()
 		// grep -A1 '<Style' src/test/resources/fr/beneth/wxslib/operations/sdi-geor.getcap.xml | grep Name | sort -u | wc -l
 		assertTrue(capInfo.getStylesCount() == 17)
+	}
+	
+	@Test
+	void testOpaqueQueryableLayer() {
+		def getCapResp = this.getClass().getResource("sdi-geor.getcap.xml")
+		def capInfo = Capabilities.mapFromDocument(getCapResp.toString())
+		def gshhsLayer = capInfo.findLayerByName("gshhs:GSHHS_l_L1")
+		assertFalse(gshhsLayer.opaque)
+		assertTrue(gshhsLayer.queryable)
+		
 	}
 }
