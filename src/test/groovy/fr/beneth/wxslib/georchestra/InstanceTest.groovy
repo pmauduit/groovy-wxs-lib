@@ -12,7 +12,11 @@ public class InstanceTest {
 
     @Test
     void testGetInstances() {
+        Instance.SDI_LIST_ENDPOINT = this.getClass().
+                        getResource("geor_sdi.xml").toString()
+
         def instances = Instance.loadGeorchestraInstances()
+
         assertTrue(instances.size() > 0)
     }
 }

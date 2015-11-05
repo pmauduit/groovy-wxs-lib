@@ -7,7 +7,9 @@ class Layer {
 	boolean queryable, opaque
 	String name, title, _abstract
 	ArrayList<String> keywords = new ArrayList<String>()
-	
+    
+    ArrayList<BoundingBox> boundingBoxes = new ArrayList<BoundingBox>()
+
 	String attributionTitle
 	ArrayList<MetadataUrl> metadataUrls = new ArrayList<MetadataUrl>()
 
@@ -71,15 +73,16 @@ class Layer {
 		
 		l.attributionTitle = xml.Attribution.Title
 
-		xml.children().each {
-			child ->
+		xml.children().each { child ->
 			if (child.name() == "Layer") {
-				l.layers << Layer.mapFromXmlFragment(child, l)
+				l.layers << Layer.mapFromXmlFragment(child)
 			} else if (child.name() == "Style") {
 				l.styles << Style.mapFromXmlFragment(child)
 			} else if (child.name() == "MetadataURL") {
 				l.metadataUrls << MetadataUrl.mapFromXmlFragment(child)
-			}
+			} else if (child.name() == "BoundingBox") {
+                l.boundingBoxes << BoundingBox.mapFromXmlElement(child)
+            }
 		}
 		return l
 	}

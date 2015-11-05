@@ -2,6 +2,8 @@ package fr.beneth.wxslib.operations;
 
 
 import fr.beneth.wxslib.Layer
+import sun.security.jgss.GSSHeader;
+
 import org.junit.Test
 import static org.junit.Assert.assertTrue
 import static org.junit.Assert.assertFalse
@@ -40,4 +42,19 @@ class CapabilitiesTest {
 		assertFalse(mainLayer.opaque)
 		assertFalse(mainLayer.queryable)
 	}
+    
+    @Test
+    void testLayerBboxParsing() {
+        def getCapResp = this.getClass().getResource("sdi-geor.getcap.xml")
+        def capInfo = Capabilities.mapFromDocument(getCapResp.toString())
+        def gshhsLayer = capInfo.findLayerByName("gshhs:GSHHS_l_L1")
+        
+        assertTrue(gshhsLayer.boundingBoxes.size() == 5)
+        assertTrue(gshhsLayer.boundingBoxes.find { it.crs == "EPSG:4326" } != null)
+        assertTrue(capInfo.layers.first().boundingBoxes.size() == 5)
+        assertTrue(capInfo.layers.first().boundingBoxes.find { it.crs == "EPSG:4326" } != null)
+        assertTrue(capInfo.layers.first().boundingBoxes.find { it.crs == "EPSG:4326" }.miny == "-180.0" )
+        assertTrue(capInfo.layers.first().boundingBoxes.find { it.crs == "EPSG:4326" }.maxx == "90.0" )
+        
+    }
 }
