@@ -53,7 +53,14 @@ class CapabilitiesTest {
         def imagePngFound = gm.formats.find { it == "image/png" } != null
         assertTrue(imagePngFound)
     }
-    
+
+    @Test
+    void testGetStylesCount() {
+        def getCapResp = this.getClass().getResource("sdi-geor.getcap.xml")
+        def capInfo = Capabilities.mapFromDocument(getCapResp.toString())
+        assertTrue  capInfo.getStylesCount() == 17
+    }
+
     @Test
     void testLayerBboxParsing() {
         def getCapResp = this.getClass().getResource("sdi-geor.getcap.xml")
