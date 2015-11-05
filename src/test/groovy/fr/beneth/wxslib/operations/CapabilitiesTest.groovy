@@ -44,6 +44,17 @@ class CapabilitiesTest {
 	}
     
     @Test
+    void testFormat() {
+        def getCapResp = this.getClass().getResource("sdi-geor.getcap.xml")
+        def capInfo = Capabilities.mapFromDocument(getCapResp.toString())
+        def gm = capInfo.capabilityRequests.find { it.name.toLowerCase() == "getmap" }
+        
+        assertTrue(gm != null)
+        def imagePngFound = gm.formats.find { it == "image/png" } != null
+        assertTrue(imagePngFound)
+    }
+    
+    @Test
     void testLayerBboxParsing() {
         def getCapResp = this.getClass().getResource("sdi-geor.getcap.xml")
         def capInfo = Capabilities.mapFromDocument(getCapResp.toString())

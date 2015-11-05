@@ -18,7 +18,7 @@ class CapabilityRequest {
 		cr.name = xml.name()
 		xml.children().each { t ->
 			if (t.name() == "Format")
-				cr.formats << t
+				cr.formats << t.text()
 		}
 		return cr
 	}
