@@ -19,4 +19,16 @@ public class InstanceTest {
 
         assertTrue(instances.size() > 0)
     }
+
+    @Test
+    void testGetInstancesAbstract() {
+        Instance.SDI_LIST_ENDPOINT = this.getClass().
+        getResource("geor_sdi.xml").toString()
+
+        def instances = Instance.loadGeorchestraInstances()
+
+        def georInst = instances.find { it.title == "geOrchestra" }
+        assertTrue(georInst != null)
+        assertTrue(georInst._abstract ==~ /.*SDI demo.*/)
+    }
 }
