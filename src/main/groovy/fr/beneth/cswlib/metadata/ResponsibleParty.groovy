@@ -1,5 +1,6 @@
 package fr.beneth.cswlib.metadata
 
+import fr.beneth.cswlib.Address;
 import groovy.util.slurpersupport.NodeChild
 
 class ResponsibleParty {
@@ -36,18 +37,4 @@ class ResponsibleParty {
         }
         return rp
     }    
-}
-
-class Address {
-    String deliveryPoint, city, postalCode, electronicMailAddress
-    
-    public static Address mapFromXmlFragment(NodeChild xml) {
-        def addr = new Address()
-        addr.deliveryPoint = xml."gmd:deliveryPoint"."gco:CharacterString".text()
-        addr.city = xml."gmd:city"."gco:CharacterString".text()
-        addr.postalCode = xml."gmd:postalCode"."gco:CharacterString".text()
-        addr.electronicMailAddress = xml."gmd:electronicMailAddress"."gco:CharacterString".text()
-        return addr
-    }
-    
 }
