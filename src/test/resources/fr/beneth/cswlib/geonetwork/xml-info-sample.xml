@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+  <sources>
+    <source>
+      <uuid>04bc362e-4e8b-48f8-888b-451a19af3a98</uuid>
+      <name>PIGMA</name>
+    </source>
+    <source>
+      <uuid>AURBA3</uuid>
+      <name>A'URBA - Agence d'Urbanisme Bordeaux métropole Aquitaine</name>
+    </source>
+    <source>
+      <uuid>ACMG</uuid>
+      <name>ACMG - Association Climatologique de la Moyenne Garonne et du sud-ouest</name>
+    </source>
+    <source>
+      <uuid>IGECOM</uuid>
+      <name>ADACL - Agence Départementale d'Aide aux Collectivités Locales des Landes</name>
+    </source>
+    <source>
+      <uuid>AEC</uuid>
+      <name>AEC - Aquitaine Europe Communication</name>
+    </source>
+    <source>
+      <uuid>AIRAQ</uuid>
+      <name>AIRAQ - Air Aquitaine</name>
+    </source>
+    <source>
+      <uuid>ANPN</uuid>
+      <name>ANPN - Association Nationale des Producteurs de Noisettes</name>
+    </source>
+    <source>
+      <uuid>APEM</uuid>
+      <name>APEM - Assemblée Pyrénéenne d'Economie Montagnarde</name>
+    </source>
+    <source>
+      <uuid>APRN</uuid>
+      <name>APRN - Association des Propriétaires Riverains de la Nive</name>
+    </source>
+    <source>
+      <uuid>DFCIAQ</uuid>
+      <name>ARDFCI - Association Regionale de Defense des Forets contre l Incendie</name>
+    </source>
+    <source>
+      <uuid>ARS</uuid>
+      <name>ARS - Agence Régionale de Santé d'Aquitaine</name>
+    </source>
+    <source>
+      <uuid>ATD24</uuid>
+      <name>ATD 24 - Agence Technique Départementale de la Dordogne</name>
+    </source>
+    <source>
+      <uuid>AUDAP</uuid>
+      <name>AUDAP - Agence d'Urbanisme Atlantique et Pyrénées</name>
+    </source>
+    <source>
+      <uuid>AYGUEMORTE</uuid>
+      <name>AYGUEMORTE - Commune d'Ayguemorte</name>
+    </source>
+    <source>
+      <uuid>BEAUTIRAN</uuid>
+      <name>BEAUTIRAN - Commune de Beautiran</name>
+    </source>
+    <source>
+      <uuid>BERGERAC</uuid>
+      <name>BERGERAC - Commune de Bergerac</name>
+    </source>
+    <source>
+      <uuid>BORDEAUX</uuid>
+      <name>BORDEAUX - Ville de Bordeaux</name>
+    </source>
+    <source>
+      <uuid>BXM</uuid>
+      <name>BXM - Bordeaux Métropole</name>
+    </source>
+    <source>
+      <uuid>d37691f8-13ac-40cb-9957-ce8bb2ad9be0</uuid>
+      <name>Bordeaux Métropole Inspire</name>
+    </source>
+    <source>
+      <uuid>95460fd6-4647-49a1-87f2-6ebfd6763a91</uuid>
+      <name>Bordeaux Métropole Opendata</name>
+    </source>
+    <source>
+      <uuid>CA_AGEN</uuid>
+      <name>CA AGEN - Communauté d'Agglomération d'Agen</name>
+    </source>
+    <source>
+      <uuid>COBAS</uuid>
+      <name>CA BASSIN ARCACHON SUD - Communauté d'Agglomération du Bassin d'Arcachon Sud</name>
+    </source>
+    <source>
+      <uuid>CA_COTE_BASQUE_ADOUR</uuid>
+      <name>CA COTE BASQUE ADOUR - Communauté d'Agglomération Côte Basque Adour</name>
+    </source>
+    <source>
+      <uuid>CAGRANDDAX</uuid>
+      <name>CA GRAND DAX - Communauté d'Agglomération du Grand Dax -</name>
+    </source>
+    <source>
+      <uuid>CAGV</uuid>
+      <name>CA GRAND VILLENEUVOIS (CAGV) - Communauté d'Agglomération du Grand Villeneuvois -</name>
+    </source>
+    <source>
+      <uuid>CA_PERIGOURDINE</uuid>
+      <name>CA PERIGOURDINE - Communauté d'Agglomération Périgourdine (CAP)</name>
+    </source>
+    <source>
+      <uuid>VGA</uuid>
+      <name>CA VAL DE GARONNE (VGA) - Communauté d'Agglomération Val de Garonne</name>
+    </source>
+    <source>
+      <uuid>CABANAC</uuid>
+      <name>CABANAC - Commune de Cabanac</name>
+    </source>
+    <source>
+      <uuid>CADAUJAC</uuid>
+      <name>CADAUJAC - Commune de Cadaujac</name>
+    </source>
+    <source>
+      <uuid>CANEJAN</uuid>
+      <name>CANEJAN - Commune de Canejan -</name>
+    </source>
+    <source>
+      <uuid>CASAGEC</uuid>
+      <name>CASAGEC - CASAGEC ingénierie, bureau d’étude</name>
+    </source>
+    <source>
+      <uuid>CASTRES_GIRONDE</uuid>
+      <name>CASTRES GIRONDE - Commune de Castres-Gironde</name>
+    </source>
+    <source>
+      <uuid>CAUE24</uuid>
+      <name>CAUE 24 - Conseil en Architecture Urbanisme et Environnement de la Dordogne</name>
+    </source>
+    <source>
+      <uuid>CAUE33</uuid>
+      <name>CAUE 33 - Conseil d'Architecture, d'Urbanisme et de l'Environnement de Gironde</name>
+    </source>
+    <source>
+      <uuid>CAUE64</uuid>
+      <name>CAUE 64 - Conseil d'Architecture, d'Urbanisme et de l'Environnement des Pyrénées-Atlantiques</name>
+    </source>
+    <source>
+      <uuid>CBNSA</uuid>
+      <name>CBNSA - Conservatoire Botanique National Sud-Atlantique</name>
+    </source>
+    <source>
+      <uuid>CA24</uuid>
+      <name>CDA 24 - Chambre d'Agriculture de la Dordogne</name>
+    </source>
+    <source>
+      <uuid>CA33</uuid>
+      <name>CDA 33 - Chambre d'Agriculture de la Gironde</name>
+    </source>
+    <source>
+      <uuid>CA64</uuid>
+      <name>CDA 64 - Chambre d'Agriculture des Pyrenees-Atlantiques</name>
+    </source>
+    <source>
+      <uuid>BAZADAIS</uuid>
+      <name>CDC BAZADAIS - Communaute de Communes du Bazadais</name>
+    </source>
+    <source>
+      <uuid>CC_BOURG_GIRONDE</uuid>
+      <name>CDC BOURG EN GIRONDE - Communauté de communes de Bourg en Gironde</name>
+    </source>
+    <source>
+      <uuid>LOGO_CAPTIEUX</uuid>
+      <name>CDC CAPTIEUX GRIGNOLS - Communauté de Communes de Captieux Grignols</name>
+    </source>
+    <source>
+      <uuid>CCCAUSSESETVEZERE</uuid>
+      <name>CDC CAUSSES ET VEZERE - Communauté de Communes de Causses et Vézère</name>
+    </source>
+    <source>
+      <uuid>CC_CONFLUENT</uuid>
+      <name>CDC CONFLUENT - Communauté de communes de Confluent</name>
+    </source>
+    <source>
+      <uuid>ALBRET</uuid>
+      <name>CDC COTEAUX DE L'ALBRET - Communauté de communes des Coteaux de l'Albret</name>
+    </source>
+    <source>
+      <uuid>CCCOUTRAS</uuid>
+      <name>CDC COUTRAS - Communaute de Communes du Pays de Coutras</name>
+    </source>
+    <source>
+      <uuid>CC_PRAYSSAS</uuid>
+      <name>CDC DE PRAYSSAS - Communauté de communes de Prayssas</name>
+    </source>
+    <source>
+      <uuid>CC_VAL_ALBRET</uuid>
+      <name>CDC DU VAL D'ALBRET - Communauté de communes du Val d'Albret</name>
+    </source>
+    <source>
+      <uuid>CC_ESTUAIRE</uuid>
+      <name>CDC ESTUAIRE - Communauté de Communes de l'Estuaire</name>
+    </source>
+    <source>
+      <uuid>CC_GDS_LACS1</uuid>
+      <name>CDC GRANDS LACS - Communauté de communes des Grands Lacs</name>
+    </source>
+    <source>
+      <uuid>CC_LACQ</uuid>
+      <name>CDC LACQ - Communauté de Communes de Lacq</name>
+    </source>
+    <source>
+      <uuid>CDC_LB</uuid>
+      <name>CDC LUY DE BEARN - Communauté de Communes du Luy-de-Béarn</name>
+    </source>
+    <source>
+      <uuid>CDC_MEDOC</uuid>
+      <name>CDC MEDOC ESTUAIRE - Communauté de Communes de Medoc Estuaire</name>
+    </source>
+    <source>
+      <uuid>CC_MEZINAIS</uuid>
+      <name>CDC MEZINAIS - Communauté de communes du Mezinais</name>
+    </source>
+    <source>
+      <uuid>CCMIMIZAN</uuid>
+      <name>CDC MIMIZAN - Communaute de communes de Mimizan</name>
+    </source>
+    <source>
+      <uuid>CCM</uuid>
+      <name>CDC MONTESQUIEU - Communaute de Communes de Montesquieu</name>
+    </source>
+    <source>
+      <uuid>CCNIVEADOUR2</uuid>
+      <name>CDC NIVE ADOUR - Communauté de communes Nive-Adour au Pays Basque</name>
+    </source>
+    <source>
+      <uuid>CC_PAYS_FOYEN</uuid>
+      <name>CDC PAYS FOYEN - Communauté de communes du Pays Foyen</name>
+    </source>
+    <source>
+      <uuid>CCPENNEDAGENAIS</uuid>
+      <name>CDC PENNE D'AGENAIS - Communaute de Communes du Canton de Penne d'Agenais</name>
+    </source>
+    <source>
+      <uuid>CCPIEMONT</uuid>
+      <name>CDC PIEMONT OLORONAIS - Communauté de Communes de Piemont Oloronais</name>
+    </source>
+    <source>
+      <uuid>CCSPB</uuid>
+      <name>CDC SUD PAYS BASQUE - Communauté de Communes du Sud Pays Basque</name>
+    </source>
+    <source>
+      <uuid>CDG47</uuid>
+      <name>CDG 47 - Centre de Gestion de la Fonction Publique du Lot-et-Garonne</name>
+    </source>
+    <source>
+      <uuid>CE24</uuid>
+      <name>CE 24 - Chambre économique de la Dordogne</name>
+    </source>
+    <source>
+      <uuid>CEN</uuid>
+      <name>CEN AQUITAINE - Conservatoire d'espaces naturels d'Aquitaine</name>
+    </source>
+    <source>
+      <uuid>CG24</uuid>
+      <name>CG 24 - Conseil Général de la Dordogne</name>
+    </source>
+    <source>
+      <uuid>CG_33</uuid>
+      <name>CG 33 - Conseil Général de Gironde</name>
+    </source>
+    <source>
+      <uuid>CG_40</uuid>
+      <name>CG 40 - Conseil Général des Landes</name>
+    </source>
+    <source>
+      <uuid>CG_47</uuid>
+      <name>CG 47 - Conseil Général du Lot-et-Garonne</name>
+    </source>
+    <source>
+      <uuid>CG_64</uuid>
+      <name>CG 64 - Conseil Général des Pyrénées-Atlantiques</name>
+    </source>
+    <source>
+      <uuid>CRA</uuid>
+      <name>CR AQUITAINE - Conseil Regional d'Aquitaine</name>
+    </source>
+    <source>
+      <uuid>CRPF</uuid>
+      <name>CRPF - Centre Régional de la Propriété Forestière</name>
+    </source>
+    <source>
+      <uuid>DDT24</uuid>
+      <name>DDT 24 - Direction Départementale des Territoires de la Dordogne</name>
+    </source>
+    <source>
+      <uuid>DDT_47</uuid>
+      <name>DDT 47 - Direction Départementale des Territoires du Lot-et-Garonne</name>
+    </source>
+    <source>
+      <uuid>DDTM33</uuid>
+      <name>DDTM 33 - Direction Départementale des Territoires et de la Mer de Gironde</name>
+    </source>
+    <source>
+      <uuid>DDTM40</uuid>
+      <name>DDTM 40 - Direction Départementale des Territoires et de la Mer des Landes</name>
+    </source>
+    <source>
+      <uuid>DFCI24</uuid>
+      <name>DFCI 24 - Association de Defense des Forets contre l'Incendie sur le departement de la Dordogne</name>
+    </source>
+    <source>
+      <uuid>DFCI33</uuid>
+      <name>DFCI 33 - Association de Defense des Forets contre l'Incendie sur le departement de la Gironde</name>
+    </source>
+    <source>
+      <uuid>DFCI40</uuid>
+      <name>DFCI 40 - Association de Defense des Forets contre l'Incendie sur le departement des Landes</name>
+    </source>
+    <source>
+      <uuid>DFCIL47</uuid>
+      <name>DFCI 47 - Association de Defense des Forets contre l'Incendie departement du Lot-et-Garonne</name>
+    </source>
+    <source>
+      <uuid>IMPOTS_LAST1</uuid>
+      <name>DGFIP - Direction des Services Fiscaux Brigade Régionale Foncière</name>
+    </source>
+    <source>
+      <uuid>DILA</uuid>
+      <name>DILA - Direction de l'information légale et administrative</name>
+    </source>
+    <source>
+      <uuid>DIRA</uuid>
+      <name>DIR AQUITAINE - Direction Interdépartementale des Routes Atlantique</name>
+    </source>
+    <source>
+      <uuid>DIRECCTE</uuid>
+      <name>DIRECCTE - Direction Régionale des Entreprises, de la Concurrence, de la Consommation, du Travail et de l'Emploi Aquitaine</name>
+    </source>
+    <source>
+      <uuid>DRAAF2</uuid>
+      <name>DRAAF - Direction Régionale de l'Alimentation, de l'Agriculture et de la Forêt d'Aquitaine</name>
+    </source>
+    <source>
+      <uuid>CULTURE</uuid>
+      <name>DRAC - Direction Regionale des Affaires Culturelles</name>
+    </source>
+    <source>
+      <uuid>DREAL2</uuid>
+      <name>DREAL - Direction Regionale de l' Environnement de l' Amenagement et du Logement Aquitaine</name>
+    </source>
+    <source>
+      <uuid>DRJSCS</uuid>
+      <name>DRJSCS - Direction Régionale de la Jeunesse, des Sports et de la Cohésion Sociale</name>
+    </source>
+    <source>
+      <uuid>DUPINSURLAPLANCHE</uuid>
+      <name>DU PIN SUR LA PLANCHE - Association du Pin sur la Planche</name>
+    </source>
+    <source>
+      <uuid>EAU1ADOUR1GARONNE</uuid>
+      <name>EAU ADOUR-GARONNE - Agence de l'Eau Adour-Garonne -</name>
+    </source>
+    <source>
+      <uuid>EFI</uuid>
+      <name>EFI - European Forest Institure</name>
+    </source>
+    <source>
+      <uuid>ENSAP</uuid>
+      <name>ENSAP - École Nationale Supérieure d'Architecture et de Paysage de Bordeaux</name>
+    </source>
+    <source>
+      <uuid>EPABE</uuid>
+      <name>EPABE - Etablissement Public d'Aménagement Bordeaux Euratlantique</name>
+    </source>
+    <source>
+      <uuid>EPIDROPT1</uuid>
+      <name>EPI DROPT - Etablissement Public Intersyndical du Bassin du Dropt</name>
+    </source>
+    <source>
+      <uuid>EPIDOR</uuid>
+      <name>EPIDOR - Etablissement Public Territorial du Bassin de la Dordogne</name>
+    </source>
+    <source>
+      <uuid>ERDF</uuid>
+      <name>ERDF - Électricité Réseau Distribution France</name>
+    </source>
+    <source>
+      <uuid>ERMMA</uuid>
+      <name>ERMMA - Environnement et Ressources des Milieux Marins Aquitains</name>
+    </source>
+    <source>
+      <uuid>CHASSE33</uuid>
+      <name>FDCG - Federation Departementale des Chasseurs de la Gironde</name>
+    </source>
+    <source>
+      <uuid>FDP33</uuid>
+      <name>FDP 33 - Fédération Départementale de la Péche Gironde</name>
+    </source>
+    <source>
+      <uuid>FDP_64</uuid>
+      <name>FDP 64 - Fédération Départementale de la Péche des Pyrénées-Atlantiques</name>
+    </source>
+    <source>
+      <uuid>LOGO_FRC</uuid>
+      <name>FRC AQUITAINE - Federation Regionale des Chasseurs d'Aquitaine</name>
+    </source>
+    <source>
+      <uuid>EPOC</uuid>
+      <name>GEO-TRANSFERT - Etudes et Surveillance de l'Environnement - UMR EPOC</name>
+    </source>
+    <source>
+      <uuid>GEOLANDES</uuid>
+      <name>GEOLANDES - Syndicat mixte pour la sauvegarde et la gestion des étangs landais</name>
+    </source>
+    <source>
+      <uuid>d6ca63d4-bce7-4217-b41a-b1b3c10c5a94</uuid>
+      <name>GEOPLATEFORME 17</name>
+    </source>
+    <source>
+      <uuid>GIP</uuid>
+      <name>GIP ATGeRi - Groupement d'Interet Public Amenagement du Territoire et Gestion des Riques</name>
+    </source>
+    <source>
+      <uuid>GIP_INSEE</uuid>
+      <name>GIP ATGeRi et INSEE - GIP Amgt du Territoire et Gestion des Riques ET INSEE</name>
+    </source>
+    <source>
+      <uuid>GIPLITTORAL1</uuid>
+      <name>GIP LITTORAL AQUITAIN - Groupement d'Intérêt Public Littoral Aquitain</name>
+    </source>
+    <source>
+      <uuid>GIP_PQA</uuid>
+      <name>GIP PQA - Groupement d'Intérêt Public Pays et Quartiers d'Aquitaine</name>
+    </source>
+    <source>
+      <uuid>GMES</uuid>
+      <name>GMES - Global Monitoring for Environnement Security</name>
+    </source>
+    <source>
+      <uuid>GNUM</uuid>
+      <name>GN - Syndicat Mixte Gironde Numerique</name>
+    </source>
+    <source>
+      <uuid>GPMB1</uuid>
+      <name>GPMB - Grand Port Maritime de Bordeaux</name>
+    </source>
+    <source>
+      <uuid>GRDF1</uuid>
+      <name>GRDF - Gaz Reseau Distribution France</name>
+    </source>
+    <source>
+      <uuid>90501ba6-088b-463f-b1db-e8d2c1e6a3d3</uuid>
+      <name>Géo-IDE</name>
+    </source>
+    <source>
+      <uuid>IFREMER</uuid>
+      <name>IFREMER - Institut Français de Recherche pour l'Exploitation de la Mer</name>
+    </source>
+    <source>
+      <uuid>IFV_BA</uuid>
+      <name>IFV - Institut Francais de la Vigne et du Vin</name>
+    </source>
+    <source>
+      <uuid>IFN</uuid>
+      <name>IGN - Institut Géographique National</name>
+    </source>
+    <source>
+      <uuid>IMA</uuid>
+      <name>IMA - Institut des Milieux Aquatiques</name>
+    </source>
+    <source>
+      <uuid>INRA</uuid>
+      <name>INRA - Institut National de Recherches Agronomiques</name>
+    </source>
+    <source>
+      <uuid>INSEE2</uuid>
+      <name>INSEE - Institut National de la Statistique et des Etudes Economiques</name>
+    </source>
+    <source>
+      <uuid>INTERBOIS</uuid>
+      <name>INTERBOIS PERIGORD - Interbois Périgord</name>
+    </source>
+    <source>
+      <uuid>ISLE_SAINT_GEORGES</uuid>
+      <name>ISLE SAINT GEORGES - Commune de Isle-Saint-Georges</name>
+    </source>
+    <source>
+      <uuid>KOSTA_GARBIA</uuid>
+      <name>KOSTA GARBIA - Syndicat Mixte Kosta Garbia</name>
+    </source>
+    <source>
+      <uuid>AUSONIUS</uuid>
+      <name>LABO AUSONIUS - Univ. Bordeaux III Institut de recherche sur l'Antiquité et le Moyen Age</name>
+    </source>
+    <source>
+      <uuid>COMPTRASEC</uuid>
+      <name>LABO COMPTRASEC - Centre de Droit Comparé du Travail et de la Sécurité Sociale - Univ. Montesquieu - Bordeaux IV</name>
+    </source>
+    <source>
+      <uuid>GRETHA</uuid>
+      <name>LABO GREThA - Groupe de Recherche en Economie Theorie et Appliquee</name>
+    </source>
+    <source>
+      <uuid>IMS</uuid>
+      <name>LABO IMS - Laboratoire de l'Intégration du Matériau au Système</name>
+    </source>
+    <source>
+      <uuid>RAUDIN2</uuid>
+      <name>LABO RAUDIN - Laboratoire de Raudin - Univ de Bordeaux III</name>
+    </source>
+    <source>
+      <uuid>LABREDE</uuid>
+      <name>LABREDE - Commune de la Brède</name>
+    </source>
+    <source>
+      <uuid>LEOGNAN</uuid>
+      <name>LEOGNAN - Commune de Leognan</name>
+    </source>
+    <source>
+      <uuid>LPO</uuid>
+      <name>LPO - Ligue pour la Protection des Oiseaux</name>
+    </source>
+    <source>
+      <uuid>MARTILLAC</uuid>
+      <name>MARTILLAC - Commune de Martillac</name>
+    </source>
+    <source>
+      <uuid>MEZIN</uuid>
+      <name>MEZIN - Commune de Mezin</name>
+    </source>
+    <source>
+      <uuid>MIN_BUDGET</uuid>
+      <name>MINISTERE BUDGET - Ministère du Budget, des Comptes publics et de la Réforme de l'Etat</name>
+    </source>
+    <source>
+      <uuid>MIN_ECOLOGIE</uuid>
+      <name>MINISTERE ECOLOGIE - Ministère de l'Ecologie, du Développement durable, des Transports et du Logement</name>
+    </source>
+    <source>
+      <uuid>MIN_EDUCATION</uuid>
+      <name>MINISTERE EDUCATION - Ministère de l'Education Nationale</name>
+    </source>
+    <source>
+      <uuid>NAFU</uuid>
+      <name>NAFU - Observatoire des espaces Naturels, Agricoles, Forestiers et Urbains</name>
+    </source>
+    <source>
+      <uuid>DRAAF_GIPATGERI</uuid>
+      <name>OBSERVATOIRE RECONSTITUTION - Observatoire de la Reconstitution GIP ATGeRI</name>
+    </source>
+    <source>
+      <uuid>OCA</uuid>
+      <name>OCA - Observatoire de la Côte Aquitaine</name>
+    </source>
+    <source>
+      <uuid>ONF</uuid>
+      <name>ONF - Office National des Forets Sud-Ouest</name>
+    </source>
+    <source>
+      <uuid>ORECCA</uuid>
+      <name>ORECCA - Observatoire Régional Energie Changement Climatique Air</name>
+    </source>
+    <source>
+      <uuid>OSM</uuid>
+      <name>OSM - OpenStreetMap</name>
+    </source>
+    <source>
+      <uuid>PGB</uuid>
+      <name>PAYS GRAND BERGERACOIS - Association du Pays du Grand Bergeracois</name>
+    </source>
+    <source>
+      <uuid>PAYSHE2M</uuid>
+      <name>PAYS HE2M - Pays du Haut Entre Deux Mers</name>
+    </source>
+    <source>
+      <uuid>PERIGUEUX</uuid>
+      <name>PERIGUEUX - Ville de Périgueux</name>
+    </source>
+    <source>
+      <uuid>PIGMA</uuid>
+      <name>PIGMA - Plateforme de l'Information Géographique Mutualisée en Aquitaine</name>
+    </source>
+    <source>
+      <uuid>3bc76bcb-7107-4e6d-bbd8-ec5994c2b2d9</uuid>
+      <name>PIGMA Opendata</name>
+    </source>
+    <source>
+      <uuid>PARC4</uuid>
+      <name>PNRLG - Parc Naturel Régional des Landes de Gascognes</name>
+    </source>
+    <source>
+      <uuid>PREFECTURE24</uuid>
+      <name>PREFECTURE 24 - Préfécture de la Dordogne</name>
+    </source>
+    <source>
+      <uuid>PREF_33</uuid>
+      <name>PREFECTURE 33 - Préfecture de la Gironde</name>
+    </source>
+    <source>
+      <uuid>PREF47</uuid>
+      <name>PREFECTURE 47 - Préfecture du Lot-et-Garonne</name>
+    </source>
+    <source>
+      <uuid>PREF_AQUITAINE</uuid>
+      <name>PREFECTURE AQUITAINE - Préfecture de la Région Aquitaine</name>
+    </source>
+    <source>
+      <uuid>RECTORAT</uuid>
+      <name>RECTORAT - Rectorat de Bordeaux</name>
+    </source>
+    <source>
+      <uuid>RFF</uuid>
+      <name>RFF - Réseau Ferré de France</name>
+    </source>
+    <source>
+      <uuid>RTE</uuid>
+      <name>RTE - Réseau de Transport d'Electricité</name>
+    </source>
+    <source>
+      <uuid>SAFER_AQUI_ATL</uuid>
+      <name>SAFER - Safer Aquitaine-Atlantique</name>
+    </source>
+    <source>
+      <uuid>SAINT_MEDARD</uuid>
+      <name>SAINT MEDARD - Commune de Saint Médard</name>
+    </source>
+    <source>
+      <uuid>SAINT_MORILLON2</uuid>
+      <name>SAINT MORILLON - Commune de Saint Morillon</name>
+    </source>
+    <source>
+      <uuid>SAINT_SELVE</uuid>
+      <name>SAINT SELVE - Commune de Saint Selve</name>
+    </source>
+    <source>
+      <uuid>SAUCATS</uuid>
+      <name>SAUCATS - Commune de Saucats</name>
+    </source>
+    <source>
+      <uuid>SDCI47</uuid>
+      <name>SDCI 47 - Syndicat Départemental des Collectivités Irrigantes de Lot-et-Garonne</name>
+    </source>
+    <source>
+      <uuid>SDEE47</uuid>
+      <name>SDEE 47 - Syndicat Departemental d'Electricte et Energie du Lot-et-Garonne</name>
+    </source>
+    <source>
+      <uuid>LOGOSDIS241</uuid>
+      <name>SDIS 24 - Service Departemental d'Incendie et de Secours de la Dordogne</name>
+    </source>
+    <source>
+      <uuid>LOGOSDIS331</uuid>
+      <name>SDIS 33 - Service Departemental d'Incendie et de Secours de la Gironde</name>
+    </source>
+    <source>
+      <uuid>LOGOSDIS401</uuid>
+      <name>SDIS 40 - Service departemental d'Incendie et de Secours des Landes</name>
+    </source>
+    <source>
+      <uuid>LOGOSDIS471</uuid>
+      <name>SDIS 47 - Service Departemental d'Incendie et de Secours du Lot-et-Garonne</name>
+    </source>
+    <source>
+      <uuid>LOGOSDIS64</uuid>
+      <name>SDIS 64 - Service Departemental d'Incendie et de Secours des Pyrenees-Atlantiques</name>
+    </source>
+    <source>
+      <uuid>ARPOCABE</uuid>
+      <name>SI ARPOCABE - Syndicat Intercommunal de l'ARPOCABE (Arbanats, Portets, Castres-Gironde, Beautiran)</name>
+    </source>
+    <source>
+      <uuid>SIBV2C</uuid>
+      <name>SI BV2C -Syndicat Intercommunal des Bassins Versant de la Couze et du Couzeau</name>
+    </source>
+    <source>
+      <uuid>CAPOAR</uuid>
+      <name>SI CAPOAR - Syndicat du réseau d'assainissement des communes de Castres, Portet et Arbanats</name>
+    </source>
+    <source>
+      <uuid>SI_LEOCAD</uuid>
+      <name>SI LEOCAD - Syndicat Intercommunal d'eau Potable de Léognan Cadaujac</name>
+    </source>
+    <source>
+      <uuid>SIAEP_LALINDE</uuid>
+      <name>SIAEP LALINDE - Syndicat Intercommunal d'Alimentation en Eau Potable de Lalinde</name>
+    </source>
+    <source>
+      <uuid>SIAEPLG</uuid>
+      <name>SIAEP Luy et Gabas - Syndicat Intercommunal d'Alimentation en Eau Potable de la Région de Luy et Gabas</name>
+    </source>
+    <source>
+      <uuid>SIAEPA_SAINTSELVE</uuid>
+      <name>SIAEPA SAINT SELVE - Syndicat Intercommunal d'Alimentation en Eau Potable de la Commune de Saint-Selve</name>
+    </source>
+    <source>
+      <uuid>SIBA</uuid>
+      <name>SIBA - Syndicat Intercommunal du Bassin d'Arcachon</name>
+    </source>
+    <source>
+      <uuid>SIEPA_LABREDE</uuid>
+      <name>SIEPA LA BREDE - Syndicat Intercommunal d'Alimentation en Eau Potable de la Commune de La Brède</name>
+    </source>
+    <source>
+      <uuid>SIRTAQUI2</uuid>
+      <name>SIRTAQUI - Système d'Information Régional Touristique d'AQUItaine du Comité Régional du Tourisme d'Aquitaine (CRTA)</name>
+    </source>
+    <source>
+      <uuid>SITAFCAST</uuid>
+      <name>SITAF Castillon - Syndicat Intercommunal de Travaux d Ameliorations Foncieres de Castillon la Bataille</name>
+    </source>
+    <source>
+      <uuid>SMAVBC</uuid>
+      <name>SMAVBC - Syndicat Mixte d'Amenagement du Bassin Versant du Ciron</name>
+    </source>
+    <source>
+      <uuid>SMAVLOT</uuid>
+      <name>SMAVLOT - Pays de la Vallée du Lot</name>
+    </source>
+    <source>
+      <uuid>SMEAP</uuid>
+      <name>SMEA PAYS RIBERACOIS - Syndicat Mixte d'Etudes et d'Aménagements du Pays Ribéracois</name>
+    </source>
+    <source>
+      <uuid>SMEAG1</uuid>
+      <name>SMEAG - Syndicat Mixte Etudes Amenagement Garonne</name>
+    </source>
+    <source>
+      <uuid>SMGP</uuid>
+      <name>SMGP - Syndicat Mixte du Grand Pau</name>
+    </source>
+    <source>
+      <uuid>SNIA5</uuid>
+      <name>SNIA - Service national d'ingénierie aéroportuaire</name>
+    </source>
+    <source>
+      <uuid>SYBARVAL</uuid>
+      <name>SYBARVAL - Syndicat Mixte du Bassin d'Arcachon et du Val de l'Eyre</name>
+    </source>
+    <source>
+      <uuid>GRECHEZ</uuid>
+      <name>SYNDICAT GRECHEZ - Syndicat de Gréchez</name>
+    </source>
+    <source>
+      <uuid>SYSDAU1</uuid>
+      <name>SYSDAU - Syndicat Mixte du SCoT de l'Aire Métropolitaine Bordelaise</name>
+    </source>
+    <source>
+      <uuid>404f0ae9-4fa1-4458-af4d-7b7613e147de</uuid>
+      <name>Sandre</name>
+    </source>
+    <source>
+      <uuid>TIGF</uuid>
+      <name>TIGF - Transport et Infrastructures Gaz France</name>
+    </source>
+    <source>
+      <uuid>OT_MONTESQUIEU</uuid>
+      <name>TOURISME de Montesquieu - Office du Tourisme de Montesquieu</name>
+    </source>
+    <source>
+      <uuid>UNIV_BDX3</uuid>
+      <name>UNIV BDX 3 - Université de Bordeaux Montaigne</name>
+    </source>
+    <source>
+      <uuid>b948f6ac-2f3b-41f6-b5b7-ae1627bc7acf</uuid>
+      <name>eaufrance</name>
+    </source>
+    <source>
+      <uuid>c91536be-8497-46f4-9608-b1a8d2c52e89</uuid>
+      <name>nafu geoclip</name>
+    </source>
+    <source>
+      <uuid>03b6d2e1-5128-4917-b06c-501471d38fb3</uuid>
+      <name>oca</name>
+    </source>
+  </sources>
+</info>
