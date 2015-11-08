@@ -74,4 +74,17 @@ class CapabilitiesTest {
         assertTrue(capInfo.layers.first().boundingBoxes.find { it.crs == "EPSG:4326" }.miny == "-180.0" )
         assertTrue(capInfo.layers.first().boundingBoxes.find { it.crs == "EPSG:4326" }.maxx == "90.0" )
     }
+    
+    @Test
+    void testParentLayer() {
+        def getCapResp = this.getClass().getResource("sdi-geor.getcap.xml")
+        def capInfo = Capabilities.mapFromDocument(getCapResp.toString())
+        def testedLayer =  capInfo.layers.get(0).layers.get(0)
+        def rootLayer = capInfo.layers.get(0)
+
+        assertTrue(testedLayer.name == "dem:altitude")
+        assertTrue(testedLayer.parentLayer != null)
+        assertTrue(testedLayer.parentLayer.title == "geOrchestra Web Map Service")
+        assertTrue(rootLayer == testedLayer.parentLayer)
+    }
 }

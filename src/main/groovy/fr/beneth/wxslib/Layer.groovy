@@ -75,7 +75,7 @@ class Layer {
 
 		xml.children().each { child ->
 			if (child.name() == "Layer") {
-				l.layers << Layer.mapFromXmlFragment(child)
+				l.layers << Layer.mapFromXmlFragment(child, l)
 			} else if (child.name() == "Style") {
 				l.styles << Style.mapFromXmlFragment(child)
 			} else if (child.name() == "MetadataURL") {
