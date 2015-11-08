@@ -30,5 +30,6 @@ public class InstanceTest {
         def georInst = instances.find { it.title == "geOrchestra" }
         assertTrue(georInst != null)
         assertTrue(georInst._abstract ==~ /.*SDI demo.*/)
+        assertTrue(georInst.lat != 0.0 && georInst.lon != 0.0)
     }
 }

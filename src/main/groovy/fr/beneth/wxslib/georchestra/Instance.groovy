@@ -8,10 +8,13 @@ public class Instance {
 
     String title, url, logo_url, _abstract
     boolean isPublic, isInProduction
+    
+    float lat,lon
 
     static ArrayList<Instance> loadGeorchestraInstances() {
         def xmlData = new XmlSlurper().parse(SDI_LIST_ENDPOINT)
-        xmlData.declareNamespace([geor: "http://sdi.georchestra.org/geor"])
+        xmlData.declareNamespace('geor': 'http://sdi.georchestra.org/geor',
+                                 'gml': 'http://www.opengis.net/gml/3.2')
         def instances = new ArrayList<Instance>()
         xmlData.children().each { wfsMember ->
             def curInst =  new Instance()
@@ -22,6 +25,17 @@ public class Instance {
             curInst._abstract = wfsMember.'geor:sdi'.'geor:abstract'
             curInst.isPublic = wfsMember.'geor:sdi'.'geor:is_public' == "true"
             curInst.isInProduction = wfsMember.'geor:sdi'.'geor:is_production' == "true"
+
+            try {
+                def pos = wfsMember.'geor:sdi'.'geor:the_geom'.'gml:MultiPoint'.'gml:pointMember'.
+                        'gml:Point'.'gml:pos'.text()
+                def ll = pos.split(" ")
+                curInst.lat = Float.parseFloat(ll[0])
+                curInst.lon = Float.parseFloat(ll[1])
+            } catch (Exception e) {
+              curInst.lat = 0.0
+              curInst.lon = 0.0
+            }
             instances << curInst
         }
         return instances
