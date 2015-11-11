@@ -1,0 +1,1437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response from="1" to="32" selected="0">
+  <summary count="32" type="local">
+    <inspireThemes>
+      <inspireTheme count="1" name="Production and industrial facilities" />
+      <inspireTheme count="1" name="Protected sites" />
+      <inspireTheme count="1" name="Usage des sols" />
+    </inspireThemes>
+    <metadataPOCs>
+      <metadataPOC count="13" name="PIGMA" />
+      <metadataPOC count="1" name="OpenStreetMap France" />
+      <metadataPOC count="1" name="Camptocamp" />
+      <metadataPOC count="1" name="Agence d'Urbanisme et de Développement Intercommunal de l'Agglomération Rennaise (AUDIAR)" />
+      <metadataPOC count="1" name="Geoscience Australia" />
+      <metadataPOC count="1" name="FAO - NRCW" />
+      <metadataPOC count="1" name="Geoffrey's Tube Australia" />
+      <metadataPOC count="1" name="Department of Sustainability and Environment (DSE)" />
+    </metadataPOCs>
+    <spatialRepresentationTypes>
+      <spatialRepresentationType count="14" name="vector" label="Vecteur" />
+    </spatialRepresentationTypes>
+    <keywords>
+      <keyword count="12" name="society" />
+      <keyword count="6" name="features" />
+      <keyword count="5" name="boundaries" />
+      <keyword count="4" name="World" />
+      <keyword count="2" name="GEOSERVER" />
+      <keyword count="2" name="WMS" />
+      <keyword count="2" name="WFS" />
+      <keyword count="1" name="zpens33parcelles" />
+      <keyword count="1" name="step_33_2013" />
+      <keyword count="1" name="ens_cg33_parcelles" />
+      <keyword count="1" name="rd805_emprise" />
+      <keyword count="1" name="piste_cycl_33" />
+      <keyword count="1" name="Production and industrial facilities" />
+      <keyword count="1" name="Protected sites" />
+      <keyword count="1" name="classification de l'usage des sols" />
+    </keywords>
+    <createDateYears>
+      <createDateYear count="13" name="2015" />
+      <createDateYear count="1" name="2011" />
+      <createDateYear count="1" name="2010" />
+      <createDateYear count="1" name="2008" />
+      <createDateYear count="1" name="2007" />
+      <createDateYear count="1" name="2000" />
+    </createDateYears>
+    <denominators>
+      <denominator count="1" name="5000000" />
+      <denominator count="2" name="25000" />
+      <denominator count="1" name="0" />
+    </denominators>
+    <types>
+      <type count="27" name="dataset" label="Jeu de données" />
+      <type count="3" name="service" label="Service" />
+      <type count="1" name="mapDigital" />
+      <type count="1" name="collectionSession" label="Collection de session" />
+    </types>
+    <serviceTypes>
+      <serviceType count="2" name="OGC:WMS" />
+      <serviceType count="1" name="ISO 23950 gateway" />
+    </serviceTypes>
+    <orgNames>
+      <orgName count="13" name="PIGMA" />
+      <orgName count="1" name="OpenStreetMap France" />
+      <orgName count="1" name="Rennes Métropole" />
+      <orgName count="1" name="Agence d'Urbanisme et de Développement Intercommunal de l'Agglomération Rennaise (AUDIAR)" />
+      <orgName count="1" name="Department of Sustainability and Environment (DSE)" />
+    </orgNames>
+  </summary>
+  <metadata>
+    <title>CG33 - ZPENS Parcelles</title>
+    <popularity>97</popularity>
+    <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+    <owner>4</owner>
+    <link>cg33:zpens33parcelles|CG33 - ZPENS Parcelles|http://ids.pigma.org/geoserver/cg33/wms?SERVICE=WMS&amp;|OGC:WMS-1.1.1-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>cg33:zpens33parcelles|CG33 - ZPENS Parcelles|../../srv/en/google.kml?uuid=84c5c599aa98e3b265c795c62ba129beaa538c91&amp;layers=cg33:zpens33parcelles|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>A boring default style (LegendURL)||http://ids.pigma.org/geoserver/cg33/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=zpens33parcelles|image/png|image/png</link>
+    <responsibleParty>pointOfContact|resource|PIGMA||</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|PIGMA|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>Zone de préemption Espaces Naturels Sensibles</abstract>
+    <keyword>features</keyword>
+    <keyword>zpens33parcelles</keyword>
+    <keyword>society</keyword>
+    <image>overview|http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=84c5c599aa98e3b265c795c62ba129beaa538c91&amp;fname=84c5c599aa98e3b265c795c62ba129beaa538c91.png</image>
+    <geoBox>-1.331882314910667|44.31548531362765|-0.1890185808174153|45.59023982205088</geoBox>
+    <isHarvested>y</isHarvested>
+    <language>fre</language>
+    <defaultTitle>CG33 - ZPENS Parcelles</defaultTitle>
+    <docLocale>fre</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>10201</id>
+      <uuid>84c5c599aa98e3b265c795c62ba129beaa538c91</uuid>
+      <schema>iso19139</schema>
+      <createDate>2015-07-23T17:18:01</createDate>
+      <changeDate>2015-07-23T17:18:23</changeDate>
+      <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>CG33 - Stations d'épuration</title>
+    <popularity>91</popularity>
+    <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+    <owner>4</owner>
+    <link>cg33:step_33_2013|CG33 - Stations d'épuration|http://ids.pigma.org/geoserver/cg33/wms?SERVICE=WMS&amp;|OGC:WMS-1.1.1-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>cg33:step_33_2013|CG33 - Stations d'épuration|../../srv/en/google.kml?uuid=1bfc166d1dc62ac27c4ba1d8ac71a27db5fcf284&amp;layers=cg33:step_33_2013|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>A boring default style (LegendURL)||http://ids.pigma.org/geoserver/cg33/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=step_33_2013|image/png|image/png</link>
+    <responsibleParty>pointOfContact|resource|PIGMA||</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|PIGMA|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>Stations d'épuration de Gironde</abstract>
+    <keyword>features</keyword>
+    <keyword>step_33_2013</keyword>
+    <keyword>society</keyword>
+    <image>overview|http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=1bfc166d1dc62ac27c4ba1d8ac71a27db5fcf284&amp;fname=1bfc166d1dc62ac27c4ba1d8ac71a27db5fcf284.png</image>
+    <geoBox>-1.245366135529689|44.264322730781714|0.2828711279379005|45.58019045389496</geoBox>
+    <isHarvested>y</isHarvested>
+    <language>fre</language>
+    <defaultTitle>CG33 - Stations d'épuration</defaultTitle>
+    <docLocale>fre</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>10200</id>
+      <uuid>1bfc166d1dc62ac27c4ba1d8ac71a27db5fcf284</uuid>
+      <schema>iso19139</schema>
+      <createDate>2015-07-23T17:18:00</createDate>
+      <changeDate>2015-07-23T17:18:22</changeDate>
+      <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>CG33 - ENS Parcelles</title>
+    <popularity>84</popularity>
+    <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+    <owner>4</owner>
+    <link>cg33:ens_cg33_parcelles|CG33 - ENS Parcelles|http://ids.pigma.org/geoserver/cg33/wms?SERVICE=WMS&amp;|OGC:WMS-1.1.1-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>cg33:ens_cg33_parcelles|CG33 - ENS Parcelles|../../srv/en/google.kml?uuid=55eb9fb3e5deda0de9a57f3ea041b835585f8f9e&amp;layers=cg33:ens_cg33_parcelles|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>A boring default style (LegendURL)||http://ids.pigma.org/geoserver/cg33/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=ens_cg33_parcelles|image/png|image/png</link>
+    <responsibleParty>pointOfContact|resource|PIGMA||</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|PIGMA|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>Parcelles des Espaces Naturels Sensibles du Conseil Général de la Gironde</abstract>
+    <keyword>ens_cg33_parcelles</keyword>
+    <keyword>features</keyword>
+    <keyword>society</keyword>
+    <image>overview|http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=55eb9fb3e5deda0de9a57f3ea041b835585f8f9e&amp;fname=55eb9fb3e5deda0de9a57f3ea041b835585f8f9e.png</image>
+    <geoBox>-1.3009286820796955|44.332244153280136|-0.1492613154433664|45.591436802072536</geoBox>
+    <isHarvested>y</isHarvested>
+    <language>fre</language>
+    <defaultTitle>CG33 - ENS Parcelles</defaultTitle>
+    <docLocale>fre</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>10199</id>
+      <uuid>55eb9fb3e5deda0de9a57f3ea041b835585f8f9e</uuid>
+      <schema>iso19139</schema>
+      <createDate>2015-07-23T17:17:59</createDate>
+      <changeDate>2015-07-23T17:18:18</changeDate>
+      <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>CG 33 - Piste cyclable RD805 Hostens-Labrede</title>
+    <popularity>84</popularity>
+    <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+    <owner>4</owner>
+    <link>cg33:cg33_rd805_Hostens_Labrede|CG 33 - Piste cyclable RD805 Hostens-Labrede|http://ids.pigma.org/geoserver/cg33/wms?SERVICE=WMS&amp;|OGC:WMS-1.1.1-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>cg33:cg33_rd805_Hostens_Labrede|CG 33 - Piste cyclable RD805 Hostens-Labrede|../../srv/en/google.kml?uuid=87cdafb9d17ef8742ed70d6eca8a0b232cc4190e&amp;layers=cg33:cg33_rd805_Hostens_Labrede|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>cg33:cg33_rd805_Hostens_Labrede (MetadataURL)||https://ids.pigma.org/geonetwork/apps/georchestra/?uuid=fbafc9e1-06fb-4bb9-91ff-8fc129390a0b|text/plain|text/plain</link>
+    <link>A boring default style (LegendURL)||http://ids.pigma.org/geoserver/cg33/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=cg33_rd805_Hostens_Labrede|image/png|image/png</link>
+    <responsibleParty>pointOfContact|resource|PIGMA||</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|PIGMA|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>Piste cyclable RD805 Hostens-Labrede</abstract>
+    <keyword>features</keyword>
+    <keyword>rd805_emprise</keyword>
+    <keyword>society</keyword>
+    <image>overview|http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=87cdafb9d17ef8742ed70d6eca8a0b232cc4190e&amp;fname=87cdafb9d17ef8742ed70d6eca8a0b232cc4190e.png</image>
+    <geoBox>-0.6748466728205095|44.49188038926143|-0.5105121786998438|44.6807434254884</geoBox>
+    <isHarvested>y</isHarvested>
+    <language>fre</language>
+    <defaultTitle>CG 33 - Piste cyclable RD805 Hostens-Labrede</defaultTitle>
+    <docLocale>fre</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>10198</id>
+      <uuid>87cdafb9d17ef8742ed70d6eca8a0b232cc4190e</uuid>
+      <schema>iso19139</schema>
+      <createDate>2015-07-23T17:17:59</createDate>
+      <changeDate>2015-07-23T17:18:18</changeDate>
+      <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>CG33 - Arrêts de bus lignes Transgironde</title>
+    <popularity>89</popularity>
+    <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+    <owner>4</owner>
+    <link>cg33:cg33_pt_arrets_lr|CG33 - Arrêts de bus lignes Transgironde|http://ids.pigma.org/geoserver/cg33/wms?SERVICE=WMS&amp;|OGC:WMS-1.1.1-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>cg33:cg33_pt_arrets_lr|CG33 - Arrêts de bus lignes Transgironde|../../srv/en/google.kml?uuid=caaa7d7dbf11d5bce67d361bc09b64421726cbfb&amp;layers=cg33:cg33_pt_arrets_lr|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>cg33:cg33_pt_arrets_lr (MetadataURL)||http://ids.pigma.org/geonetwork?uuid=5bd0b275-d904-457b-9743-5025f9c310d8|text/plain|text/plain</link>
+    <link>(LegendURL)||http://ids.pigma.org/geoserver/cg33/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=cg33_pt_arrets_lr|image/png|image/png</link>
+    <responsibleParty>pointOfContact|resource|PIGMA||</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|PIGMA|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>Localisation des points d'arrêts des lignes régulières du réseau TransGironde - Conseil Général de la Gironde</abstract>
+    <keyword>society</keyword>
+    <image>overview|http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=caaa7d7dbf11d5bce67d361bc09b64421726cbfb&amp;fname=caaa7d7dbf11d5bce67d361bc09b64421726cbfb.png</image>
+    <geoBox>-1.323|44.25|0.102|45.587</geoBox>
+    <isHarvested>y</isHarvested>
+    <language>fre</language>
+    <defaultTitle>CG33 - Arrêts de bus lignes Transgironde</defaultTitle>
+    <docLocale>fre</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>10197</id>
+      <uuid>caaa7d7dbf11d5bce67d361bc09b64421726cbfb</uuid>
+      <schema>iso19139</schema>
+      <createDate>2015-07-23T17:17:59</createDate>
+      <changeDate>2015-07-23T17:18:17</changeDate>
+      <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>CG 33 - Atelier pistes cyclables</title>
+    <popularity>81</popularity>
+    <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+    <owner>4</owner>
+    <link>cg33:cg33_pistes_cyclables_atelier|CG 33 - Atelier pistes cyclables|http://ids.pigma.org/geoserver/cg33/wms?SERVICE=WMS&amp;|OGC:WMS-1.1.1-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>cg33:cg33_pistes_cyclables_atelier|CG 33 - Atelier pistes cyclables|../../srv/en/google.kml?uuid=262c509f3b5631f550911b4b9ee7923b3de30a9c&amp;layers=cg33:cg33_pistes_cyclables_atelier|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>cg33:cg33_pistes_cyclables_atelier (MetadataURL)||http://ids.pigma.org/geonetwork/apps/georchestra/?uuid=4dc4b80f-5aa1-4122-900c-a1bdcccb2035|text/plain|text/plain</link>
+    <link>(LegendURL)||http://ids.pigma.org/geoserver/cg33/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=cg33_pistes_cyclables_atelier|image/png|image/png</link>
+    <responsibleParty>pointOfContact|resource|PIGMA||</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|PIGMA|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>Pistes cyclables - MAJ Sept 2014</abstract>
+    <keyword>piste_cycl_33</keyword>
+    <keyword>features</keyword>
+    <keyword>society</keyword>
+    <image>overview|http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=262c509f3b5631f550911b4b9ee7923b3de30a9c&amp;fname=262c509f3b5631f550911b4b9ee7923b3de30a9c.png</image>
+    <geoBox>-1.286792666953863|44.39802156978052|0.0230868077348491|45.243886630733</geoBox>
+    <isHarvested>y</isHarvested>
+    <language>fre</language>
+    <defaultTitle>CG 33 - Atelier pistes cyclables</defaultTitle>
+    <docLocale>fre</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>10196</id>
+      <uuid>262c509f3b5631f550911b4b9ee7923b3de30a9c</uuid>
+      <schema>iso19139</schema>
+      <createDate>2015-07-23T17:17:58</createDate>
+      <changeDate>2015-07-23T17:18:16</changeDate>
+      <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>CG33 - Occupation du Sol en Gironde</title>
+    <popularity>97</popularity>
+    <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+    <owner>4</owner>
+    <link>cg33:cg33_ocs2004|CG33 - Occupation du Sol en Gironde|http://ids.pigma.org/geoserver/cg33/wms?SERVICE=WMS&amp;|OGC:WMS-1.1.1-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>cg33:cg33_ocs2004|CG33 - Occupation du Sol en Gironde|../../srv/en/google.kml?uuid=08c2f1fe01b528a684c65de3dbe0fef7128c9922&amp;layers=cg33:cg33_ocs2004|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>cg33:cg33_ocs2004 (MetadataURL)||http://ids.pigma.org/geonetwork?uuid=e7958eae-020a-461d-abfb-d0017d4dd5a8|text/plain|text/plain</link>
+    <link>(LegendURL)||http://ids.pigma.org/geoserver/cg33/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=cg33_ocs2004|image/png|image/png</link>
+    <responsibleParty>pointOfContact|resource|PIGMA||</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|PIGMA|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>Occupation du Sol en Gironde - Conseil Général de la Gironde</abstract>
+    <keyword>society</keyword>
+    <image>overview|http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=08c2f1fe01b528a684c65de3dbe0fef7128c9922&amp;fname=08c2f1fe01b528a684c65de3dbe0fef7128c9922.png</image>
+    <idxMsg>GNIDX-BADNUMVALUE|denominator|For input string: "79370078740157464576"</idxMsg>
+    <geoBox>-1.334|44.161|0.345|45.614</geoBox>
+    <isHarvested>y</isHarvested>
+    <idxError>1</idxError>
+    <language>fre</language>
+    <defaultTitle>CG33 - Occupation du Sol en Gironde</defaultTitle>
+    <docLocale>fre</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>10195</id>
+      <uuid>08c2f1fe01b528a684c65de3dbe0fef7128c9922</uuid>
+      <schema>iso19139</schema>
+      <createDate>2015-07-23T17:17:58</createDate>
+      <changeDate>2015-07-23T17:18:15</changeDate>
+      <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>CG33 - Lignes régulières de transport public TransGironde</title>
+    <popularity>81</popularity>
+    <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+    <owner>4</owner>
+    <link>cg33:cg33_dtt_lr_trangironde|CG33 - Lignes régulières de transport public TransGironde|http://ids.pigma.org/geoserver/cg33/wms?SERVICE=WMS&amp;|OGC:WMS-1.1.1-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>cg33:cg33_dtt_lr_trangironde|CG33 - Lignes régulières de transport public TransGironde|../../srv/en/google.kml?uuid=030bfa4f2bd87f6728b5cfb8c3729a2b97f53a15&amp;layers=cg33:cg33_dtt_lr_trangironde|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>cg33:cg33_dtt_lr_trangironde (MetadataURL)||http://ids.pigma.org/geonetwork?uuid=c27b9f18-531f-4b71-9901-d7e3b3bc73bb|text/plain|text/plain</link>
+    <link>(LegendURL)||http://ids.pigma.org/geoserver/cg33/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=cg33_dtt_lr_trangironde|image/png|image/png</link>
+    <responsibleParty>pointOfContact|resource|PIGMA||</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|PIGMA|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>Lignes régulières de transport public TransGironde - Conseil Général de la Gironde</abstract>
+    <keyword>society</keyword>
+    <image>overview|http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=030bfa4f2bd87f6728b5cfb8c3729a2b97f53a15&amp;fname=030bfa4f2bd87f6728b5cfb8c3729a2b97f53a15.png</image>
+    <geoBox>-1.325|44.25|0.197|45.605</geoBox>
+    <isHarvested>y</isHarvested>
+    <language>fre</language>
+    <defaultTitle>CG33 - Lignes régulières de transport public TransGironde</defaultTitle>
+    <docLocale>fre</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>10194</id>
+      <uuid>030bfa4f2bd87f6728b5cfb8c3729a2b97f53a15</uuid>
+      <schema>iso19139</schema>
+      <createDate>2015-07-23T17:17:58</createDate>
+      <changeDate>2015-07-23T17:18:04</changeDate>
+      <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>CG33 - Périmètres des secteurs de recrutements des collèges publics de Gironde</title>
+    <popularity>82</popularity>
+    <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+    <owner>4</owner>
+    <link>cg33:cg33_drt_secteurs_colleges|CG33 - Périmètres des secteurs de recrutements des collèges publics de Gironde|http://ids.pigma.org/geoserver/cg33/wms?SERVICE=WMS&amp;|OGC:WMS-1.1.1-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>cg33:cg33_drt_secteurs_colleges|CG33 - Périmètres des secteurs de recrutements des collèges publics de Gironde|../../srv/en/google.kml?uuid=0c97e6d6bf0fff9c6eb07dc6971bf4450680c2b5&amp;layers=cg33:cg33_drt_secteurs_colleges|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>cg33:cg33_drt_secteurs_colleges (MetadataURL)||http://ids.pigma.org/geonetwork?uuid=57e6395d-4fb8-4f24-9684-a8ba3461eec6|text/plain|text/plain</link>
+    <link>(LegendURL)||http://ids.pigma.org/geoserver/cg33/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=cg33_drt_secteurs_colleges|image/png|image/png</link>
+    <responsibleParty>pointOfContact|resource|PIGMA||</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|PIGMA|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>Périmètres des secteurs de recrutements des collèges publics de Gironde - Conseil Général de la Gironde</abstract>
+    <keyword>society</keyword>
+    <image>overview|http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=0c97e6d6bf0fff9c6eb07dc6971bf4450680c2b5&amp;fname=0c97e6d6bf0fff9c6eb07dc6971bf4450680c2b5.png</image>
+    <geoBox>-1.328|44.171|0.344|45.484</geoBox>
+    <isHarvested>y</isHarvested>
+    <language>fre</language>
+    <defaultTitle>CG33 - Périmètres des secteurs de recrutements des collèges publics de Gironde</defaultTitle>
+    <docLocale>fre</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>10193</id>
+      <uuid>0c97e6d6bf0fff9c6eb07dc6971bf4450680c2b5</uuid>
+      <schema>iso19139</schema>
+      <createDate>2015-07-23T17:17:57</createDate>
+      <changeDate>2015-07-23T17:18:03</changeDate>
+      <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>CG33 - Collèges publics</title>
+    <popularity>86</popularity>
+    <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+    <owner>4</owner>
+    <link>cg33:cg33_drt_coll_pub|CG33 - Collèges publics|http://ids.pigma.org/geoserver/cg33/wms?SERVICE=WMS&amp;|OGC:WMS-1.1.1-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>cg33:cg33_drt_coll_pub|CG33 - Collèges publics|../../srv/en/google.kml?uuid=1b76aae8116774df2d44e507e1bbde318508109c&amp;layers=cg33:cg33_drt_coll_pub|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>cg33:cg33_drt_coll_pub (MetadataURL)||http://ids.pigma.org/geonetwork?uuid=bb4d0851-4701-4164-b0a0-8b65378bf95a|text/plain|text/plain</link>
+    <link>(LegendURL)||http://ids.pigma.org/geoserver/cg33/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=cg33_drt_coll_pub|image/png|image/png</link>
+    <responsibleParty>pointOfContact|resource|PIGMA||</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|PIGMA|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>Collèges publics - Conseil Général de la Gironde</abstract>
+    <keyword>society</keyword>
+    <image>overview|http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=1b76aae8116774df2d44e507e1bbde318508109c&amp;fname=1b76aae8116774df2d44e507e1bbde318508109c.png</image>
+    <geoBox>-1.209|44.397|0.223|45.334</geoBox>
+    <isHarvested>y</isHarvested>
+    <language>fre</language>
+    <defaultTitle>CG33 - Collèges publics</defaultTitle>
+    <docLocale>fre</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>10192</id>
+      <uuid>1b76aae8116774df2d44e507e1bbde318508109c</uuid>
+      <schema>iso19139</schema>
+      <createDate>2015-07-23T17:17:57</createDate>
+      <changeDate>2015-07-23T17:18:03</changeDate>
+      <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>CG33 - Cantons</title>
+    <popularity>8</popularity>
+    <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+    <owner>4</owner>
+    <link>cg33:cg33_cantons|CG33 - Cantons|http://ids.pigma.org/geoserver/cg33/wms?SERVICE=WMS&amp;|OGC:WMS-1.1.1-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>cg33:cg33_cantons|CG33 - Cantons|../../srv/en/google.kml?uuid=85cd7fda08ac9fd3ba46f27f49930e1750ea182b&amp;layers=cg33:cg33_cantons|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>(LegendURL)||http://ids.pigma.org/geoserver/cg33/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=cg33_cantons|image/png|image/png</link>
+    <responsibleParty>pointOfContact|resource|PIGMA||</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|PIGMA|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <keyword>features</keyword>
+    <keyword>cantons</keyword>
+    <keyword>society</keyword>
+    <image>overview|http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=85cd7fda08ac9fd3ba46f27f49930e1750ea182b&amp;fname=85cd7fda08ac9fd3ba46f27f49930e1750ea182b.png</image>
+    <geoBox>-1.3386750534280885|44.161043468676354|0.3451427820760405|45.61403407780283</geoBox>
+    <isHarvested>y</isHarvested>
+    <language>fre</language>
+    <defaultTitle>CG33 - Cantons</defaultTitle>
+    <docLocale>fre</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>10190</id>
+      <uuid>85cd7fda08ac9fd3ba46f27f49930e1750ea182b</uuid>
+      <schema>iso19139</schema>
+      <createDate>2015-07-23T17:17:56</createDate>
+      <changeDate>2015-07-23T17:18:02</changeDate>
+      <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>CG33 - Enveloppe des carrières du département</title>
+    <popularity>14</popularity>
+    <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+    <owner>4</owner>
+    <link>cg33:cg33_di_env_carst|CG33 - Enveloppe des carrières du département|http://ids.pigma.org/geoserver/cg33/wms?SERVICE=WMS&amp;|OGC:WMS-1.1.1-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>cg33:cg33_di_env_carst|CG33 - Enveloppe des carrières du département|../../srv/en/google.kml?uuid=dc1fab5be28c26e3355895ecd5b9ba300649474a&amp;layers=cg33:cg33_di_env_carst|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>cg33:cg33_di_env_carst (MetadataURL)||http://ids.pigma.org/geonetwork?uuid=51803274-d18d-430c-a12f-b4d157a55d5a|text/plain|text/plain</link>
+    <link>(LegendURL)||http://ids.pigma.org/geoserver/cg33/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=cg33_di_env_carst|image/png|image/png</link>
+    <responsibleParty>pointOfContact|resource|PIGMA||</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|PIGMA|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <abstract>Enveloppe des carrières du département - Conseil Général de la Gironde</abstract>
+    <keyword>society</keyword>
+    <image>overview|http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=dc1fab5be28c26e3355895ecd5b9ba300649474a&amp;fname=dc1fab5be28c26e3355895ecd5b9ba300649474a.png</image>
+    <geoBox>-0.814|44.411|0.062|45.308</geoBox>
+    <isHarvested>y</isHarvested>
+    <language>fre</language>
+    <defaultTitle>CG33 - Enveloppe des carrières du département</defaultTitle>
+    <docLocale>fre</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>10191</id>
+      <uuid>dc1fab5be28c26e3355895ecd5b9ba300649474a</uuid>
+      <schema>iso19139</schema>
+      <createDate>2015-07-23T17:17:57</createDate>
+      <changeDate>2015-07-23T17:18:02</changeDate>
+      <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Service WMS de l'IDS régionale PIGMA</title>
+    <popularity>17</popularity>
+    <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+    <owner>4</owner>
+    <link>|http://ids.pigma.org/geoserver/cg33/wms?SERVICE=WMS&amp; http://ids.pigma.org/geoserver/cg33/wms?SERVICE=WMS&amp;|http://ids.pigma.org/geoserver/cg33/wms?SERVICE=WMS&amp;|application/vnd.ogc.wms_xml|application/vnd.ogc.wms_xml</link>
+    <responsibleParty>pointOfContact|resource|PIGMA||</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|PIGMA|</responsibleParty>
+    <type>service</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>otherResources</category>
+    <abstract>Service WMS de l'IDS régionale PIGMA</abstract>
+    <keyword>WFS</keyword>
+    <keyword>WMS</keyword>
+    <keyword>GEOSERVER</keyword>
+    <serviceType>OGC:WMS</serviceType>
+    <geoBox>-1.3386750534280885|44.161|0.3451427820760405|45.61403407780283</geoBox>
+    <isHarvested>y</isHarvested>
+    <language>fre</language>
+    <defaultTitle>Service WMS de l'IDS régionale PIGMA</defaultTitle>
+    <docLocale>fre</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>10202</id>
+      <uuid>f3fae26ef666d35cc15b39e931ec228efee30f3e</uuid>
+      <schema>iso19139</schema>
+      <createDate>2015-07-23T17:18:01</createDate>
+      <changeDate>2015-07-23T17:18:01</changeDate>
+      <source>529a3565-f277-4808-bd8d-b7b75b3616d1</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <popularity>38</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>19</owner>
+    <Constraints>copyright</Constraints>
+    <link>armoires-fo|Recensement des armoires de rue du réseau de fibre optique de l'agglomération Chambérienne|http://sdi.georchestra.org/geoserver/pmauduit_test/wms?SERVICE=WMS|OGC:WMS|application/vnd.ogc.wms_xml</link>
+    <responsibleParty>author|resource|OpenStreetMap France||pierre.mauduit@gmail.com</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|OpenStreetMap France|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>pmauduit|Pierre|MAUDUIT|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <valid_schematron-rules-iso>0</valid_schematron-rules-iso>
+    <isTemplate>n</isTemplate>
+    <valid>0</valid>
+    <rating>0</rating>
+    <Constraints>License du projet OpenStreetMap (OdbL)</Constraints>
+    <title>Recensement des armoires de rues du réseau de fibres optiques sur l'agglomération de Chambéry</title>
+    <abstract>Recensement des armoires de réseau de fibres optiques sur la métropole Chambérienne. Le déploiement horizontal de la métropole est assuré par Orange.
+
+Le relevé a eu lieu en mai 2015 dans le cadre de l'enrichissement des données du projet OpenStreetMap.</abstract>
+    <valid_schematron-rules-geonetwork>1</valid_schematron-rules-geonetwork>
+    <keyword>World</keyword>
+    <keyword>Production and industrial facilities</keyword>
+    <keyword>boundaries</keyword>
+    <image>thumbnail|http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=22a81c1a-59e4-4e8e-a97b-ea1f94e84325&amp;fname=fo_s.png</image>
+    <image>overview|http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=22a81c1a-59e4-4e8e-a97b-ea1f94e84325&amp;fname=fo.png</image>
+    <datasetLang>fre</datasetLang>
+    <geoBox>5.906687414932112|45.55889114881522|5.945654547495047|45.57739784350508</geoBox>
+    <isHarvested>n</isHarvested>
+    <spatialRepresentationType>vector</spatialRepresentationType>
+    <valid_xsd>0</valid_xsd>
+    <language>eng</language>
+    <defaultTitle>Recensement des armoires de rues du réseau de fibres optiques sur l'agglomération de Chambéry</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>10139</id>
+      <uuid>22a81c1a-59e4-4e8e-a97b-ea1f94e84325</uuid>
+      <schema>iso19139</schema>
+      <createDate>2015-05-09T19:45:59</createDate>
+      <changeDate>2015-05-09T20:17:27</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>true</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <published>true</published>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <popularity>131</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>19</owner>
+    <link>dem:altitude|Altitude : color and shaded relief|http://sdi.georchestra.org/geoserver/gwc/service/wms|OGC:WMS-1.1.1-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>dem:altitude|Altitude : color and shaded relief|../../srv/en/google.kml?uuid=&amp;layers=dem:altitude|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>craquitaine:craquitaine_lycees|CR Aquitaine - Lycées|http://ids.pigma.org/geoserver/craquitaine/ows?SERVICE=WMS&amp;|OGC:WMS-1.3.0-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>craquitaine:craquitaine_lycees|CR Aquitaine - Lycées|../../srv/en/google.kml?uuid=&amp;layers=craquitaine:craquitaine_lycees|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <link>Lycées en Aquitaine|Lycées en Aquitaine|http://sdi.georchestra.org/mapfishapp/ws/wmc/geodoc8f864f1879efc7fa579cb920dee7e07c.wmc|OGC:WMC|OGC:WMC</link>
+    <link>Lycées en Aquitaine|Lycées en Aquitaine|http://sdi.georchestra.org/mapfishapp/ws/wmc/geodoc8f864f1879efc7fa579cb920dee7e07c.wmc|application/vnd.ogc.wmc|application/vnd.ogc.wmc</link>
+    <link>Lycées en Aquitaine|Lycées en Aquitaine|http://sdi.georchestra.org/mapfishapp/?wmc=http%3A%2F%2Fsdi.georchestra.org%2Fmapfishapp%2Fws%2Fwmc%2Fgeodoc8f864f1879efc7fa579cb920dee7e07c.wmc|WWW:LINK-1.0-http--link|text/html</link>
+    <link>Lycées en Aquitaine|Lycées en Aquitaine|http://sdi.georchestra.org/mapfishapp/?wmc=http%3A%2F%2Fsdi.georchestra.org%2Fmapfishapp%2Fws%2Fwmc%2Fgeodoc8f864f1879efc7fa579cb920dee7e07c.wmc|application/vnd.ogc.wmc|application/vnd.ogc.wmc</link>
+    <responsibleParty>author|metadata|Camptocamp|</responsibleParty>
+    <type>mapDigital</type>
+    <userinfo>pmauduit|Pierre|MAUDUIT|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <title>Lycées en Aquitaine</title>
+    <abstract>Lycées en Aquitaine</abstract>
+    <keyword>location</keyword>
+    <datasetLang>$lang</datasetLang>
+    <geoBox>-4.078557128906254|42.79295385548132|3.4635571289062828|45.85708991457885</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Lycées en Aquitaine</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>8481</id>
+      <uuid>7739fa87-1aea-4d85-a44f-ac2278054ec0</uuid>
+      <schema>iso19139</schema>
+      <createDate>2014-11-24T15:17:57</createDate>
+      <changeDate>2014-11-24T15:17:57</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>true</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <popularity>175</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>4</owner>
+    <link>archive issue du service WFS||http://sdi.georchestra.org/geoserver/ows?service=wfs&amp;request=GetFeature&amp;typename=geor:menhirs&amp;outputFormat=SHAPE-ZIP|WWW:LINK-1.0-http--link|text/html</link>
+    <link>||http://sdi.georchestra.org/geonetwork/srv/eng/resources.get?uuid=aec35275-3f2f-4742-9e89-435a508ca3b6&amp;fname=&amp;access=private|WWW:DOWNLOAD-1.0-http--download|WWW:DOWNLOAD-1.0-http--download</link>
+    <link>geor:menhirs|Couche OGC|http://sdi.georchestra.org/geoserver/ows|OGC:WMS-1.1.1-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>geor:menhirs|Couche OGC|../../srv/en/google.kml?uuid=aec35275-3f2f-4742-9e89-435a508ca3b6&amp;layers=geor:menhirs|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <responsibleParty>originator|resource|||michel.matheron@free.fr</responsibleParty>
+    <responsibleParty>pointOfContact|metadata||</responsibleParty>
+    <type>dataset</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <title>Menhirs en France</title>
+    <abstract>Base de données constituée dans les années 2000 par des relevés terrain, essentiellement dans le sud de la France.</abstract>
+    <keyword>Protected sites</keyword>
+    <keyword>geoscientificInformation</keyword>
+    <image>thumbnail|http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=aec35275-3f2f-4742-9e89-435a508ca3b6&amp;fname=Capture_du_2014-11-18_232255_s.png</image>
+    <image>overview|http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=aec35275-3f2f-4742-9e89-435a508ca3b6&amp;fname=Capture_du_2014-11-18_232255.png</image>
+    <datasetLang>fre</datasetLang>
+    <geoBox>-7.016452251888181|41.04519323023766|11.440578995542388|51.78059594336587</geoBox>
+    <isHarvested>n</isHarvested>
+    <spatialRepresentationType>vector</spatialRepresentationType>
+    <language>eng</language>
+    <defaultTitle>Menhirs en France</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>8422</id>
+      <uuid>aec35275-3f2f-4742-9e89-435a508ca3b6</uuid>
+      <schema>iso19139</schema>
+      <createDate>2014-11-18T23:20:34</createDate>
+      <changeDate>2014-11-18T23:48:48</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <published>true</published>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <popularity>242</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>4</owner>
+    <link>gn:gboundaries|Country boundaries|http://localhost:8080/geoserver/wms?SERVICE=WMS|OGC:WMS-1.1.1-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>gn:gboundaries|Country boundaries|../../srv/en/google.kml?uuid=9faefbe6-c271-4e11-9539-fbc232e89dfc&amp;layers=gn:gboundaries|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <responsibleParty>pointOfContact|resource|||</responsibleParty>
+    <responsibleParty>pointOfContact|metadata||</responsibleParty>
+    <type>service</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <title>Template for WMS service in ISO19139/119</title>
+    <abstract>The ISO19139/119 metadata standard is the preferred metadata standard
+          to use for services (WMS, WFS, WCS).</abstract>
+    <keyword>WFS</keyword>
+    <keyword>WMS</keyword>
+    <keyword>GEOSERVER</keyword>
+    <keyword>GEONETWORK</keyword>
+    <keyword>OSGeo</keyword>
+    <serviceType>OGC:WMS</serviceType>
+    <geoBox>-180|-90|180|90</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Template for WMS service in ISO19139/119</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>6745</id>
+      <uuid>9faefbe6-c271-4e11-9539-fbc232e89dfc</uuid>
+      <schema>iso19139</schema>
+      <createDate>2014-03-17T23:11:57</createDate>
+      <changeDate>2014-03-17T23:11:57</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <popularity>12</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>5</owner>
+    <Constraints>copyright</Constraints>
+    <link>||http://sdi.georchestra.org/geonetwork/srv/fre/resources.get?uuid=22960667-1999-4dba-8454-dc2f81add61b&amp;fname=&amp;access=private|WWW:DOWNLOAD-1.0-http--download|WWW:DOWNLOAD-1.0-http--download</link>
+    <responsibleParty>originator|resource|||</responsibleParty>
+    <responsibleParty>custodian|resource|Rennes Métropole||</responsibleParty>
+    <responsibleParty>custodian|resource|Rennes Métropole||</responsibleParty>
+    <responsibleParty>principalInvestigator|resource|Rennes Métropole||</responsibleParty>
+    <responsibleParty>principalInvestigator|resource|Rennes Métropole||</responsibleParty>
+    <responsibleParty>pointOfContact|metadata||</responsibleParty>
+    <type>dataset</type>
+    <userinfo>fxprunayre|François Xavier|PRUNAYRE|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <title>Test contact</title>
+    <abstract>The ISO19115 metadata standard is the preferred metadata standard to use. If unsure what templates to start with, use this one.</abstract>
+    <keyword>World</keyword>
+    <keyword>boundaries</keyword>
+    <datasetLang>eng</datasetLang>
+    <geoBox>-180|-90|180|90</geoBox>
+    <isHarvested>n</isHarvested>
+    <spatialRepresentationType>vector</spatialRepresentationType>
+    <language>eng</language>
+    <defaultTitle>Test contact</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>6238</id>
+      <uuid>22960667-1999-4dba-8454-dc2f81add61b</uuid>
+      <schema>iso19139</schema>
+      <createDate>2014-01-20T10:34:11</createDate>
+      <changeDate>2014-01-20T10:35:32</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Synthèse 2011 des POS et des PLU de Rennes Métropole</title>
+    <popularity>111</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>20</owner>
+    <Constraints>otherRestrictions</Constraints>
+    <link>||http://geobretagne.fr/geoserver/audiar/wfs?service=wfs&amp;version=1.0.0&amp;request=getfeature&amp;typename=synthese_pos_plu_rennes_metropole&amp;outputformat=shape-zip|WWW:DOWNLOAD-1.0-http--download|WWW:DOWNLOAD-1.0-http--download</link>
+    <link>||file:///chemin_vers_le_lyr.lyr|FILE:GEO|FILE:GEO</link>
+    <link>||postgis-bdu:bdu:shema:couche|DB:POSTGIS|DB:POSTGIS</link>
+    <link>synthese_pos_plu_rennes_metropole|Synthèse 2011 des POS et des PLU de Rennes Métropole|http://geobretagne.fr/geoserver/audiar/wms?|OGC:WMS|application/vnd.ogc.wms_xml</link>
+    <responsibleParty>pointOfContact|resource|Agence d'Urbanisme et de Développement Intercommunal de l'Agglomération Rennaise (AUDIAR)||sig@audiar.org</responsibleParty>
+    <responsibleParty>pointOfContact|metadata|Agence d'Urbanisme et de Développement Intercommunal de l'Agglomération Rennaise (AUDIAR)|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>mreboux|Maël|REBOUX|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <Constraints>Pas de restriction d’accès public</Constraints>
+    <abstract>La donnée est un assemblage des zonages vectorisés des plans d'occupation des sols (POS) encore en vigueur et des plans locaux de l'urbanisme (PLU) des communes adhérentes à la communauté d'agglomération Rennes Métropole.
+
+De par sa nature, ce document est un document de travail qui ne permet aucune information à caractère réglementaire ou de procédure.
+En effet, cette synthèse ne constitue pas un récolement complet de tous les POS et PLU de l'agglomération.
+
+l'échelle de travail recommandée est le 1/25000 mais des zooms au 1/2000 peuvent être fait sur les communes où le cadastre PCI vecteur est le référentiel de saisie.
+
+Pour un bon usage de cette donnée, il convient :
+1. de prendre connaissance des modalités de numérisation qui varient selon la commune consultée
+2. d'utiliser conjointement la couche des espaces boisés classés (EBC) correspondant à ce millésime
+3. d'utiliser conjointement la couche de l'emprise de la mine de Pont-Péan</abstract>
+    <keyword>Usage des sols</keyword>
+    <keyword>classification de l'usage des sols</keyword>
+    <keyword>planningCadastre</keyword>
+    <image>unknown|http://carto2.rennesmetropole.fr/catalogue/images/audiar_syntheseplu_2011.png</image>
+    <datasetLang>fre</datasetLang>
+    <Constraints>Réutilisation libre sous réserve de la mention obligatoire suivante : "Source : Synthèse PLU 2011 - AUDIAR"</Constraints>
+    <Constraints>Licence Ouverte 1.0
+http://www.data.gouv.fr/Licence-Ouverte-Open-Licence</Constraints>
+    <geoBox>-1.96179|47.93192|-1.46558|48.25441</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>fre</language>
+    <defaultTitle>Synthèse 2011 des POS et des PLU de Rennes Métropole</defaultTitle>
+    <docLocale>fre</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>4594</id>
+      <uuid>78a750cf-dd53-41a7-bf19-7b276a8a24be</uuid>
+      <schema>iso19139</schema>
+      <createDate>2013-12-12T17:10:57</createDate>
+      <changeDate>2013-12-16T10:48:24</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>true</download>
+      <dynamic>true</dynamic>
+      <featured>true</featured>
+      <published>true</published>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Modèle de données vectorielles en ISO19139 (multilingue)</title>
+    <popularity>14</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>10</owner>
+    <type>dataset</type>
+    <userinfo>cchauveau|Chloe|Chauveau|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <abstract>La norme de métadonnées ISO19115 est la norme de métadonnées à utiliser. Ce modèle est multilingue avec une langue par défaut en anglais. D'autres langues pourraient être utilisées pour traduire une partie de la de métadonnées. La langue principale est de définir dans la section des métadonnées. D'autres langues pourraient être ajoutées à la section des métadonnées / locale élément.</abstract>
+    <geoBox>-180|-90|180|90</geoBox>
+    <isHarvested>n</isHarvested>
+    <spatialRepresentationType>vector</spatialRepresentationType>
+    <defaultTitle>Template for Vector data in ISO19139 (multilingual)</defaultTitle>
+    <defaultTitle>Template for Vector data in ISO19139 (multilingual)</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>4584</id>
+      <uuid>39e94069-9520-4b20-86b4-d1e1c4c69cd1</uuid>
+      <schema>iso19139</schema>
+      <createDate>2013-10-16T16:07:01</createDate>
+      <changeDate>2013-10-16T16:07:01</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <popularity>20</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>10</owner>
+    <Constraints>copyright</Constraints>
+    <link>||http://sdi.georchestra.org/geonetwork/srv/fre/resources.get?uuid=6c9685d0-8cd4-4074-9575-f021de4baf41&amp;fname=&amp;access=private|WWW:DOWNLOAD-1.0-http--download|WWW:DOWNLOAD-1.0-http--download</link>
+    <responsibleParty>originator|resource|||</responsibleParty>
+    <responsibleParty>pointOfContact|metadata||</responsibleParty>
+    <type>dataset</type>
+    <userinfo>cchauveau|Chloe|Chauveau|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <title>Template for Vector data in ISO19139 (preferred!)</title>
+    <abstract>The ISO19115 metadata standard is the preferred metadata standard to use. If unsure what templates to start with, use this one.</abstract>
+    <keyword>World</keyword>
+    <keyword>boundaries</keyword>
+    <datasetLang>eng</datasetLang>
+    <geoBox>-180|-90|180|90</geoBox>
+    <isHarvested>n</isHarvested>
+    <spatialRepresentationType>vector</spatialRepresentationType>
+    <language>eng</language>
+    <defaultTitle>Template for Vector data in ISO19139 (preferred!)</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>4583</id>
+      <uuid>6c9685d0-8cd4-4074-9575-f021de4baf41</uuid>
+      <schema>iso19139</schema>
+      <createDate>2013-10-11T10:37:05</createDate>
+      <changeDate>2013-10-11T10:37:05</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Modèle de données vectorielles en ISO19139 (multilingue)</title>
+    <popularity>19</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>10</owner>
+    <type>dataset</type>
+    <userinfo>cchauveau|Chloe|Chauveau|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <abstract>La norme de métadonnées ISO19115 est la norme de métadonnées à utiliser. Ce modèle est multilingue avec une langue par défaut en anglais. D'autres langues pourraient être utilisées pour traduire une partie de la de métadonnées. La langue principale est de définir dans la section des métadonnées. D'autres langues pourraient être ajoutées à la section des métadonnées / locale élément.</abstract>
+    <geoBox>-180|-90|180|90</geoBox>
+    <isHarvested>n</isHarvested>
+    <spatialRepresentationType>vector</spatialRepresentationType>
+    <defaultTitle>Template for Vector data in ISO19139 (multilingual)</defaultTitle>
+    <defaultTitle>Template for Vector data in ISO19139 (multilingual)</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>4582</id>
+      <uuid>8838c8c7-f69c-4514-a2c0-5032afedbf4e</uuid>
+      <schema>iso19139</schema>
+      <createDate>2013-10-11T09:31:34</createDate>
+      <changeDate>2013-10-11T09:31:34</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Modèle de données vectorielles en ISO19139 (multilingue)</title>
+    <popularity>13</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>10</owner>
+    <type>dataset</type>
+    <userinfo>cchauveau|Chloe|Chauveau|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <abstract>La norme de métadonnées ISO19115 est la norme de métadonnées à utiliser. Ce modèle est multilingue avec une langue par défaut en anglais. D'autres langues pourraient être utilisées pour traduire une partie de la de métadonnées. La langue principale est de définir dans la section des métadonnées. D'autres langues pourraient être ajoutées à la section des métadonnées / locale élément.</abstract>
+    <geoBox>-180|-90|180|90</geoBox>
+    <isHarvested>n</isHarvested>
+    <spatialRepresentationType>vector</spatialRepresentationType>
+    <defaultTitle>Template for Vector data in ISO19139 (multilingual)</defaultTitle>
+    <defaultTitle>Template for Vector data in ISO19139 (multilingual)</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>4581</id>
+      <uuid>10dfd554-3a3c-4af8-9e36-2c0065c0c1c1</uuid>
+      <schema>iso19139</schema>
+      <createDate>2013-10-11T09:31:06</createDate>
+      <changeDate>2013-10-11T09:31:06</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Modèle de données vectorielles en ISO19139 (multilingue)</title>
+    <popularity>13</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>10</owner>
+    <type>dataset</type>
+    <userinfo>cchauveau|Chloe|Chauveau|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <abstract>La norme de métadonnées ISO19115 est la norme de métadonnées à utiliser. Ce modèle est multilingue avec une langue par défaut en anglais. D'autres langues pourraient être utilisées pour traduire une partie de la de métadonnées. La langue principale est de définir dans la section des métadonnées. D'autres langues pourraient être ajoutées à la section des métadonnées / locale élément.</abstract>
+    <geoBox>-180|-90|180|90</geoBox>
+    <isHarvested>n</isHarvested>
+    <spatialRepresentationType>vector</spatialRepresentationType>
+    <defaultTitle>Template for Vector data in ISO19139 (multilingual)</defaultTitle>
+    <defaultTitle>Template for Vector data in ISO19139 (multilingual)</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>4580</id>
+      <uuid>fd4e56c2-be56-45f4-8f16-9603eedb3c2d</uuid>
+      <schema>iso19139</schema>
+      <createDate>2013-10-11T09:24:47</createDate>
+      <changeDate>2013-10-11T09:24:47</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Modèle de données vectorielles en ISO19139 (multilingue)</title>
+    <popularity>15</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>10</owner>
+    <type>dataset</type>
+    <userinfo>cchauveau|Chloe|Chauveau|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <abstract>La norme de métadonnées ISO19115 est la norme de métadonnées à utiliser. Ce modèle est multilingue avec une langue par défaut en anglais. D'autres langues pourraient être utilisées pour traduire une partie de la de métadonnées. La langue principale est de définir dans la section des métadonnées. D'autres langues pourraient être ajoutées à la section des métadonnées / locale élément.</abstract>
+    <geoBox>-180|-90|180|90</geoBox>
+    <isHarvested>n</isHarvested>
+    <spatialRepresentationType>vector</spatialRepresentationType>
+    <defaultTitle>Template for Vector data in ISO19139 (multilingual)</defaultTitle>
+    <defaultTitle>Template for Vector data in ISO19139 (multilingual)</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>4579</id>
+      <uuid>69bf7eff-79c5-4b78-a79b-c0659ed42782</uuid>
+      <schema>iso19139</schema>
+      <createDate>2013-10-11T09:23:41</createDate>
+      <changeDate>2013-10-11T09:23:41</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <popularity>20</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>10</owner>
+    <Constraints>copyright</Constraints>
+    <link>||http://sdi.georchestra.org/geonetwork/srv/fre/resources.get?uuid=2015f1f9-30d3-46fb-9cbf-99d48536f83a&amp;fname=&amp;access=private|WWW:DOWNLOAD-1.0-http--download|WWW:DOWNLOAD-1.0-http--download</link>
+    <responsibleParty>originator|resource|||</responsibleParty>
+    <responsibleParty>pointOfContact|metadata||</responsibleParty>
+    <type>dataset</type>
+    <userinfo>cchauveau|Chloe|Chauveau|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <title>Template for Vector data in ISO19139 (preferred!)</title>
+    <abstract>The ISO19115 metadata standard is the preferred metadata standard to use. If unsure what templates to start with, use this one.</abstract>
+    <keyword>World</keyword>
+    <keyword>boundaries</keyword>
+    <datasetLang>eng</datasetLang>
+    <geoBox>-180|-90|180|90</geoBox>
+    <isHarvested>n</isHarvested>
+    <spatialRepresentationType>vector</spatialRepresentationType>
+    <language>eng</language>
+    <defaultTitle>Template for Vector data in ISO19139 (preferred!)</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>4578</id>
+      <uuid>2015f1f9-30d3-46fb-9cbf-99d48536f83a</uuid>
+      <schema>iso19139</schema>
+      <createDate>2013-10-10T16:35:05</createDate>
+      <changeDate>2013-10-10T16:35:05</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Modèle de données vectorielles en ISO19139 (multilingue)</title>
+    <popularity>8</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>10</owner>
+    <type>dataset</type>
+    <userinfo>cchauveau|Chloe|Chauveau|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <abstract>La norme de métadonnées ISO19115 est la norme de métadonnées à utiliser. Ce modèle est multilingue avec une langue par défaut en anglais. D'autres langues pourraient être utilisées pour traduire une partie de la de métadonnées. La langue principale est de définir dans la section des métadonnées. D'autres langues pourraient être ajoutées à la section des métadonnées / locale élément.</abstract>
+    <geoBox>-180|-90|180|90</geoBox>
+    <isHarvested>n</isHarvested>
+    <spatialRepresentationType>vector</spatialRepresentationType>
+    <defaultTitle>Template for Vector data in ISO19139 (multilingual)</defaultTitle>
+    <defaultTitle>Template for Vector data in ISO19139 (multilingual)</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>4576</id>
+      <uuid>da40f72e-4518-4ba1-a976-7d592b143141</uuid>
+      <schema>iso19139</schema>
+      <createDate>2013-10-10T15:34:13</createDate>
+      <changeDate>2013-10-10T15:34:13</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <title>Modèle de données vectorielles en ISO19139 (multilingue)</title>
+    <popularity>12</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>10</owner>
+    <type>dataset</type>
+    <userinfo>cchauveau|Chloe|Chauveau|Administrator</userinfo>
+    <_locale>fre</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <abstract>La norme de métadonnées ISO19115 est la norme de métadonnées à utiliser. Ce modèle est multilingue avec une langue par défaut en anglais. D'autres langues pourraient être utilisées pour traduire une partie de la de métadonnées. La langue principale est de définir dans la section des métadonnées. D'autres langues pourraient être ajoutées à la section des métadonnées / locale élément.</abstract>
+    <geoBox>-180|-90|180|90</geoBox>
+    <isHarvested>n</isHarvested>
+    <spatialRepresentationType>vector</spatialRepresentationType>
+    <defaultTitle>Template for Vector data in ISO19139 (multilingual)</defaultTitle>
+    <defaultTitle>Template for Vector data in ISO19139 (multilingual)</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>4575</id>
+      <uuid>4bba26ef-8393-4486-acd9-b0b5bada7ce0</uuid>
+      <schema>iso19139</schema>
+      <createDate>2013-10-10T15:21:18</createDate>
+      <changeDate>2013-10-10T15:21:18</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <popularity>18</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>4</owner>
+    <responsibleParty>resourceProvider|metadata|Geoffrey's Tube Australia|</responsibleParty>
+    <type>service</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <category>z3950Servers</category>
+    <title>The Geoffrey's Tube Z3950 Server (Sample Record - Please Delete!)</title>
+    <abstract>This catalog is for registering all metadata records held by the Geofffrey's Tube Palace Hotel Ballroom.</abstract>
+    <serviceType>ISO 23950 gateway</serviceType>
+    <geoBox>112|-44|154|-9</geoBox>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>The Geoffrey's Tube Z3950 Server (Sample Record - Please Delete!)</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>36</id>
+      <uuid>f54e9b47-ab23-4480-94b2-df3d4ed6937a</uuid>
+      <schema>iso19139</schema>
+      <createDate>2010-02-02T00:00:00</createDate>
+      <changeDate>2010-02-02T00:00:00</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <popularity>28</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>4</owner>
+    <Constraints>intellectualPropertyRights</Constraints>
+    <link>|Web page listing Data Service Providers (DSP)s|http://www.land.vic.gov.au/vicmapdsp||text/plain</link>
+    <responsibleParty>pointOfContact|resource|Department of Sustainability and Environment (DSE)||katie.falzon@dse.vic.gov.au</responsibleParty>
+    <responsibleParty>custodian|metadata|Department of Sustainability and Environment (DSE)|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <valid_schematron-rules-iso>1</valid_schematron-rules-iso>
+    <isTemplate>n</isTemplate>
+    <valid>0</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <Constraints>The data is available under licence from Spatial Information Infrastructure               in a variety of formats and media.                Licence fees and distribution charges apply</Constraints>
+    <title>Localities in Victoria (VMADMIN.LOCALITY_POLYGON) - Comprehensive Elements</title>
+    <abstract>This dataset is the definitive set of locality boundaries for the state of Victoria            as defined by Local Government and registered by the Registrar of Geographic Names.            The boundaries are aligned to Vicmap Property. This dataset is part of the Vicmap Admin dataset series.</abstract>
+    <valid_schematron-rules-geonetwork>1</valid_schematron-rules-geonetwork>
+    <keyword>BOUNDARIES-Administrative</keyword>
+    <keyword>LAND-Ownership</keyword>
+    <keyword>boundaries</keyword>
+    <datasetLang>eng</datasetLang>
+    <geoBox>141|-39|150|-34</geoBox>
+    <isHarvested>n</isHarvested>
+    <spatialRepresentationType>vector</spatialRepresentationType>
+    <valid_xsd>0</valid_xsd>
+    <language>eng</language>
+    <defaultTitle>Localities in Victoria (VMADMIN.LOCALITY_POLYGON) - Comprehensive Elements</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>35</id>
+      <uuid>80feee0a-bbdd-462c-a8f8-93d0aed33a98</uuid>
+      <schema>iso19139</schema>
+      <createDate>2007-07-19T14:45:07</createDate>
+      <changeDate>2007-11-06T12:13:00</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <popularity>14</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>4</owner>
+    <Constraints>restricted</Constraints>
+    <Constraints>intellectualPropertyRights</Constraints>
+    <responsibleParty>pointOfContact|metadata|Geoscience Australia|</responsibleParty>
+    <type>collectionSession</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>datasets</category>
+    <title>Geoscience Australia's Open Day                             Photographs 26th August 2007</title>
+    <abstract>During National Science Week on Sunday 26th                     August 2007, Geoscience Australia opened its doors to the                     community to showcase a diverse range of work activities.                     Members of the public had the opportunity to discover how                     earthquakes are detected, pan for gold, tour the building,                     view Australia in 3D, become a seafloor detective and talk                     to the people who work for Australia's national geoscience                     research organisation. The photographs of that open day have                     been converted into thumbmail images and are available on                     the GA web site.</abstract>
+    <datasetLang>eng</datasetLang>
+    <Constraints>The images are only available in                             thumbnail size for privacy                         reasons.</Constraints>
+    <isHarvested>n</isHarvested>
+    <language>eng</language>
+    <defaultTitle>Geoscience Australia's Open Day                             Photographs 26th August 2007</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>39</id>
+      <uuid>65aa464d-e2ea-4a9e-902c-2edf7c96b8b8</uuid>
+      <schema>iso19139</schema>
+      <createDate>2007-07-19T14:45:07</createDate>
+      <changeDate>2007-11-06T12:13:00</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+  <metadata>
+    <popularity>149</popularity>
+    <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+    <owner>4</owner>
+    <link>|Online link to the 'Water Resources and Irrigation in Africa'- website|http://www.fao.org/ag/AGL/aglw/aquastat/watresafrica/index.stm|WWW:LINK-1.0-http--link|text/html</link>
+    <link>basins.zip|Hydrological basins in Africa (Shapefile Format)|http://localhost:8080/geonetwork/srv/en/resources.get?uuid=da165110-88fd-11da-a88f-000d939bc5d8&amp;fname=basins.zip&amp;access=private|WWW:DOWNLOAD-1.0-http--download|application/zip</link>
+    <link>hydrological_basins|Hydrological basins in Africa|http://geonetwork3.fao.org/ows/296|OGC:WMS-1.1.1-http-get-map|application/vnd.ogc.wms_xml</link>
+    <link>hydrological_basins|Hydrological basins in Africa|../../srv/en/google.kml?uuid=da165110-88fd-11da-a88f-000d939bc5d8&amp;layers=hydrological_basins|application/vnd.google-earth.kml+xml|application/vnd.google-earth.kml+xml</link>
+    <responsibleParty>pointOfContact|metadata|FAO - NRCW|</responsibleParty>
+    <type>dataset</type>
+    <userinfo>fvanderbiest|François|VAN DER BIEST|Administrator</userinfo>
+    <_locale>eng</_locale>
+    <isTemplate>n</isTemplate>
+    <valid>-1</valid>
+    <rating>0</rating>
+    <category>maps</category>
+    <category>datasets</category>
+    <category>interactiveResources</category>
+    <title>Hydrological Basins in Africa (Sample record, please remove!)</title>
+    <abstract>Major hydrological basins and their sub-basins. This dataset divides the African continent according to its hydrological characteristics.
+The dataset consists of the following information:- numerical code and name of the major basin (MAJ_BAS and MAJ_NAME); - area of the major basin in square km (MAJ_AREA); - numerical code and name of the sub-basin (SUB_BAS and SUB_NAME); - area of the sub-basin in square km (SUB_AREA); - numerical code of the sub-basin towards which the sub-basin flows (TO_SUBBAS) (the codes -888 and -999 have been assigned respectively to internal sub-basins and to sub-basins draining into the sea)</abstract>
+    <keyword>watersheds</keyword>
+    <keyword>river basins</keyword>
+    <keyword>water resources</keyword>
+    <keyword>hydrology</keyword>
+    <keyword>AQUASTAT</keyword>
+    <keyword>AWRD</keyword>
+    <keyword>Africa</keyword>
+    <keyword>inlandWaters</keyword>
+    <image>thumbnail|../../srv/eng/resources.get?uuid=da165110-88fd-11da-a88f-000d939bc5d8&amp;fname=thumbnail_s.gif&amp;access=public</image>
+    <image>overview|../../srv/eng/resources.get?uuid=da165110-88fd-11da-a88f-000d939bc5d8&amp;fname=thumbnail.gif&amp;access=public</image>
+    <datasetLang>eng</datasetLang>
+    <geoBox>-17.3|-34.6|51.1|38.2</geoBox>
+    <isHarvested>n</isHarvested>
+    <spatialRepresentationType>vector</spatialRepresentationType>
+    <language>eng</language>
+    <defaultTitle>Hydrological Basins in Africa (Sample record, please remove!)</defaultTitle>
+    <docLocale>eng</docLocale>
+    <geonet:info xmlns:geonet="http://www.fao.org/geonetwork">
+      <id>38</id>
+      <uuid>da165110-88fd-11da-a88f-000d939bc5d8</uuid>
+      <schema>iso19139</schema>
+      <createDate>2007-07-19T14:45:07</createDate>
+      <changeDate>2007-11-06T12:13:00</changeDate>
+      <source>3ac38b94-d805-4d21-a7ff-018d3cc90f44</source>
+      <view>true</view>
+      <notify>false</notify>
+      <download>false</download>
+      <dynamic>false</dynamic>
+      <featured>false</featured>
+      <published>true</published>
+      <guestdownload>false</guestdownload>
+      <selected>false</selected>
+    </geonet:info>
+  </metadata>
+</response>
+
