@@ -19,12 +19,9 @@ class GeoNetworkQueryTest {
         assertTrue(myMd != null)
         assertTrue(myMd.fileIdentifier != "")
         assertTrue(myMd.keywords.size()  == 3)
+        assertTrue(myMd.graphicOverviewUrls.size() == 2)
         assertTrue(myMd.scopeCode != "")
         assertTrue(myMd._abstract != "")
-        
-        
-        
-        
     }
 
 }

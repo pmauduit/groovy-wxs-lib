@@ -29,15 +29,17 @@ class GeoNetworkQuery {
                 it.'keyword'.each { kw -> newMd.keywords << kw.text() }
                 newMd.title = it.'title'.text()
                 newMd._abstract = it.'abstract'.text()
-                def graphicOverview = it.'image'.text()
-                if (graphicOverview) {
-                    def splitted = graphicOverview.split("\\|")
-                    if (splitted[1]) {
-                        if (splitted[1].startsWith("../../"))
-                            splitted[1] = splitted[1].replace("../../", gnHost)
-                        newMd.graphicOverviewUrls << splitted[1]
+                // Can be more than one elem !
+                it.'image'.each { gov ->
+                    def graphicOverview = gov.text()
+                    if (graphicOverview) {
+                        def splitted = graphicOverview.split("\\|")
+                        if (splitted[1]) {
+                            if (splitted[1].startsWith("../../"))
+                                splitted[1] = splitted[1].replace("../../", gnHost)
+                            newMd.graphicOverviewUrls << splitted[1]
+                        }
                     }
-                    
                 }
                 newMd.fileIdentifier = it.'geonet:info'.'uuid'.text()
                 newMd.scopeCode = it.'type'.text()
