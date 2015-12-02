@@ -16,50 +16,52 @@ class GetRecords {
     /* pagination utils */
     private def maxRecords = 10, currentPosition = 0
 
-    // Dataset || Services
-    /* <?xml version="1.0"?>
-       <csw:GetRecords xmlns:csw="http://www.opengis.net/cat/csw/2.0.2"
-        service="CSW" version="2.0.2" resultType="results" outputSchema="csw:IsoRecord" maxRecords="2" startPosition="34">
+    // Possible to search for local MD using the _isHarvested field
+    // (even if not promoted in the GetCapabilities)
+    
+    public static String buildQuery(int startPosition, String type) {
+        return """<?xml version="1.0"?>
+       <csw:GetRecords xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:ogc="http://www.opengis.net/ogc"
+        service="CSW" version="2.0.2" resultType="results" outputSchema="csw:IsoRecord" maxRecords="10" startPosition="${startPosition}">
             <csw:Query typeNames="csw:Record">
                 <csw:Constraint version="1.1.0">
-                    <Filter xmlns="http://www.opengis.net/ogc">
-                        <PropertyIsEqualTo>
-                            <PropertyName>Type</PropertyName>
-                            <Literal>service</Literal>
-                        </PropertyIsEqualTo>
-                    </Filter>
+                    <ogc:Filter>
+                        <ogc:And>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>Type</ogc:PropertyName>
+                                <ogc:Literal>${type}</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                            <ogc:PropertyIsEqualTo>
+                                <ogc:PropertyName>_isHarvested</ogc:PropertyName>
+                                <ogc:Literal>n</ogc:Literal>
+                            </ogc:PropertyIsEqualTo>
+                        </ogc:And>
+                    </ogc:Filter>
                 </csw:Constraint>
             </csw:Query>
-        </csw:GetRecords>
-    */
-    
-    // No way of knowing if a MD has been harvested or not ...
-    // Maybe using the GN extensions though
-    // resultType="results_with_summary" instead of results, then forget every MD that are not gmd:MD_Metadata/geonet:info/isHarvested/text() != 'n'
-    
-    private NodeChild buildQuery(def startPosition, def type) {
-        return new XmlSlurper().parseText("""<?xml version="1.0"?>
-       <csw:GetRecords xmlns:csw="http://www.opengis.net/cat/csw/2.0.2"
-        service="CSW" version="2.0.2" resultType="results_with_summary" outputSchema="csw:IsoRecord" maxRecords="10" startPosition="${startPosition}">
-            <csw:Query typeNames="csw:Record">
-                <csw:Constraint version="1.1.0">
-                    <Filter xmlns="http://www.opengis.net/ogc">
-                        <PropertyIsEqualTo>
-                            <PropertyName>Type</PropertyName>
-                            <Literal>${type}</Literal>
-                        </PropertyIsEqualTo>
-                    </Filter>
-                </csw:Constraint>
-            </csw:Query>
-        </csw:GetRecords>""")
-        
+        </csw:GetRecords>"""
     }
     
     public static GetRecords mapFromRequest(String url, NodeChild payload) {
         
     }
     
+    private void parseResponse(def resp) {
+        println resp
+    }
+
     public static GetRecords getAllDatasetMetadatas(String url) {
         def http = new HTTPBuilder(url)
+        def ret = new GetRecords()
+        def finished = true
+
+        while (finished) {
+            http.post(body: buildQuery(1, "dataset"), requestContentType: ContentType.XML) { resp ->
+                ret.parseResponse(resp)
+                finished = false
+            }
+            
+        }
+        return ret
     }
 }
