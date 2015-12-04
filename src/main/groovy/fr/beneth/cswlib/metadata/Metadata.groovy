@@ -32,12 +32,8 @@ class Metadata {
         "keywords: ${keywords}"
     }
 
-    public static Metadata mapFromXmlDocument(String url) {
-        def xml = new XmlSlurper().parse(url)
-        xml.declareNamespace("gmd": "http://www.isotc211.org/2005/gmd",
-            "gco" : "http://www.isotc211.org/2005/gco",
-            "gmx" : "http://www.isotc211.org/2005/gmx")
-
+    public static Metadata map(def xml) {
+        
         def md = new Metadata()
         md.fileIdentifier = xml.'gmd:fileIdentifier'.'gco:CharacterString'.text()
         md.scopeCode = xml.'gmd:hierarchyLevel'.'gmd:MD_ScopeCode'.'@codeListValue'.toString()
@@ -55,7 +51,7 @@ class Metadata {
 
         // /gmd:MD_Metadata/gmd:distributionInfo/gmd:transferOptions//gmd:onLine/gmd:CI_OnlineResource
         xml.'gmd:distributionInfo'.'**'.find { it.name() == 'CI_OnlineResource' }.each {
-            md.onlineResources <<  OnlineResource.mapFromXmlFragment(it)   
+            md.onlineResources <<  OnlineResource.mapFromXmlFragment(it)
         }
         xml.'gmd:identificationInfo'.'*'.'gmd:graphicOverview'.'*'.'gmd:fileName'.each {
             def lu = it.'gco:CharacterString'.text()
@@ -64,7 +60,23 @@ class Metadata {
         }
         xml.'gmd:identificationInfo'.'*'.'gmd:descriptiveKeywords'.'*'.'gmd:keyword'.each {
             md.keywords << it.'gco:CharacterString'.text()
-        }   
+        }
         return md
+    }
+
+    public static Metadata mapFromString(String md) {
+        def xml = new XmlSlurper().parseText(md)
+        xml.declareNamespace("gmd": "http://www.isotc211.org/2005/gmd",
+            "gco" : "http://www.isotc211.org/2005/gco",
+            "gmx" : "http://www.isotc211.org/2005/gmx")
+        return map(xml)
+    }
+
+    public static Metadata mapFromXmlDocument(String url) {
+        def xml = new XmlSlurper().parse(url)
+        xml.declareNamespace("gmd": "http://www.isotc211.org/2005/gmd",
+            "gco" : "http://www.isotc211.org/2005/gco",
+            "gmx" : "http://www.isotc211.org/2005/gmx")
+        return map(xml)
     }
 }

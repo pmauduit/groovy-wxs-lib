@@ -15,7 +15,7 @@ import groovyx.net.http.RESTClient
 
 class GetRecords {
     def cswEntryPointUrl
-    ArrayList<Metadata> metadatas
+    ArrayList<Metadata> metadatas = new ArrayList<Metadata>()
     /* pagination utils */
     private def maxRecords = 10, currentPosition = 0
 
@@ -61,11 +61,15 @@ class GetRecords {
         while (! done) {
             http.post(body: buildQuery(currentIdx, "dataset"), requestContentType: ContentType.XML) { resp ->
                 def response = new XmlSlurper().parseText(resp.entity.content.text)
-                .declareNamespace(csw: "http://www.opengis.net/cat/csw/2.0.2")
-                println XmlUtil.serialize(response)
+                .declareNamespace(csw: "http://www.opengis.net/cat/csw/2.0.2",
+                    gmd: "http://www.isotc211.org/2005/gmd")
+                //println XmlUtil.serialize(response)
                 int recordsMatched = Integer.parseInt(response.'csw:SearchResults'.'@numberOfRecordsMatched'.toString())
                 int nextRecord = Integer.parseInt(response.'csw:SearchResults'.'@nextRecord'.toString())
                 // TODO: parsing logic here
+                response.'csw:SearchResults'.'gmd:MD_Metadata'.each { md ->
+                    ret.metadatas << Metadata.mapFromString(XmlUtil.serialize(md))
+                }
                 if (nextRecord > recordsMatched)
                     done = true
                 else
