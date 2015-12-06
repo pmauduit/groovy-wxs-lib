@@ -64,19 +64,21 @@ class GetRecords {
         while (! done) {
             http.post(body: buildQuery(currentIdx, type), requestContentType: ContentType.XML) { resp ->
                 def response = new XmlSlurper().parseText(resp.entity.content.text)
-                .declareNamespace(csw: "http://www.opengis.net/cat/csw/2.0.2",
-                    gmd: "http://www.isotc211.org/2005/gmd")
-                println XmlUtil.serialize(response)
+                    .declareNamespace(csw: "http://www.opengis.net/cat/csw/2.0.2",
+                        gmd: "http://www.isotc211.org/2005/gmd")
+
                 int recordsMatched = Integer.parseInt(response.'csw:SearchResults'.'@numberOfRecordsMatched'.toString())
                 int nextRecord = Integer.parseInt(response.'csw:SearchResults'.'@nextRecord'.toString())
-                // TODO: parsing logic here
+
                 response.'csw:SearchResults'.'gmd:MD_Metadata'.each { md ->
                     ret.metadatas << Metadata.mapFromString(XmlUtil.serialize(md))
                 }
-                if ((nextRecord > recordsMatched) || nextRecord == 0)
+
+                if ((nextRecord > recordsMatched) || nextRecord == 0) {
                     done = true
-                else
+                } else {
                     currentIdx = nextRecord
+                }
             }
         }
         return ret
