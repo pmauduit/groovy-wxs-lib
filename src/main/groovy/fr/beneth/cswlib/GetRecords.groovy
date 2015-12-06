@@ -6,7 +6,7 @@ import fr.beneth.cswlib.metadata.Metadata
 import groovy.util.slurpersupport.NodeChild
 import groovy.xml.MarkupBuilder
 import groovy.xml.StreamingMarkupBuilder
-import groovy.xml.XmlUtil;
+import groovy.xml.XmlUtil
 import groovyx.net.http.HTTPBuilder
 import groovyx.net.http.ContentType
 import groovyx.net.http.Method
@@ -18,6 +18,9 @@ class GetRecords {
     ArrayList<Metadata> metadatas = new ArrayList<Metadata>()
     /* pagination utils */
     private def maxRecords = 10, currentPosition = 0
+
+    public static final String DATASET = "dataset"
+    public static final String SERVICE = "service"
 
     // GeoNetwork-specific:
     // Possible to search for local MD using the _isHarvested field
@@ -52,25 +55,25 @@ class GetRecords {
     
 
 
-    public static GetRecords getAllDatasetMetadatas(String url) {
+    public static GetRecords getAllMetadatas(String url, String type) {
         def http = new HTTPBuilder(url)
         def ret = new GetRecords()
         def done = false
 
         int currentIdx = 1
         while (! done) {
-            http.post(body: buildQuery(currentIdx, "dataset"), requestContentType: ContentType.XML) { resp ->
+            http.post(body: buildQuery(currentIdx, type), requestContentType: ContentType.XML) { resp ->
                 def response = new XmlSlurper().parseText(resp.entity.content.text)
                 .declareNamespace(csw: "http://www.opengis.net/cat/csw/2.0.2",
                     gmd: "http://www.isotc211.org/2005/gmd")
-                //println XmlUtil.serialize(response)
+                println XmlUtil.serialize(response)
                 int recordsMatched = Integer.parseInt(response.'csw:SearchResults'.'@numberOfRecordsMatched'.toString())
                 int nextRecord = Integer.parseInt(response.'csw:SearchResults'.'@nextRecord'.toString())
                 // TODO: parsing logic here
                 response.'csw:SearchResults'.'gmd:MD_Metadata'.each { md ->
                     ret.metadatas << Metadata.mapFromString(XmlUtil.serialize(md))
                 }
-                if (nextRecord > recordsMatched)
+                if ((nextRecord > recordsMatched) || nextRecord == 0)
                     done = true
                 else
                     currentIdx = nextRecord
