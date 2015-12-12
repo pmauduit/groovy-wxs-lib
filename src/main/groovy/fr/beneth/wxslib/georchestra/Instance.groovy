@@ -32,7 +32,7 @@ public class Instance {
                 def ll = pos.split(" ")
                 curInst.lat = Float.parseFloat(ll[0])
                 curInst.lon = Float.parseFloat(ll[1])
-            } catch (Exception e) {
+            } catch (NumberFormatException e) {
               curInst.lat = 0.0
               curInst.lon = 0.0
             }

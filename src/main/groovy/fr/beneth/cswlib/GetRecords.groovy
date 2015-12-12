@@ -1,17 +1,9 @@
 package fr.beneth.cswlib
 
-import org.apache.http.HttpResponse;
-
 import fr.beneth.cswlib.metadata.Metadata
-import groovy.util.slurpersupport.NodeChild
-import groovy.xml.MarkupBuilder
-import groovy.xml.StreamingMarkupBuilder
 import groovy.xml.XmlUtil
-import groovyx.net.http.HTTPBuilder
 import groovyx.net.http.ContentType
-import groovyx.net.http.Method
-import groovyx.net.http.RESTClient
-
+import groovyx.net.http.HTTPBuilder
 
 class GetRecords {
     def cswEntryPointUrl
@@ -48,21 +40,15 @@ class GetRecords {
             </csw:Query>
         </csw:GetRecords>"""
     }
-    
-    public static GetRecords mapFromRequest(String url, NodeChild payload) {
-        
-    }
-    
 
-
-    public static GetRecords getAllMetadatas(String url, String type) {
+    public static GetRecords getAllMetadatas(String url, String mdType) {
         def http = new HTTPBuilder(url)
         def ret = new GetRecords()
         def done = false
 
         int currentIdx = 1
         while (! done) {
-            http.post(body: buildQuery(currentIdx, type), requestContentType: ContentType.XML) { resp ->
+            http.post(body: buildQuery(currentIdx, mdType), requestContentType: ContentType.XML) { resp ->
                 def response = new XmlSlurper().parseText(resp.entity.content.text)
                     .declareNamespace(csw: "http://www.opengis.net/cat/csw/2.0.2",
                         gmd: "http://www.isotc211.org/2005/gmd")
