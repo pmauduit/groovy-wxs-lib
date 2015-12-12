@@ -56,8 +56,8 @@ class GetRecords {
         return ret
     }
 
-    public static GetRecords getAllMetadatasFromEndpoint(String url, String mdType) {
-        def http = new HTTPBuilder(url)
+    public static GetRecords getAllMetadatasFromEndpoint(String url, String mdType, def hb = null) {
+        def http = hb != null ? hb : new HTTPBuilder(url)
         def ret = new GetRecords()
         def done = false
 
