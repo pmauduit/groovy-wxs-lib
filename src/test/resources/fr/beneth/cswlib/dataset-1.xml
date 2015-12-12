@@ -1,0 +1,2100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<csw:GetRecordsResponse xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2 http://schemas.opengis.net/csw/2.0.2/CSW-discovery.xsd">
+  <csw:SearchStatus timestamp="2015-12-12T11:31:50" />
+  <csw:SearchResults numberOfRecordsMatched="15" numberOfRecordsReturned="10" elementSet="summary" nextRecord="11">
+    <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:fileIdentifier>
+        <gco:CharacterString>80feee0a-bbdd-462c-a8f8-93d0aed33a98</gco:CharacterString>
+      </gmd:fileIdentifier>
+      <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelist.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="eng">utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelist.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+      </gmd:hierarchyLevel>
+      <gmd:hierarchyLevelName>
+        <gco:CharacterString>dataset - Localities - Victoria</gco:CharacterString>
+      </gmd:hierarchyLevelName>
+      <gmd:dateStamp>
+        <gco:Date>2007-08-13</gco:Date>
+      </gmd:dateStamp>
+      <gmd:metadataStandardName>
+        <gco:CharacterString>ANZLIC Metadata Profile</gco:CharacterString>
+      </gmd:metadataStandardName>
+      <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.1</gco:CharacterString>
+      </gmd:metadataStandardVersion>
+      <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem id="RS01">
+          <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:authority>
+                <gmd:CI_Citation>
+                  <gmd:title>
+                    <gco:CharacterString>EPSG Geodetic Parameter Dataset</gco:CharacterString>
+                  </gmd:title>
+                  <gmd:date>
+                    <gmd:CI_Date>
+                      <gmd:date>
+                        <gco:Date>20070716</gco:Date>
+                      </gmd:date>
+                      <gmd:dateType>
+                        <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelist.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                      </gmd:dateType>
+                    </gmd:CI_Date>
+                  </gmd:date>
+                </gmd:CI_Citation>
+              </gmd:authority>
+              <gmd:code>
+                <gco:CharacterString>4283</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+      </gmd:referenceSystemInfo>
+      <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+          <gmd:citation>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Localities in Victoria (VMADMIN.LOCALITY_POLYGON) - Comprehensive Elements</gco:CharacterString>
+              </gmd:title>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:individualName>
+                    <gco:CharacterString>Falzon Katie Ms</gco:CharacterString>
+                  </gmd:individualName>
+                  <gmd:organisationName>
+                    <gco:CharacterString>Department of Sustainability and Environment (DSE)</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:positionName>
+                    <gco:CharacterString>Project Officer</gco:CharacterString>
+                  </gmd:positionName>
+                  <gmd:contactInfo>
+                    <gmd:CI_Contact>
+                      <gmd:phone>
+                        <gmd:CI_Telephone>
+                          <gmd:voice>
+                            <gco:CharacterString>+61 3 8636 2319</gco:CharacterString>
+                          </gmd:voice>
+                          <gmd:facsimile>
+                            <gco:CharacterString>+61 3 8636 2813</gco:CharacterString>
+                          </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                      </gmd:phone>
+                      <gmd:address>
+                        <gmd:CI_Address>
+                          <gmd:deliveryPoint>
+                            <gco:CharacterString>PO Box 500</gco:CharacterString>
+                          </gmd:deliveryPoint>
+                          <gmd:city>
+                            <gco:CharacterString>East Melbourne</gco:CharacterString>
+                          </gmd:city>
+                          <gmd:administrativeArea>
+                            <gco:CharacterString>Victoria</gco:CharacterString>
+                          </gmd:administrativeArea>
+                          <gmd:postalCode>
+                            <gco:CharacterString>3002</gco:CharacterString>
+                          </gmd:postalCode>
+                          <gmd:country>
+                            <gco:CharacterString>Australia</gco:CharacterString>
+                          </gmd:country>
+                          <gmd:electronicMailAddress>
+                            <gco:CharacterString>katie.falzon@dse.vic.gov.au</gco:CharacterString>
+                          </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                      </gmd:address>
+                      <gmd:onlineResource>
+                        <gmd:CI_OnlineResource>
+                          <gmd:linkage>
+                            <gmd:URL>http://www.land.vic.gov.au/vicmap</gmd:URL>
+                          </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                      </gmd:onlineResource>
+                    </gmd:CI_Contact>
+                  </gmd:contactInfo>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelist.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:citation>
+          <gmd:abstract>
+            <gco:CharacterString>This dataset is the definitive set of locality boundaries for the state of Victoria            as defined by Local Government and registered by the Registrar of Geographic Names.            The boundaries are aligned to Vicmap Property. This dataset is part of the Vicmap Admin dataset series.</gco:CharacterString>
+          </gmd:abstract>
+          <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Department of Sustainability and Environment (DSE)</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:positionName>
+                <gco:CharacterString>Marketting manager</gco:CharacterString>
+              </gmd:positionName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>+61 3 8636 2683</gco:CharacterString>
+                      </gmd:voice>
+                      <gmd:facsimile>
+                        <gco:CharacterString>+61 3 8636 2813</gco:CharacterString>
+                      </gmd:facsimile>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>PO Box 500</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>East Melbourne</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:administrativeArea>
+                        <gco:CharacterString>Victoria</gco:CharacterString>
+                      </gmd:administrativeArea>
+                      <gmd:postalCode>
+                        <gco:CharacterString>3002</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>Australia</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>vicmap@dse.vic.gov.au</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://www.land.vic.gov.au/vicmapdsp</gmd:URL>
+                      </gmd:linkage>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                  <gmd:contactInstructions>
+                    <gco:CharacterString>Please consult the above link for a list of Data Suppliers from whom this dataset may be purchased</gco:CharacterString>
+                  </gmd:contactInstructions>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelist.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+              <gmd:accessConstraints>
+                <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelist.xml#MD_RestrictionCode" codeListValue="intellectualPropertyRights">intellectualPropertyRights</gmd:MD_RestrictionCode>
+              </gmd:accessConstraints>
+            </gmd:MD_LegalConstraints>
+          </gmd:resourceConstraints>
+          <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelist.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</gmd:MD_SpatialRepresentationTypeCode>
+          </gmd:spatialRepresentationType>
+          <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+              <gmd:distance>
+                <gco:Distance uom="meters">25</gco:Distance>
+              </gmd:distance>
+            </gmd:MD_Resolution>
+          </gmd:spatialResolution>
+          <gmd:language>
+            <gco:CharacterString>eng</gco:CharacterString>
+          </gmd:language>
+          <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+          </gmd:topicCategory>
+          <gmd:extent>
+            <gmd:EX_Extent>
+              <gmd:geographicElement>
+                <gmd:EX_GeographicBoundingBox>
+                  <gmd:westBoundLongitude>
+                    <gco:Decimal>141</gco:Decimal>
+                  </gmd:westBoundLongitude>
+                  <gmd:southBoundLatitude>
+                    <gco:Decimal>-39</gco:Decimal>
+                  </gmd:southBoundLatitude>
+                  <gmd:eastBoundLongitude>
+                    <gco:Decimal>150</gco:Decimal>
+                  </gmd:eastBoundLongitude>
+                  <gmd:northBoundLatitude>
+                    <gco:Decimal>-34</gco:Decimal>
+                  </gmd:northBoundLatitude>
+                </gmd:EX_GeographicBoundingBox>
+              </gmd:geographicElement>
+            </gmd:EX_Extent>
+          </gmd:extent>
+        </gmd:MD_DataIdentification>
+      </gmd:identificationInfo>
+      <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+          <gmd:distributionFormat>
+            <gmd:MD_Format>
+              <gmd:name>
+                <gco:CharacterString>Most popular formats including ESRI shape, MapInfo Tab and Oracle Spatial</gco:CharacterString>
+              </gmd:name>
+              <gmd:version>
+                <gco:CharacterString>Various</gco:CharacterString>
+              </gmd:version>
+            </gmd:MD_Format>
+          </gmd:distributionFormat>
+          <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://www.land.vic.gov.au/vicmapdsp</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:transferOptions>
+        </gmd:MD_Distribution>
+      </gmd:distributionInfo>
+      <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+          <gmd:lineage>
+            <gmd:LI_Lineage>
+              <!-- ===== at least  one of <gmd:statement> [only one allowed] or  one of <gmd:processStep> [multiple allowed] or one of <gmd:source> [multiple allowed] is required ===== -->
+              <gmd:statement>
+                <gco:CharacterString>Local Government defines suburb, town and rural district boundaries after seeking appropriate consultation with all interested parties.              Proposed boundaries/names are submitted to the Registrar of Geographic Names for approval and formal gazettal.              As boundary and name information changes are processed through the formal definition and gazettal process at the Registrar of Geographic Names, the amendments will be flagged              and the dataset will be updated by the maintainer with all new boundaries aligned to Vicmap Property.</gco:CharacterString>
+              </gmd:statement>
+              <gmd:source>
+                <gmd:LI_Source>
+                  <gmd:description>
+                    <gco:CharacterString>Vicmap Property is the principal source of the digital data.                  Its accuracy varies across Victoria with metropolitan Melbourne source data collected at 1:500 scale and rural Victoria data collected at 1:25,000.                  For futher information see the Vicmap Property product specification at http://www.land.vic.gov.au/vicmap.</gco:CharacterString>
+                  </gmd:description>
+                </gmd:LI_Source>
+              </gmd:source>
+            </gmd:LI_Lineage>
+          </gmd:lineage>
+        </gmd:DQ_DataQuality>
+      </gmd:dataQualityInfo>
+    </gmd:MD_Metadata>
+    <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:fileIdentifier>
+        <gco:CharacterString>4bba26ef-8393-4486-acd9-b0b5bada7ce0</gco:CharacterString>
+      </gmd:fileIdentifier>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:dateStamp>
+        <gco:DateTime>2013-10-10T15:21:18</gco:DateTime>
+      </gmd:dateStamp>
+      <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      </gmd:metadataStandardName>
+      <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.0</gco:CharacterString>
+      </gmd:metadataStandardVersion>
+      <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+          <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>WGS 1984</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+      </gmd:referenceSystemInfo>
+      <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+          <gmd:citation>
+            <gmd:CI_Citation>
+              <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Template for Vector data in ISO19139 (multilingual)</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FRE">Modèle de données vectorielles en ISO19139 (multilingue)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#GER">Vorlage für die Vektor-Daten in ISO19139 (mehrsprachig)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#SPA">De plantilla para el vector de datos en ISO19139 (multilingüe)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#RUS">Шаблон для векторных данных в ISO19139 (многоязычное)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#ARA">نموذج البيانات الموجهة في ISO19139 (متعددة اللغات)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#CHI">模板矢量数据ISO19139（多种语言）</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+            </gmd:CI_Citation>
+          </gmd:citation>
+          <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>The ISO19115 metadata standard is the preferred metadata standard to use. This template is multilingual with a default language set to english. Other language could be used to translate part of the metadata record. Main language is define in metadata section. Other languages could be added to metadata section / locale element.</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#CHI">元数据标准的ISO19115是首选元数据标准使用。这个模板是多语种的默认语言设置为英语。其他语言可以用来翻译部分的元数据记录。主要语言是界定元一节。其他语言可以增加元数据节/地区因素。</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#ARA">فإن معيار ISO19115 الفوقية هو المفضل لاستخدام البيانات الوصفية القياسية. هذا القالب هو متعدد اللغات مع اللغة الافتراضية لمجموعة الانجليزية. لغة أخرى يمكن استخدامها لتحويل جزء من الفوقية. اللغة الرئيسية هي تحديد الفوقية في هذا الباب. لغات أخرى يمكن أن تضاف إلى الباب الفوقية / عنصر المكان.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RUS">В метаданных стандарта ISO19115 предпочтительным является стандарт метаданных для использования. Этот шаблон многоязычный с языком по умолчанию установлен на английском языке. Другие языки могут использоваться для перевода части метаданных записи. Основным языком является определение метаданных разделе. Другие языки могут быть добавлены метаданные раздел / локаль элемент.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#SPA">El estándar de metadatos ISO19115 es el estándar de metadatos a utilizar. Esta plantilla es multilingüe, con un idioma por defecto configurado en Inglés. En otros idiomas puede ser usado para traducir parte del registro de metadatos. Idioma principal es definir los metadatos en la sección. Otros idiomas pueden ser añadidos a la sección de metadatos / locale elemento.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#GER">Die ISO19115 Metadaten-Standard ist der bevorzugte Metadaten-Standard zu verwenden. Diese Vorlage ist mehrsprachig mit einer Standard-Sprache auf Englisch. Andere Sprache verwendet werden könnten, um Teil der Metadaten werden. Sprache definieren, ist in Abschnitt Metadaten. Weitere Sprachen können hinzugefügt werden, um Metadaten Abschnitt / locale Element.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FRE">La norme de métadonnées ISO19115 est la norme de métadonnées à utiliser. Ce modèle est multilingue avec une langue par défaut en anglais. D'autres langues pourraient être utilisées pour traduire une partie de la de métadonnées. La langue principale est de définir dans la section des métadonnées. D'autres langues pourraient être ajoutées à la section des métadonnées / locale élément.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:abstract>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:organisationName>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+              <gmd:accessConstraints>
+                <gmd:MD_RestrictionCode codeListValue="copyright" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" />
+              </gmd:accessConstraints>
+            </gmd:MD_LegalConstraints>
+          </gmd:resourceConstraints>
+          <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+          </gmd:spatialRepresentationType>
+          <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+              <gmd:equivalentScale>
+                <gmd:MD_RepresentativeFraction>
+                  <gmd:denominator>
+                    <gco:Integer />
+                  </gmd:denominator>
+                </gmd:MD_RepresentativeFraction>
+              </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+          </gmd:spatialResolution>
+          <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+          </gmd:language>
+          <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+          </gmd:characterSet>
+          <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+          </gmd:topicCategory>
+          <gmd:extent>
+            <gmd:EX_Extent>
+              <gmd:geographicElement>
+                <gmd:EX_GeographicBoundingBox>
+                  <gmd:westBoundLongitude>
+                    <gco:Decimal>-180</gco:Decimal>
+                  </gmd:westBoundLongitude>
+                  <gmd:southBoundLatitude>
+                    <gco:Decimal>-90</gco:Decimal>
+                  </gmd:southBoundLatitude>
+                  <gmd:eastBoundLongitude>
+                    <gco:Decimal>180</gco:Decimal>
+                  </gmd:eastBoundLongitude>
+                  <gmd:northBoundLatitude>
+                    <gco:Decimal>90</gco:Decimal>
+                  </gmd:northBoundLatitude>
+                </gmd:EX_GeographicBoundingBox>
+              </gmd:geographicElement>
+            </gmd:EX_Extent>
+          </gmd:extent>
+        </gmd:MD_DataIdentification>
+      </gmd:identificationInfo>
+      <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+          <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://sdi.georchestra.org/geonetwork/srv/fre/resources.get?uuid=4bba26ef-8393-4486-acd9-b0b5bada7ce0&amp;fname=&amp;access=private</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:transferOptions>
+        </gmd:MD_Distribution>
+      </gmd:distributionInfo>
+      <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+          <gmd:lineage>
+            <gmd:LI_Lineage>
+              <gmd:statement gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:statement>
+            </gmd:LI_Lineage>
+          </gmd:lineage>
+        </gmd:DQ_DataQuality>
+      </gmd:dataQualityInfo>
+    </gmd:MD_Metadata>
+    <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:fileIdentifier>
+        <gco:CharacterString>fd4e56c2-be56-45f4-8f16-9603eedb3c2d</gco:CharacterString>
+      </gmd:fileIdentifier>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:dateStamp>
+        <gco:DateTime>2013-10-11T09:24:47</gco:DateTime>
+      </gmd:dateStamp>
+      <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      </gmd:metadataStandardName>
+      <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.0</gco:CharacterString>
+      </gmd:metadataStandardVersion>
+      <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+          <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>WGS 1984</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+      </gmd:referenceSystemInfo>
+      <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+          <gmd:citation>
+            <gmd:CI_Citation>
+              <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Template for Vector data in ISO19139 (multilingual)</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FRE">Modèle de données vectorielles en ISO19139 (multilingue)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#GER">Vorlage für die Vektor-Daten in ISO19139 (mehrsprachig)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#SPA">De plantilla para el vector de datos en ISO19139 (multilingüe)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#RUS">Шаблон для векторных данных в ISO19139 (многоязычное)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#ARA">نموذج البيانات الموجهة في ISO19139 (متعددة اللغات)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#CHI">模板矢量数据ISO19139（多种语言）</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+            </gmd:CI_Citation>
+          </gmd:citation>
+          <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>The ISO19115 metadata standard is the preferred metadata standard to use. This template is multilingual with a default language set to english. Other language could be used to translate part of the metadata record. Main language is define in metadata section. Other languages could be added to metadata section / locale element.</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#CHI">元数据标准的ISO19115是首选元数据标准使用。这个模板是多语种的默认语言设置为英语。其他语言可以用来翻译部分的元数据记录。主要语言是界定元一节。其他语言可以增加元数据节/地区因素。</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#ARA">فإن معيار ISO19115 الفوقية هو المفضل لاستخدام البيانات الوصفية القياسية. هذا القالب هو متعدد اللغات مع اللغة الافتراضية لمجموعة الانجليزية. لغة أخرى يمكن استخدامها لتحويل جزء من الفوقية. اللغة الرئيسية هي تحديد الفوقية في هذا الباب. لغات أخرى يمكن أن تضاف إلى الباب الفوقية / عنصر المكان.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RUS">В метаданных стандарта ISO19115 предпочтительным является стандарт метаданных для использования. Этот шаблон многоязычный с языком по умолчанию установлен на английском языке. Другие языки могут использоваться для перевода части метаданных записи. Основным языком является определение метаданных разделе. Другие языки могут быть добавлены метаданные раздел / локаль элемент.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#SPA">El estándar de metadatos ISO19115 es el estándar de metadatos a utilizar. Esta plantilla es multilingüe, con un idioma por defecto configurado en Inglés. En otros idiomas puede ser usado para traducir parte del registro de metadatos. Idioma principal es definir los metadatos en la sección. Otros idiomas pueden ser añadidos a la sección de metadatos / locale elemento.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#GER">Die ISO19115 Metadaten-Standard ist der bevorzugte Metadaten-Standard zu verwenden. Diese Vorlage ist mehrsprachig mit einer Standard-Sprache auf Englisch. Andere Sprache verwendet werden könnten, um Teil der Metadaten werden. Sprache definieren, ist in Abschnitt Metadaten. Weitere Sprachen können hinzugefügt werden, um Metadaten Abschnitt / locale Element.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FRE">La norme de métadonnées ISO19115 est la norme de métadonnées à utiliser. Ce modèle est multilingue avec une langue par défaut en anglais. D'autres langues pourraient être utilisées pour traduire une partie de la de métadonnées. La langue principale est de définir dans la section des métadonnées. D'autres langues pourraient être ajoutées à la section des métadonnées / locale élément.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:abstract>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:organisationName>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+              <gmd:accessConstraints>
+                <gmd:MD_RestrictionCode codeListValue="copyright" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" />
+              </gmd:accessConstraints>
+            </gmd:MD_LegalConstraints>
+          </gmd:resourceConstraints>
+          <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+          </gmd:spatialRepresentationType>
+          <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+              <gmd:equivalentScale>
+                <gmd:MD_RepresentativeFraction>
+                  <gmd:denominator>
+                    <gco:Integer />
+                  </gmd:denominator>
+                </gmd:MD_RepresentativeFraction>
+              </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+          </gmd:spatialResolution>
+          <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+          </gmd:language>
+          <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+          </gmd:characterSet>
+          <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+          </gmd:topicCategory>
+          <gmd:extent>
+            <gmd:EX_Extent>
+              <gmd:geographicElement>
+                <gmd:EX_GeographicBoundingBox>
+                  <gmd:westBoundLongitude>
+                    <gco:Decimal>-180</gco:Decimal>
+                  </gmd:westBoundLongitude>
+                  <gmd:southBoundLatitude>
+                    <gco:Decimal>-90</gco:Decimal>
+                  </gmd:southBoundLatitude>
+                  <gmd:eastBoundLongitude>
+                    <gco:Decimal>180</gco:Decimal>
+                  </gmd:eastBoundLongitude>
+                  <gmd:northBoundLatitude>
+                    <gco:Decimal>90</gco:Decimal>
+                  </gmd:northBoundLatitude>
+                </gmd:EX_GeographicBoundingBox>
+              </gmd:geographicElement>
+            </gmd:EX_Extent>
+          </gmd:extent>
+        </gmd:MD_DataIdentification>
+      </gmd:identificationInfo>
+      <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+          <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://sdi.georchestra.org/geonetwork/srv/fre/resources.get?uuid=fd4e56c2-be56-45f4-8f16-9603eedb3c2d&amp;fname=&amp;access=private</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:transferOptions>
+        </gmd:MD_Distribution>
+      </gmd:distributionInfo>
+      <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+          <gmd:lineage>
+            <gmd:LI_Lineage>
+              <gmd:statement gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:statement>
+            </gmd:LI_Lineage>
+          </gmd:lineage>
+        </gmd:DQ_DataQuality>
+      </gmd:dataQualityInfo>
+    </gmd:MD_Metadata>
+    <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:fileIdentifier>
+        <gco:CharacterString>da40f72e-4518-4ba1-a976-7d592b143141</gco:CharacterString>
+      </gmd:fileIdentifier>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:dateStamp>
+        <gco:DateTime>2013-10-10T15:34:13</gco:DateTime>
+      </gmd:dateStamp>
+      <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      </gmd:metadataStandardName>
+      <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.0</gco:CharacterString>
+      </gmd:metadataStandardVersion>
+      <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+          <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>WGS 1984</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+      </gmd:referenceSystemInfo>
+      <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+          <gmd:citation>
+            <gmd:CI_Citation>
+              <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Template for Vector data in ISO19139 (multilingual)</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FRE">Modèle de données vectorielles en ISO19139 (multilingue)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#GER">Vorlage für die Vektor-Daten in ISO19139 (mehrsprachig)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#SPA">De plantilla para el vector de datos en ISO19139 (multilingüe)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#RUS">Шаблон для векторных данных в ISO19139 (многоязычное)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#ARA">نموذج البيانات الموجهة في ISO19139 (متعددة اللغات)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#CHI">模板矢量数据ISO19139（多种语言）</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+            </gmd:CI_Citation>
+          </gmd:citation>
+          <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>The ISO19115 metadata standard is the preferred metadata standard to use. This template is multilingual with a default language set to english. Other language could be used to translate part of the metadata record. Main language is define in metadata section. Other languages could be added to metadata section / locale element.</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#CHI">元数据标准的ISO19115是首选元数据标准使用。这个模板是多语种的默认语言设置为英语。其他语言可以用来翻译部分的元数据记录。主要语言是界定元一节。其他语言可以增加元数据节/地区因素。</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#ARA">فإن معيار ISO19115 الفوقية هو المفضل لاستخدام البيانات الوصفية القياسية. هذا القالب هو متعدد اللغات مع اللغة الافتراضية لمجموعة الانجليزية. لغة أخرى يمكن استخدامها لتحويل جزء من الفوقية. اللغة الرئيسية هي تحديد الفوقية في هذا الباب. لغات أخرى يمكن أن تضاف إلى الباب الفوقية / عنصر المكان.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RUS">В метаданных стандарта ISO19115 предпочтительным является стандарт метаданных для использования. Этот шаблон многоязычный с языком по умолчанию установлен на английском языке. Другие языки могут использоваться для перевода части метаданных записи. Основным языком является определение метаданных разделе. Другие языки могут быть добавлены метаданные раздел / локаль элемент.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#SPA">El estándar de metadatos ISO19115 es el estándar de metadatos a utilizar. Esta plantilla es multilingüe, con un idioma por defecto configurado en Inglés. En otros idiomas puede ser usado para traducir parte del registro de metadatos. Idioma principal es definir los metadatos en la sección. Otros idiomas pueden ser añadidos a la sección de metadatos / locale elemento.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#GER">Die ISO19115 Metadaten-Standard ist der bevorzugte Metadaten-Standard zu verwenden. Diese Vorlage ist mehrsprachig mit einer Standard-Sprache auf Englisch. Andere Sprache verwendet werden könnten, um Teil der Metadaten werden. Sprache definieren, ist in Abschnitt Metadaten. Weitere Sprachen können hinzugefügt werden, um Metadaten Abschnitt / locale Element.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FRE">La norme de métadonnées ISO19115 est la norme de métadonnées à utiliser. Ce modèle est multilingue avec une langue par défaut en anglais. D'autres langues pourraient être utilisées pour traduire une partie de la de métadonnées. La langue principale est de définir dans la section des métadonnées. D'autres langues pourraient être ajoutées à la section des métadonnées / locale élément.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:abstract>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:organisationName>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+              <gmd:accessConstraints>
+                <gmd:MD_RestrictionCode codeListValue="copyright" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" />
+              </gmd:accessConstraints>
+            </gmd:MD_LegalConstraints>
+          </gmd:resourceConstraints>
+          <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+          </gmd:spatialRepresentationType>
+          <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+              <gmd:equivalentScale>
+                <gmd:MD_RepresentativeFraction>
+                  <gmd:denominator>
+                    <gco:Integer />
+                  </gmd:denominator>
+                </gmd:MD_RepresentativeFraction>
+              </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+          </gmd:spatialResolution>
+          <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+          </gmd:language>
+          <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+          </gmd:characterSet>
+          <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+          </gmd:topicCategory>
+          <gmd:extent>
+            <gmd:EX_Extent>
+              <gmd:geographicElement>
+                <gmd:EX_GeographicBoundingBox>
+                  <gmd:westBoundLongitude>
+                    <gco:Decimal>-180</gco:Decimal>
+                  </gmd:westBoundLongitude>
+                  <gmd:southBoundLatitude>
+                    <gco:Decimal>-90</gco:Decimal>
+                  </gmd:southBoundLatitude>
+                  <gmd:eastBoundLongitude>
+                    <gco:Decimal>180</gco:Decimal>
+                  </gmd:eastBoundLongitude>
+                  <gmd:northBoundLatitude>
+                    <gco:Decimal>90</gco:Decimal>
+                  </gmd:northBoundLatitude>
+                </gmd:EX_GeographicBoundingBox>
+              </gmd:geographicElement>
+            </gmd:EX_Extent>
+          </gmd:extent>
+        </gmd:MD_DataIdentification>
+      </gmd:identificationInfo>
+      <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+          <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://sdi.georchestra.org/geonetwork/srv/fre/resources.get?uuid=da40f72e-4518-4ba1-a976-7d592b143141&amp;fname=&amp;access=private</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:transferOptions>
+        </gmd:MD_Distribution>
+      </gmd:distributionInfo>
+      <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+          <gmd:lineage>
+            <gmd:LI_Lineage>
+              <gmd:statement gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:statement>
+            </gmd:LI_Lineage>
+          </gmd:lineage>
+        </gmd:DQ_DataQuality>
+      </gmd:dataQualityInfo>
+    </gmd:MD_Metadata>
+    <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:fileIdentifier>
+        <gco:CharacterString>6c9685d0-8cd4-4074-9575-f021de4baf41</gco:CharacterString>
+      </gmd:fileIdentifier>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:dateStamp>
+        <gco:DateTime>2013-10-11T10:37:05</gco:DateTime>
+      </gmd:dateStamp>
+      <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      </gmd:metadataStandardName>
+      <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.0</gco:CharacterString>
+      </gmd:metadataStandardVersion>
+      <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+          <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>WGS 1984</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+      </gmd:referenceSystemInfo>
+      <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+          <gmd:citation>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Template for Vector data in ISO19139 (preferred!)</gco:CharacterString>
+              </gmd:title>
+            </gmd:CI_Citation>
+          </gmd:citation>
+          <gmd:abstract>
+            <gco:CharacterString>The ISO19115 metadata standard is the preferred metadata standard to use. If unsure what templates to start with, use this one.</gco:CharacterString>
+          </gmd:abstract>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:organisationName>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+              <gmd:accessConstraints>
+                <gmd:MD_RestrictionCode codeListValue="copyright" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" />
+              </gmd:accessConstraints>
+            </gmd:MD_LegalConstraints>
+          </gmd:resourceConstraints>
+          <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+          </gmd:spatialRepresentationType>
+          <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+              <gmd:equivalentScale>
+                <gmd:MD_RepresentativeFraction>
+                  <gmd:denominator>
+                    <gco:Integer />
+                  </gmd:denominator>
+                </gmd:MD_RepresentativeFraction>
+              </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+          </gmd:spatialResolution>
+          <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+          </gmd:language>
+          <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+          </gmd:characterSet>
+          <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+          </gmd:topicCategory>
+          <gmd:extent>
+            <gmd:EX_Extent>
+              <gmd:geographicElement>
+                <gmd:EX_GeographicBoundingBox>
+                  <gmd:westBoundLongitude>
+                    <gco:Decimal>-180</gco:Decimal>
+                  </gmd:westBoundLongitude>
+                  <gmd:southBoundLatitude>
+                    <gco:Decimal>-90</gco:Decimal>
+                  </gmd:southBoundLatitude>
+                  <gmd:eastBoundLongitude>
+                    <gco:Decimal>180</gco:Decimal>
+                  </gmd:eastBoundLongitude>
+                  <gmd:northBoundLatitude>
+                    <gco:Decimal>90</gco:Decimal>
+                  </gmd:northBoundLatitude>
+                </gmd:EX_GeographicBoundingBox>
+              </gmd:geographicElement>
+            </gmd:EX_Extent>
+          </gmd:extent>
+        </gmd:MD_DataIdentification>
+      </gmd:identificationInfo>
+      <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+          <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://sdi.georchestra.org/geonetwork/srv/fre/resources.get?uuid=6c9685d0-8cd4-4074-9575-f021de4baf41&amp;fname=&amp;access=private</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:transferOptions>
+        </gmd:MD_Distribution>
+      </gmd:distributionInfo>
+      <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+          <gmd:lineage>
+            <gmd:LI_Lineage>
+              <gmd:statement gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:statement>
+            </gmd:LI_Lineage>
+          </gmd:lineage>
+        </gmd:DQ_DataQuality>
+      </gmd:dataQualityInfo>
+    </gmd:MD_Metadata>
+    <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:fileIdentifier>
+        <gco:CharacterString>39e94069-9520-4b20-86b4-d1e1c4c69cd1</gco:CharacterString>
+      </gmd:fileIdentifier>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:dateStamp>
+        <gco:DateTime>2013-10-16T16:07:01</gco:DateTime>
+      </gmd:dateStamp>
+      <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      </gmd:metadataStandardName>
+      <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.0</gco:CharacterString>
+      </gmd:metadataStandardVersion>
+      <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+          <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>WGS 1984</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+      </gmd:referenceSystemInfo>
+      <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+          <gmd:citation>
+            <gmd:CI_Citation>
+              <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Template for Vector data in ISO19139 (multilingual)</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FRE">Modèle de données vectorielles en ISO19139 (multilingue)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#GER">Vorlage für die Vektor-Daten in ISO19139 (mehrsprachig)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#SPA">De plantilla para el vector de datos en ISO19139 (multilingüe)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#RUS">Шаблон для векторных данных в ISO19139 (многоязычное)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#ARA">نموذج البيانات الموجهة في ISO19139 (متعددة اللغات)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#CHI">模板矢量数据ISO19139（多种语言）</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+            </gmd:CI_Citation>
+          </gmd:citation>
+          <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>The ISO19115 metadata standard is the preferred metadata standard to use. This template is multilingual with a default language set to english. Other language could be used to translate part of the metadata record. Main language is define in metadata section. Other languages could be added to metadata section / locale element.</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#CHI">元数据标准的ISO19115是首选元数据标准使用。这个模板是多语种的默认语言设置为英语。其他语言可以用来翻译部分的元数据记录。主要语言是界定元一节。其他语言可以增加元数据节/地区因素。</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#ARA">فإن معيار ISO19115 الفوقية هو المفضل لاستخدام البيانات الوصفية القياسية. هذا القالب هو متعدد اللغات مع اللغة الافتراضية لمجموعة الانجليزية. لغة أخرى يمكن استخدامها لتحويل جزء من الفوقية. اللغة الرئيسية هي تحديد الفوقية في هذا الباب. لغات أخرى يمكن أن تضاف إلى الباب الفوقية / عنصر المكان.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RUS">В метаданных стандарта ISO19115 предпочтительным является стандарт метаданных для использования. Этот шаблон многоязычный с языком по умолчанию установлен на английском языке. Другие языки могут использоваться для перевода части метаданных записи. Основным языком является определение метаданных разделе. Другие языки могут быть добавлены метаданные раздел / локаль элемент.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#SPA">El estándar de metadatos ISO19115 es el estándar de metadatos a utilizar. Esta plantilla es multilingüe, con un idioma por defecto configurado en Inglés. En otros idiomas puede ser usado para traducir parte del registro de metadatos. Idioma principal es definir los metadatos en la sección. Otros idiomas pueden ser añadidos a la sección de metadatos / locale elemento.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#GER">Die ISO19115 Metadaten-Standard ist der bevorzugte Metadaten-Standard zu verwenden. Diese Vorlage ist mehrsprachig mit einer Standard-Sprache auf Englisch. Andere Sprache verwendet werden könnten, um Teil der Metadaten werden. Sprache definieren, ist in Abschnitt Metadaten. Weitere Sprachen können hinzugefügt werden, um Metadaten Abschnitt / locale Element.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FRE">La norme de métadonnées ISO19115 est la norme de métadonnées à utiliser. Ce modèle est multilingue avec une langue par défaut en anglais. D'autres langues pourraient être utilisées pour traduire une partie de la de métadonnées. La langue principale est de définir dans la section des métadonnées. D'autres langues pourraient être ajoutées à la section des métadonnées / locale élément.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:abstract>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:organisationName>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+              <gmd:accessConstraints>
+                <gmd:MD_RestrictionCode codeListValue="copyright" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" />
+              </gmd:accessConstraints>
+            </gmd:MD_LegalConstraints>
+          </gmd:resourceConstraints>
+          <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+          </gmd:spatialRepresentationType>
+          <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+              <gmd:equivalentScale>
+                <gmd:MD_RepresentativeFraction>
+                  <gmd:denominator>
+                    <gco:Integer />
+                  </gmd:denominator>
+                </gmd:MD_RepresentativeFraction>
+              </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+          </gmd:spatialResolution>
+          <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+          </gmd:language>
+          <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+          </gmd:characterSet>
+          <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+          </gmd:topicCategory>
+          <gmd:extent>
+            <gmd:EX_Extent>
+              <gmd:geographicElement>
+                <gmd:EX_GeographicBoundingBox>
+                  <gmd:westBoundLongitude>
+                    <gco:Decimal>-180</gco:Decimal>
+                  </gmd:westBoundLongitude>
+                  <gmd:southBoundLatitude>
+                    <gco:Decimal>-90</gco:Decimal>
+                  </gmd:southBoundLatitude>
+                  <gmd:eastBoundLongitude>
+                    <gco:Decimal>180</gco:Decimal>
+                  </gmd:eastBoundLongitude>
+                  <gmd:northBoundLatitude>
+                    <gco:Decimal>90</gco:Decimal>
+                  </gmd:northBoundLatitude>
+                </gmd:EX_GeographicBoundingBox>
+              </gmd:geographicElement>
+            </gmd:EX_Extent>
+          </gmd:extent>
+        </gmd:MD_DataIdentification>
+      </gmd:identificationInfo>
+      <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+          <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://sdi.georchestra.org/geonetwork/srv/fre/resources.get?uuid=39e94069-9520-4b20-86b4-d1e1c4c69cd1&amp;fname=&amp;access=private</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:transferOptions>
+        </gmd:MD_Distribution>
+      </gmd:distributionInfo>
+      <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+          <gmd:lineage>
+            <gmd:LI_Lineage>
+              <gmd:statement gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:statement>
+            </gmd:LI_Lineage>
+          </gmd:lineage>
+        </gmd:DQ_DataQuality>
+      </gmd:dataQualityInfo>
+    </gmd:MD_Metadata>
+    <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:fileIdentifier>
+        <gco:CharacterString>22960667-1999-4dba-8454-dc2f81add61b</gco:CharacterString>
+      </gmd:fileIdentifier>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:dateStamp>
+        <gco:DateTime>2014-01-20T10:35:32</gco:DateTime>
+      </gmd:dateStamp>
+      <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      </gmd:metadataStandardName>
+      <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.0</gco:CharacterString>
+      </gmd:metadataStandardVersion>
+      <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+          <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>WGS 1984</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+      </gmd:referenceSystemInfo>
+      <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+          <gmd:citation>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Test contact</gco:CharacterString>
+              </gmd:title>
+            </gmd:CI_Citation>
+          </gmd:citation>
+          <gmd:abstract>
+            <gco:CharacterString>The ISO19115 metadata standard is the preferred metadata standard to use. If unsure what templates to start with, use this one.</gco:CharacterString>
+          </gmd:abstract>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:organisationName>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:pointOfContact xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Testing - Service SIG</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Rennes Métropole</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>02 23 62 22 70</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>sig@agglo-rennesmetropole.fr</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>08h00 - 12h00 et 14h00 - 17h00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:pointOfContact xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Maël REBOUX - Service SIG</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Rennes Métropole</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>02 23 62 22 70</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>sig@agglo-rennesmetropole.fr</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>08h00 - 12h00 et 14h00 - 17h00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:pointOfContact xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Testing - Service SIG</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Rennes Métropole</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>02 23 62 22 70</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>sig@agglo-rennesmetropole.fr</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>08h00 - 12h00 et 14h00 - 17h00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="principalInvestigator" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:pointOfContact xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <gmd:CI_ResponsibleParty>
+              <gmd:individualName>
+                <gco:CharacterString>Maël REBOUX - Service SIG</gco:CharacterString>
+              </gmd:individualName>
+              <gmd:organisationName>
+                <gco:CharacterString>Rennes Métropole</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>02 23 62 22 70</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>sig@agglo-rennesmetropole.fr</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:hoursOfService>
+                    <gco:CharacterString>08h00 - 12h00 et 14h00 - 17h00</gco:CharacterString>
+                  </gmd:hoursOfService>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="./resources/codeList.xml#CI_RoleCode" codeListValue="principalInvestigator" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+              <gmd:accessConstraints>
+                <gmd:MD_RestrictionCode codeListValue="copyright" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" />
+              </gmd:accessConstraints>
+            </gmd:MD_LegalConstraints>
+          </gmd:resourceConstraints>
+          <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+          </gmd:spatialRepresentationType>
+          <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+              <gmd:equivalentScale>
+                <gmd:MD_RepresentativeFraction>
+                  <gmd:denominator>
+                    <gco:Integer />
+                  </gmd:denominator>
+                </gmd:MD_RepresentativeFraction>
+              </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+          </gmd:spatialResolution>
+          <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+          </gmd:language>
+          <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+          </gmd:characterSet>
+          <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+          </gmd:topicCategory>
+          <gmd:extent>
+            <gmd:EX_Extent>
+              <gmd:geographicElement>
+                <gmd:EX_GeographicBoundingBox>
+                  <gmd:westBoundLongitude>
+                    <gco:Decimal>-180</gco:Decimal>
+                  </gmd:westBoundLongitude>
+                  <gmd:southBoundLatitude>
+                    <gco:Decimal>-90</gco:Decimal>
+                  </gmd:southBoundLatitude>
+                  <gmd:eastBoundLongitude>
+                    <gco:Decimal>180</gco:Decimal>
+                  </gmd:eastBoundLongitude>
+                  <gmd:northBoundLatitude>
+                    <gco:Decimal>90</gco:Decimal>
+                  </gmd:northBoundLatitude>
+                </gmd:EX_GeographicBoundingBox>
+              </gmd:geographicElement>
+            </gmd:EX_Extent>
+          </gmd:extent>
+        </gmd:MD_DataIdentification>
+      </gmd:identificationInfo>
+      <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+          <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://sdi.georchestra.org/geonetwork/srv/fre/resources.get?uuid=22960667-1999-4dba-8454-dc2f81add61b&amp;fname=&amp;access=private</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:transferOptions>
+        </gmd:MD_Distribution>
+      </gmd:distributionInfo>
+      <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+          <gmd:lineage>
+            <gmd:LI_Lineage>
+              <gmd:statement gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:statement>
+            </gmd:LI_Lineage>
+          </gmd:lineage>
+        </gmd:DQ_DataQuality>
+      </gmd:dataQualityInfo>
+    </gmd:MD_Metadata>
+    <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:fileIdentifier>
+        <gco:CharacterString>8838c8c7-f69c-4514-a2c0-5032afedbf4e</gco:CharacterString>
+      </gmd:fileIdentifier>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:dateStamp>
+        <gco:DateTime>2013-10-11T09:31:34</gco:DateTime>
+      </gmd:dateStamp>
+      <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      </gmd:metadataStandardName>
+      <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.0</gco:CharacterString>
+      </gmd:metadataStandardVersion>
+      <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+          <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>WGS 1984</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+      </gmd:referenceSystemInfo>
+      <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+          <gmd:citation>
+            <gmd:CI_Citation>
+              <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Template for Vector data in ISO19139 (multilingual)</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FRE">Modèle de données vectorielles en ISO19139 (multilingue)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#GER">Vorlage für die Vektor-Daten in ISO19139 (mehrsprachig)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#SPA">De plantilla para el vector de datos en ISO19139 (multilingüe)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#RUS">Шаблон для векторных данных в ISO19139 (многоязычное)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#ARA">نموذج البيانات الموجهة في ISO19139 (متعددة اللغات)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#CHI">模板矢量数据ISO19139（多种语言）</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+            </gmd:CI_Citation>
+          </gmd:citation>
+          <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>The ISO19115 metadata standard is the preferred metadata standard to use. This template is multilingual with a default language set to english. Other language could be used to translate part of the metadata record. Main language is define in metadata section. Other languages could be added to metadata section / locale element.</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#CHI">元数据标准的ISO19115是首选元数据标准使用。这个模板是多语种的默认语言设置为英语。其他语言可以用来翻译部分的元数据记录。主要语言是界定元一节。其他语言可以增加元数据节/地区因素。</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#ARA">فإن معيار ISO19115 الفوقية هو المفضل لاستخدام البيانات الوصفية القياسية. هذا القالب هو متعدد اللغات مع اللغة الافتراضية لمجموعة الانجليزية. لغة أخرى يمكن استخدامها لتحويل جزء من الفوقية. اللغة الرئيسية هي تحديد الفوقية في هذا الباب. لغات أخرى يمكن أن تضاف إلى الباب الفوقية / عنصر المكان.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RUS">В метаданных стандарта ISO19115 предпочтительным является стандарт метаданных для использования. Этот шаблон многоязычный с языком по умолчанию установлен на английском языке. Другие языки могут использоваться для перевода части метаданных записи. Основным языком является определение метаданных разделе. Другие языки могут быть добавлены метаданные раздел / локаль элемент.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#SPA">El estándar de metadatos ISO19115 es el estándar de metadatos a utilizar. Esta plantilla es multilingüe, con un idioma por defecto configurado en Inglés. En otros idiomas puede ser usado para traducir parte del registro de metadatos. Idioma principal es definir los metadatos en la sección. Otros idiomas pueden ser añadidos a la sección de metadatos / locale elemento.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#GER">Die ISO19115 Metadaten-Standard ist der bevorzugte Metadaten-Standard zu verwenden. Diese Vorlage ist mehrsprachig mit einer Standard-Sprache auf Englisch. Andere Sprache verwendet werden könnten, um Teil der Metadaten werden. Sprache definieren, ist in Abschnitt Metadaten. Weitere Sprachen können hinzugefügt werden, um Metadaten Abschnitt / locale Element.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FRE">La norme de métadonnées ISO19115 est la norme de métadonnées à utiliser. Ce modèle est multilingue avec une langue par défaut en anglais. D'autres langues pourraient être utilisées pour traduire une partie de la de métadonnées. La langue principale est de définir dans la section des métadonnées. D'autres langues pourraient être ajoutées à la section des métadonnées / locale élément.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:abstract>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:organisationName>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+              <gmd:accessConstraints>
+                <gmd:MD_RestrictionCode codeListValue="copyright" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" />
+              </gmd:accessConstraints>
+            </gmd:MD_LegalConstraints>
+          </gmd:resourceConstraints>
+          <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+          </gmd:spatialRepresentationType>
+          <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+              <gmd:equivalentScale>
+                <gmd:MD_RepresentativeFraction>
+                  <gmd:denominator>
+                    <gco:Integer />
+                  </gmd:denominator>
+                </gmd:MD_RepresentativeFraction>
+              </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+          </gmd:spatialResolution>
+          <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+          </gmd:language>
+          <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+          </gmd:characterSet>
+          <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+          </gmd:topicCategory>
+          <gmd:extent>
+            <gmd:EX_Extent>
+              <gmd:geographicElement>
+                <gmd:EX_GeographicBoundingBox>
+                  <gmd:westBoundLongitude>
+                    <gco:Decimal>-180</gco:Decimal>
+                  </gmd:westBoundLongitude>
+                  <gmd:southBoundLatitude>
+                    <gco:Decimal>-90</gco:Decimal>
+                  </gmd:southBoundLatitude>
+                  <gmd:eastBoundLongitude>
+                    <gco:Decimal>180</gco:Decimal>
+                  </gmd:eastBoundLongitude>
+                  <gmd:northBoundLatitude>
+                    <gco:Decimal>90</gco:Decimal>
+                  </gmd:northBoundLatitude>
+                </gmd:EX_GeographicBoundingBox>
+              </gmd:geographicElement>
+            </gmd:EX_Extent>
+          </gmd:extent>
+        </gmd:MD_DataIdentification>
+      </gmd:identificationInfo>
+      <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+          <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://sdi.georchestra.org/geonetwork/srv/fre/resources.get?uuid=8838c8c7-f69c-4514-a2c0-5032afedbf4e&amp;fname=&amp;access=private</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:transferOptions>
+        </gmd:MD_Distribution>
+      </gmd:distributionInfo>
+      <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+          <gmd:lineage>
+            <gmd:LI_Lineage>
+              <gmd:statement gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:statement>
+            </gmd:LI_Lineage>
+          </gmd:lineage>
+        </gmd:DQ_DataQuality>
+      </gmd:dataQualityInfo>
+    </gmd:MD_Metadata>
+    <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:fileIdentifier>
+        <gco:CharacterString>10dfd554-3a3c-4af8-9e36-2c0065c0c1c1</gco:CharacterString>
+      </gmd:fileIdentifier>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:dateStamp>
+        <gco:DateTime>2013-10-11T09:31:06</gco:DateTime>
+      </gmd:dateStamp>
+      <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      </gmd:metadataStandardName>
+      <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.0</gco:CharacterString>
+      </gmd:metadataStandardVersion>
+      <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+          <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>WGS 1984</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+      </gmd:referenceSystemInfo>
+      <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+          <gmd:citation>
+            <gmd:CI_Citation>
+              <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Template for Vector data in ISO19139 (multilingual)</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FRE">Modèle de données vectorielles en ISO19139 (multilingue)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#GER">Vorlage für die Vektor-Daten in ISO19139 (mehrsprachig)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#SPA">De plantilla para el vector de datos en ISO19139 (multilingüe)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#RUS">Шаблон для векторных данных в ISO19139 (многоязычное)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#ARA">نموذج البيانات الموجهة في ISO19139 (متعددة اللغات)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#CHI">模板矢量数据ISO19139（多种语言）</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+            </gmd:CI_Citation>
+          </gmd:citation>
+          <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>The ISO19115 metadata standard is the preferred metadata standard to use. This template is multilingual with a default language set to english. Other language could be used to translate part of the metadata record. Main language is define in metadata section. Other languages could be added to metadata section / locale element.</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#CHI">元数据标准的ISO19115是首选元数据标准使用。这个模板是多语种的默认语言设置为英语。其他语言可以用来翻译部分的元数据记录。主要语言是界定元一节。其他语言可以增加元数据节/地区因素。</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#ARA">فإن معيار ISO19115 الفوقية هو المفضل لاستخدام البيانات الوصفية القياسية. هذا القالب هو متعدد اللغات مع اللغة الافتراضية لمجموعة الانجليزية. لغة أخرى يمكن استخدامها لتحويل جزء من الفوقية. اللغة الرئيسية هي تحديد الفوقية في هذا الباب. لغات أخرى يمكن أن تضاف إلى الباب الفوقية / عنصر المكان.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RUS">В метаданных стандарта ISO19115 предпочтительным является стандарт метаданных для использования. Этот шаблон многоязычный с языком по умолчанию установлен на английском языке. Другие языки могут использоваться для перевода части метаданных записи. Основным языком является определение метаданных разделе. Другие языки могут быть добавлены метаданные раздел / локаль элемент.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#SPA">El estándar de metadatos ISO19115 es el estándar de metadatos a utilizar. Esta plantilla es multilingüe, con un idioma por defecto configurado en Inglés. En otros idiomas puede ser usado para traducir parte del registro de metadatos. Idioma principal es definir los metadatos en la sección. Otros idiomas pueden ser añadidos a la sección de metadatos / locale elemento.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#GER">Die ISO19115 Metadaten-Standard ist der bevorzugte Metadaten-Standard zu verwenden. Diese Vorlage ist mehrsprachig mit einer Standard-Sprache auf Englisch. Andere Sprache verwendet werden könnten, um Teil der Metadaten werden. Sprache definieren, ist in Abschnitt Metadaten. Weitere Sprachen können hinzugefügt werden, um Metadaten Abschnitt / locale Element.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FRE">La norme de métadonnées ISO19115 est la norme de métadonnées à utiliser. Ce modèle est multilingue avec une langue par défaut en anglais. D'autres langues pourraient être utilisées pour traduire une partie de la de métadonnées. La langue principale est de définir dans la section des métadonnées. D'autres langues pourraient être ajoutées à la section des métadonnées / locale élément.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:abstract>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:organisationName>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+              <gmd:accessConstraints>
+                <gmd:MD_RestrictionCode codeListValue="copyright" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" />
+              </gmd:accessConstraints>
+            </gmd:MD_LegalConstraints>
+          </gmd:resourceConstraints>
+          <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+          </gmd:spatialRepresentationType>
+          <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+              <gmd:equivalentScale>
+                <gmd:MD_RepresentativeFraction>
+                  <gmd:denominator>
+                    <gco:Integer />
+                  </gmd:denominator>
+                </gmd:MD_RepresentativeFraction>
+              </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+          </gmd:spatialResolution>
+          <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+          </gmd:language>
+          <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+          </gmd:characterSet>
+          <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+          </gmd:topicCategory>
+          <gmd:extent>
+            <gmd:EX_Extent>
+              <gmd:geographicElement>
+                <gmd:EX_GeographicBoundingBox>
+                  <gmd:westBoundLongitude>
+                    <gco:Decimal>-180</gco:Decimal>
+                  </gmd:westBoundLongitude>
+                  <gmd:southBoundLatitude>
+                    <gco:Decimal>-90</gco:Decimal>
+                  </gmd:southBoundLatitude>
+                  <gmd:eastBoundLongitude>
+                    <gco:Decimal>180</gco:Decimal>
+                  </gmd:eastBoundLongitude>
+                  <gmd:northBoundLatitude>
+                    <gco:Decimal>90</gco:Decimal>
+                  </gmd:northBoundLatitude>
+                </gmd:EX_GeographicBoundingBox>
+              </gmd:geographicElement>
+            </gmd:EX_Extent>
+          </gmd:extent>
+        </gmd:MD_DataIdentification>
+      </gmd:identificationInfo>
+      <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+          <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://sdi.georchestra.org/geonetwork/srv/fre/resources.get?uuid=10dfd554-3a3c-4af8-9e36-2c0065c0c1c1&amp;fname=&amp;access=private</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:transferOptions>
+        </gmd:MD_Distribution>
+      </gmd:distributionInfo>
+      <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+          <gmd:lineage>
+            <gmd:LI_Lineage>
+              <gmd:statement gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:statement>
+            </gmd:LI_Lineage>
+          </gmd:lineage>
+        </gmd:DQ_DataQuality>
+      </gmd:dataQualityInfo>
+    </gmd:MD_Metadata>
+    <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:fileIdentifier>
+        <gco:CharacterString>69bf7eff-79c5-4b78-a79b-c0659ed42782</gco:CharacterString>
+      </gmd:fileIdentifier>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:dateStamp>
+        <gco:DateTime>2013-10-11T09:23:41</gco:DateTime>
+      </gmd:dateStamp>
+      <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      </gmd:metadataStandardName>
+      <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.0</gco:CharacterString>
+      </gmd:metadataStandardVersion>
+      <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+          <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>WGS 1984</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+      </gmd:referenceSystemInfo>
+      <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+          <gmd:citation>
+            <gmd:CI_Citation>
+              <gmd:title xsi:type="gmd:PT_FreeText_PropertyType">
+                <gco:CharacterString>Template for Vector data in ISO19139 (multilingual)</gco:CharacterString>
+                <gmd:PT_FreeText>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#FRE">Modèle de données vectorielles en ISO19139 (multilingue)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#GER">Vorlage für die Vektor-Daten in ISO19139 (mehrsprachig)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#SPA">De plantilla para el vector de datos en ISO19139 (multilingüe)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#RUS">Шаблон для векторных данных в ISO19139 (многоязычное)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#ARA">نموذج البيانات الموجهة في ISO19139 (متعددة اللغات)</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                  <gmd:textGroup>
+                    <gmd:LocalisedCharacterString locale="#CHI">模板矢量数据ISO19139（多种语言）</gmd:LocalisedCharacterString>
+                  </gmd:textGroup>
+                </gmd:PT_FreeText>
+              </gmd:title>
+            </gmd:CI_Citation>
+          </gmd:citation>
+          <gmd:abstract xsi:type="gmd:PT_FreeText_PropertyType">
+            <gco:CharacterString>The ISO19115 metadata standard is the preferred metadata standard to use. This template is multilingual with a default language set to english. Other language could be used to translate part of the metadata record. Main language is define in metadata section. Other languages could be added to metadata section / locale element.</gco:CharacterString>
+            <gmd:PT_FreeText>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#CHI">元数据标准的ISO19115是首选元数据标准使用。这个模板是多语种的默认语言设置为英语。其他语言可以用来翻译部分的元数据记录。主要语言是界定元一节。其他语言可以增加元数据节/地区因素。</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#ARA">فإن معيار ISO19115 الفوقية هو المفضل لاستخدام البيانات الوصفية القياسية. هذا القالب هو متعدد اللغات مع اللغة الافتراضية لمجموعة الانجليزية. لغة أخرى يمكن استخدامها لتحويل جزء من الفوقية. اللغة الرئيسية هي تحديد الفوقية في هذا الباب. لغات أخرى يمكن أن تضاف إلى الباب الفوقية / عنصر المكان.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#RUS">В метаданных стандарта ISO19115 предпочтительным является стандарт метаданных для использования. Этот шаблон многоязычный с языком по умолчанию установлен на английском языке. Другие языки могут использоваться для перевода части метаданных записи. Основным языком является определение метаданных разделе. Другие языки могут быть добавлены метаданные раздел / локаль элемент.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#SPA">El estándar de metadatos ISO19115 es el estándar de metadatos a utilizar. Esta plantilla es multilingüe, con un idioma por defecto configurado en Inglés. En otros idiomas puede ser usado para traducir parte del registro de metadatos. Idioma principal es definir los metadatos en la sección. Otros idiomas pueden ser añadidos a la sección de metadatos / locale elemento.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#GER">Die ISO19115 Metadaten-Standard ist der bevorzugte Metadaten-Standard zu verwenden. Diese Vorlage ist mehrsprachig mit einer Standard-Sprache auf Englisch. Andere Sprache verwendet werden könnten, um Teil der Metadaten werden. Sprache definieren, ist in Abschnitt Metadaten. Weitere Sprachen können hinzugefügt werden, um Metadaten Abschnitt / locale Element.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+              <gmd:textGroup>
+                <gmd:LocalisedCharacterString locale="#FRE">La norme de métadonnées ISO19115 est la norme de métadonnées à utiliser. Ce modèle est multilingue avec une langue par défaut en anglais. D'autres langues pourraient être utilisées pour traduire une partie de la de métadonnées. La langue principale est de définir dans la section des métadonnées. D'autres langues pourraient être ajoutées à la section des métadonnées / locale élément.</gmd:LocalisedCharacterString>
+              </gmd:textGroup>
+            </gmd:PT_FreeText>
+          </gmd:abstract>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:organisationName>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+              <gmd:accessConstraints>
+                <gmd:MD_RestrictionCode codeListValue="copyright" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" />
+              </gmd:accessConstraints>
+            </gmd:MD_LegalConstraints>
+          </gmd:resourceConstraints>
+          <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+          </gmd:spatialRepresentationType>
+          <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+              <gmd:equivalentScale>
+                <gmd:MD_RepresentativeFraction>
+                  <gmd:denominator>
+                    <gco:Integer />
+                  </gmd:denominator>
+                </gmd:MD_RepresentativeFraction>
+              </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+          </gmd:spatialResolution>
+          <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+          </gmd:language>
+          <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+          </gmd:characterSet>
+          <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+          </gmd:topicCategory>
+          <gmd:extent>
+            <gmd:EX_Extent>
+              <gmd:geographicElement>
+                <gmd:EX_GeographicBoundingBox>
+                  <gmd:westBoundLongitude>
+                    <gco:Decimal>-180</gco:Decimal>
+                  </gmd:westBoundLongitude>
+                  <gmd:southBoundLatitude>
+                    <gco:Decimal>-90</gco:Decimal>
+                  </gmd:southBoundLatitude>
+                  <gmd:eastBoundLongitude>
+                    <gco:Decimal>180</gco:Decimal>
+                  </gmd:eastBoundLongitude>
+                  <gmd:northBoundLatitude>
+                    <gco:Decimal>90</gco:Decimal>
+                  </gmd:northBoundLatitude>
+                </gmd:EX_GeographicBoundingBox>
+              </gmd:geographicElement>
+            </gmd:EX_Extent>
+          </gmd:extent>
+        </gmd:MD_DataIdentification>
+      </gmd:identificationInfo>
+      <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+          <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://sdi.georchestra.org/geonetwork/srv/fre/resources.get?uuid=69bf7eff-79c5-4b78-a79b-c0659ed42782&amp;fname=&amp;access=private</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:transferOptions>
+        </gmd:MD_Distribution>
+      </gmd:distributionInfo>
+      <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+          <gmd:lineage>
+            <gmd:LI_Lineage>
+              <gmd:statement gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:statement>
+            </gmd:LI_Lineage>
+          </gmd:lineage>
+        </gmd:DQ_DataQuality>
+      </gmd:dataQualityInfo>
+    </gmd:MD_Metadata>
+  </csw:SearchResults>
+</csw:GetRecordsResponse>
+

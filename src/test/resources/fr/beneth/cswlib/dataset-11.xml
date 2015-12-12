@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<csw:GetRecordsResponse xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/cat/csw/2.0.2 http://schemas.opengis.net/csw/2.0.2/CSW-discovery.xsd">
+  <csw:SearchStatus timestamp="2015-12-12T11:31:51" />
+  <csw:SearchResults numberOfRecordsMatched="15" numberOfRecordsReturned="5" elementSet="summary" nextRecord="16">
+    <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:fileIdentifier>
+        <gco:CharacterString>da165110-88fd-11da-a88f-000d939bc5d8</gco:CharacterString>
+      </gmd:fileIdentifier>
+      <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="./resources/codeList.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:dateStamp>
+        <gco:DateTime>2007-11-06T12:13:00</gco:DateTime>
+      </gmd:dateStamp>
+      <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      </gmd:metadataStandardName>
+      <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.0</gco:CharacterString>
+      </gmd:metadataStandardVersion>
+      <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+          <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>WGS 1984</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+      </gmd:referenceSystemInfo>
+      <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+          <gmd:citation>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Hydrological Basins in Africa (Sample record, please remove!)</gco:CharacterString>
+              </gmd:title>
+            </gmd:CI_Citation>
+          </gmd:citation>
+          <gmd:abstract>
+            <gco:CharacterString>Major hydrological basins and their sub-basins. This dataset divides the African continent according to its hydrological characteristics.
+The dataset consists of the following information:- numerical code and name of the major basin (MAJ_BAS and MAJ_NAME); - area of the major basin in square km (MAJ_AREA); - numerical code and name of the sub-basin (SUB_BAS and SUB_NAME); - area of the sub-basin in square km (SUB_AREA); - numerical code of the sub-basin towards which the sub-basin flows (TO_SUBBAS) (the codes -888 and -999 have been assigned respectively to internal sub-basins and to sub-basins draining into the sea)</gco:CharacterString>
+          </gmd:abstract>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName>
+                <gco:CharacterString>thumbnail_s.gif</gco:CharacterString>
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName>
+                <gco:CharacterString>thumbnail.gif</gco:CharacterString>
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:resourceConstraints>
+            <gmd:MD_Constraints>
+              <gmd:useLimitation>
+                <gco:CharacterString />
+              </gmd:useLimitation>
+            </gmd:MD_Constraints>
+          </gmd:resourceConstraints>
+          <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeList="./resources/codeList.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" />
+          </gmd:spatialRepresentationType>
+          <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+              <gmd:equivalentScale>
+                <gmd:MD_RepresentativeFraction>
+                  <gmd:denominator>
+                    <gco:Integer>5000000</gco:Integer>
+                  </gmd:denominator>
+                </gmd:MD_RepresentativeFraction>
+              </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+          </gmd:spatialResolution>
+          <gmd:language>
+            <gco:CharacterString>eng</gco:CharacterString>
+          </gmd:language>
+          <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeList="./resources/codeList.xml#MD_CharacterSetCode" codeListValue="utf8" />
+          </gmd:characterSet>
+          <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+          </gmd:topicCategory>
+          <gmd:extent>
+            <gmd:EX_Extent>
+              <gmd:geographicElement>
+                <gmd:EX_GeographicBoundingBox>
+                  <gmd:westBoundLongitude>
+                    <gco:Decimal>-17.3</gco:Decimal>
+                  </gmd:westBoundLongitude>
+                  <gmd:southBoundLatitude>
+                    <gco:Decimal>-34.6</gco:Decimal>
+                  </gmd:southBoundLatitude>
+                  <gmd:eastBoundLongitude>
+                    <gco:Decimal>51.1</gco:Decimal>
+                  </gmd:eastBoundLongitude>
+                  <gmd:northBoundLatitude>
+                    <gco:Decimal>38.2</gco:Decimal>
+                  </gmd:northBoundLatitude>
+                </gmd:EX_GeographicBoundingBox>
+              </gmd:geographicElement>
+            </gmd:EX_Extent>
+          </gmd:extent>
+        </gmd:MD_DataIdentification>
+      </gmd:identificationInfo>
+      <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+          <gmd:distributionFormat>
+            <gmd:MD_Format>
+              <gmd:name>
+                <gco:CharacterString>ShapeFile</gco:CharacterString>
+              </gmd:name>
+              <gmd:version>
+                <gco:CharacterString>Grass Version 6.1</gco:CharacterString>
+              </gmd:version>
+            </gmd:MD_Format>
+          </gmd:distributionFormat>
+          <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://www.fao.org/ag/AGL/aglw/aquastat/watresafrica/index.stm</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://localhost:8080/geonetwork/srv/en/resources.get?uuid=da165110-88fd-11da-a88f-000d939bc5d8&amp;fname=basins.zip&amp;access=private</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://geonetwork3.fao.org/ows/296</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:transferOptions>
+        </gmd:MD_Distribution>
+      </gmd:distributionInfo>
+      <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+          <gmd:lineage>
+            <gmd:LI_Lineage>
+              <gmd:statement>
+                <gco:CharacterString>The linework of the map is obtained by delineating drainage basin boundaries from an hydrologically corrected digital elevation model with a resolution of 1 * 1 km.</gco:CharacterString>
+              </gmd:statement>
+            </gmd:LI_Lineage>
+          </gmd:lineage>
+        </gmd:DQ_DataQuality>
+      </gmd:dataQualityInfo>
+    </gmd:MD_Metadata>
+    <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:fileIdentifier>
+        <gco:CharacterString>2015f1f9-30d3-46fb-9cbf-99d48536f83a</gco:CharacterString>
+      </gmd:fileIdentifier>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:dateStamp>
+        <gco:DateTime>2013-10-10T16:35:05</gco:DateTime>
+      </gmd:dateStamp>
+      <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      </gmd:metadataStandardName>
+      <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.0</gco:CharacterString>
+      </gmd:metadataStandardVersion>
+      <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+          <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>WGS 1984</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+      </gmd:referenceSystemInfo>
+      <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+          <gmd:citation>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Template for Vector data in ISO19139 (preferred!)</gco:CharacterString>
+              </gmd:title>
+            </gmd:CI_Citation>
+          </gmd:citation>
+          <gmd:abstract>
+            <gco:CharacterString>The ISO19115 metadata standard is the preferred metadata standard to use. If unsure what templates to start with, use this one.</gco:CharacterString>
+          </gmd:abstract>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:organisationName>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+              <gmd:accessConstraints>
+                <gmd:MD_RestrictionCode codeListValue="copyright" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" />
+              </gmd:accessConstraints>
+            </gmd:MD_LegalConstraints>
+          </gmd:resourceConstraints>
+          <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+          </gmd:spatialRepresentationType>
+          <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+              <gmd:equivalentScale>
+                <gmd:MD_RepresentativeFraction>
+                  <gmd:denominator>
+                    <gco:Integer />
+                  </gmd:denominator>
+                </gmd:MD_RepresentativeFraction>
+              </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+          </gmd:spatialResolution>
+          <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+          </gmd:language>
+          <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+          </gmd:characterSet>
+          <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+          </gmd:topicCategory>
+          <gmd:extent>
+            <gmd:EX_Extent>
+              <gmd:geographicElement>
+                <gmd:EX_GeographicBoundingBox>
+                  <gmd:westBoundLongitude>
+                    <gco:Decimal>-180</gco:Decimal>
+                  </gmd:westBoundLongitude>
+                  <gmd:southBoundLatitude>
+                    <gco:Decimal>-90</gco:Decimal>
+                  </gmd:southBoundLatitude>
+                  <gmd:eastBoundLongitude>
+                    <gco:Decimal>180</gco:Decimal>
+                  </gmd:eastBoundLongitude>
+                  <gmd:northBoundLatitude>
+                    <gco:Decimal>90</gco:Decimal>
+                  </gmd:northBoundLatitude>
+                </gmd:EX_GeographicBoundingBox>
+              </gmd:geographicElement>
+            </gmd:EX_Extent>
+          </gmd:extent>
+        </gmd:MD_DataIdentification>
+      </gmd:identificationInfo>
+      <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+          <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://sdi.georchestra.org/geonetwork/srv/fre/resources.get?uuid=2015f1f9-30d3-46fb-9cbf-99d48536f83a&amp;fname=&amp;access=private</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL />
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:transferOptions>
+        </gmd:MD_Distribution>
+      </gmd:distributionInfo>
+      <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+          <gmd:lineage>
+            <gmd:LI_Lineage>
+              <gmd:statement gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:statement>
+            </gmd:LI_Lineage>
+          </gmd:lineage>
+        </gmd:DQ_DataQuality>
+      </gmd:dataQualityInfo>
+    </gmd:MD_Metadata>
+    <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:fileIdentifier>
+        <gco:CharacterString>22a81c1a-59e4-4e8e-a97b-ea1f94e84325</gco:CharacterString>
+      </gmd:fileIdentifier>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:dateStamp>
+        <gco:DateTime>2015-05-09T20:17:27</gco:DateTime>
+      </gmd:dateStamp>
+      <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      </gmd:metadataStandardName>
+      <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.0</gco:CharacterString>
+      </gmd:metadataStandardVersion>
+      <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+          <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>WGS 1984</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+      </gmd:referenceSystemInfo>
+      <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+          <gmd:citation>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Recensement des armoires de rues du réseau de fibres optiques sur l'agglomération de Chambéry</gco:CharacterString>
+              </gmd:title>
+            </gmd:CI_Citation>
+          </gmd:citation>
+          <gmd:abstract>
+            <gco:CharacterString>Recensement des armoires de réseau de fibres optiques sur la métropole Chambérienne. Le déploiement horizontal de la métropole est assuré par Orange.
+
+Le relevé a eu lieu en mai 2015 dans le cadre de l'enrichissement des données du projet OpenStreetMap.</gco:CharacterString>
+          </gmd:abstract>
+          <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName>
+                <gco:CharacterString>http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=22a81c1a-59e4-4e8e-a97b-ea1f94e84325&amp;fname=fo_s.png</gco:CharacterString>
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName>
+                <gco:CharacterString>http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=22a81c1a-59e4-4e8e-a97b-ea1f94e84325&amp;fname=fo.png</gco:CharacterString>
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>OpenStreetMap France</gco:CharacterString>
+              </gmd:organisationName>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+              <gmd:accessConstraints>
+                <gmd:MD_RestrictionCode codeListValue="copyright" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" />
+              </gmd:accessConstraints>
+            </gmd:MD_LegalConstraints>
+          </gmd:resourceConstraints>
+          <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+          </gmd:spatialRepresentationType>
+          <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+          </gmd:language>
+          <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+          </gmd:characterSet>
+          <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>boundaries</gmd:MD_TopicCategoryCode>
+          </gmd:topicCategory>
+          <gmd:extent>
+            <gmd:EX_Extent>
+              <gmd:geographicElement>
+                <gmd:EX_GeographicBoundingBox>
+                  <gmd:westBoundLongitude>
+                    <gco:Decimal>5.906687414932112</gco:Decimal>
+                  </gmd:westBoundLongitude>
+                  <gmd:southBoundLatitude>
+                    <gco:Decimal>45.55889114881522</gco:Decimal>
+                  </gmd:southBoundLatitude>
+                  <gmd:eastBoundLongitude>
+                    <gco:Decimal>5.945654547495047</gco:Decimal>
+                  </gmd:eastBoundLongitude>
+                  <gmd:northBoundLatitude>
+                    <gco:Decimal>45.57739784350508</gco:Decimal>
+                  </gmd:northBoundLatitude>
+                </gmd:EX_GeographicBoundingBox>
+              </gmd:geographicElement>
+            </gmd:EX_Extent>
+          </gmd:extent>
+        </gmd:MD_DataIdentification>
+      </gmd:identificationInfo>
+      <gmd:distributionInfo xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:date="http://exslt.org/dates-and-times">
+        <gmd:MD_Distribution>
+          <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://sdi.georchestra.org/geoserver/pmauduit_test/wms?SERVICE=WMS</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:transferOptions>
+        </gmd:MD_Distribution>
+      </gmd:distributionInfo>
+      <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+          <gmd:lineage>
+            <gmd:LI_Lineage>
+              <gmd:statement gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:statement>
+            </gmd:LI_Lineage>
+          </gmd:lineage>
+        </gmd:DQ_DataQuality>
+      </gmd:dataQualityInfo>
+    </gmd:MD_Metadata>
+    <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:fileIdentifier>
+        <gco:CharacterString>aec35275-3f2f-4742-9e89-435a508ca3b6</gco:CharacterString>
+      </gmd:fileIdentifier>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng" />
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:dateStamp>
+        <gco:DateTime>2014-11-18T23:48:48</gco:DateTime>
+      </gmd:dateStamp>
+      <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      </gmd:metadataStandardName>
+      <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.0</gco:CharacterString>
+      </gmd:metadataStandardVersion>
+      <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+          <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>WGS 1984</gco:CharacterString>
+              </gmd:code>
+            </gmd:RS_Identifier>
+          </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+      </gmd:referenceSystemInfo>
+      <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+          <gmd:citation>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Menhirs en France</gco:CharacterString>
+              </gmd:title>
+            </gmd:CI_Citation>
+          </gmd:citation>
+          <gmd:abstract>
+            <gco:CharacterString>Base de données constituée dans les années 2000 par des relevés terrain, essentiellement dans le sud de la France.</gco:CharacterString>
+          </gmd:abstract>
+          <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName>
+                <gco:CharacterString>http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=aec35275-3f2f-4742-9e89-435a508ca3b6&amp;fname=Capture_du_2014-11-18_232255_s.png</gco:CharacterString>
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:graphicOverview xmlns:srv="http://www.isotc211.org/2005/srv">
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName>
+                <gco:CharacterString>http://sdi.georchestra.org:80/geonetwork/srv/eng/resources.get?uuid=aec35275-3f2f-4742-9e89-435a508ca3b6&amp;fname=Capture_du_2014-11-18_232255.png</gco:CharacterString>
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:pointOfContact>
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:organisationName>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+              <gmd:accessConstraints>
+                <gmd:MD_RestrictionCode codeListValue="" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" />
+              </gmd:accessConstraints>
+            </gmd:MD_LegalConstraints>
+          </gmd:resourceConstraints>
+          <gmd:spatialRepresentationType>
+            <gmd:MD_SpatialRepresentationTypeCode codeListValue="vector" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_SpatialRepresentationTypeCode" />
+          </gmd:spatialRepresentationType>
+          <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+              <gmd:equivalentScale>
+                <gmd:MD_RepresentativeFraction>
+                  <gmd:denominator>
+                    <gco:Integer>25000</gco:Integer>
+                  </gmd:denominator>
+                </gmd:MD_RepresentativeFraction>
+              </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+          </gmd:spatialResolution>
+          <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+          </gmd:language>
+          <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+          </gmd:characterSet>
+          <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>geoscientificInformation</gmd:MD_TopicCategoryCode>
+          </gmd:topicCategory>
+          <gmd:extent>
+            <gmd:EX_Extent>
+              <gmd:geographicElement>
+                <gmd:EX_GeographicBoundingBox>
+                  <gmd:westBoundLongitude>
+                    <gco:Decimal>-7.016452251888181</gco:Decimal>
+                  </gmd:westBoundLongitude>
+                  <gmd:southBoundLatitude>
+                    <gco:Decimal>41.04519323023766</gco:Decimal>
+                  </gmd:southBoundLatitude>
+                  <gmd:eastBoundLongitude>
+                    <gco:Decimal>11.440578995542388</gco:Decimal>
+                  </gmd:eastBoundLongitude>
+                  <gmd:northBoundLatitude>
+                    <gco:Decimal>51.78059594336587</gco:Decimal>
+                  </gmd:northBoundLatitude>
+                </gmd:EX_GeographicBoundingBox>
+              </gmd:geographicElement>
+            </gmd:EX_Extent>
+          </gmd:extent>
+        </gmd:MD_DataIdentification>
+      </gmd:identificationInfo>
+      <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+          <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://sdi.georchestra.org/geoserver/ows?service=wfs&amp;request=GetFeature&amp;typename=geor:menhirs&amp;outputFormat=SHAPE-ZIP</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://sdi.georchestra.org/geonetwork/srv/eng/resources.get?uuid=aec35275-3f2f-4742-9e89-435a508ca3b6&amp;fname=&amp;access=private</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://sdi.georchestra.org/geoserver/ows</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:transferOptions>
+        </gmd:MD_Distribution>
+      </gmd:distributionInfo>
+      <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+          <gmd:lineage>
+            <gmd:LI_Lineage>
+              <gmd:statement gco:nilReason="missing">
+                <gco:CharacterString />
+              </gmd:statement>
+            </gmd:LI_Lineage>
+          </gmd:lineage>
+        </gmd:DQ_DataQuality>
+      </gmd:dataQualityInfo>
+    </gmd:MD_Metadata>
+    <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml" xmlns:geonet="http://www.fao.org/geonetwork">
+      <gmd:fileIdentifier>
+        <gco:CharacterString>78a750cf-dd53-41a7-bf19-7b276a8a24be</gco:CharacterString>
+      </gmd:fileIdentifier>
+      <gmd:language>
+        <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" />
+      </gmd:characterSet>
+      <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeListValue="dataset" codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_ScopeCode" />
+      </gmd:hierarchyLevel>
+      <gmd:hierarchyLevelName>
+        <gco:CharacterString>Série de données</gco:CharacterString>
+      </gmd:hierarchyLevelName>
+      <gmd:dateStamp>
+        <gco:DateTime>2013-12-16T10:48:24</gco:DateTime>
+      </gmd:dateStamp>
+      <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115:2003/19139</gco:CharacterString>
+      </gmd:metadataStandardName>
+      <gmd:metadataStandardVersion>
+        <gco:CharacterString>1.0</gco:CharacterString>
+      </gmd:metadataStandardVersion>
+      <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem />
+      </gmd:referenceSystemInfo>
+      <gmd:referenceSystemInfo>
+        <gmd:MD_ReferenceSystem>
+          <gmd:referenceSystemIdentifier>
+            <gmd:RS_Identifier>
+              <gmd:code>
+                <gco:CharacterString>RGF93 / Lambert-93 (EPSG:2154)</gco:CharacterString>
+              </gmd:code>
+              <gmd:codeSpace>
+                <gco:CharacterString>EPSG</gco:CharacterString>
+              </gmd:codeSpace>
+            </gmd:RS_Identifier>
+          </gmd:referenceSystemIdentifier>
+        </gmd:MD_ReferenceSystem>
+      </gmd:referenceSystemInfo>
+      <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+          <gmd:citation>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>Synthèse 2011 des POS et des PLU de Rennes Métropole</gco:CharacterString>
+              </gmd:title>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gco:CharacterString>fr-777734070-syntheseplu-2011</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+            </gmd:CI_Citation>
+          </gmd:citation>
+          <gmd:abstract>
+            <gco:CharacterString>La donnée est un assemblage des zonages vectorisés des plans d'occupation des sols (POS) encore en vigueur et des plans locaux de l'urbanisme (PLU) des communes adhérentes à la communauté d'agglomération Rennes Métropole.
+
+De par sa nature, ce document est un document de travail qui ne permet aucune information à caractère réglementaire ou de procédure.
+En effet, cette synthèse ne constitue pas un récolement complet de tous les POS et PLU de l'agglomération.
+
+l'échelle de travail recommandée est le 1/25000 mais des zooms au 1/2000 peuvent être fait sur les communes où le cadastre PCI vecteur est le référentiel de saisie.
+
+Pour un bon usage de cette donnée, il convient :
+1. de prendre connaissance des modalités de numérisation qui varient selon la commune consultée
+2. d'utiliser conjointement la couche des espaces boisés classés (EBC) correspondant à ce millésime
+3. d'utiliser conjointement la couche de l'emprise de la mine de Pont-Péan</gco:CharacterString>
+          </gmd:abstract>
+          <gmd:graphicOverview>
+            <gmd:MD_BrowseGraphic>
+              <gmd:fileName>
+                <gco:CharacterString>http://carto2.rennesmetropole.fr/catalogue/images/audiar_syntheseplu_2011.png</gco:CharacterString>
+              </gmd:fileName>
+            </gmd:MD_BrowseGraphic>
+          </gmd:graphicOverview>
+          <gmd:pointOfContact xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gsr="http://www.isotc211.org/2005/gsr">
+            <gmd:CI_ResponsibleParty>
+              <gmd:organisationName>
+                <gco:CharacterString>Agence d'Urbanisme et de Développement Intercommunal de l'Agglomération Rennaise (AUDIAR)</gco:CharacterString>
+              </gmd:organisationName>
+              <gmd:contactInfo>
+                <gmd:CI_Contact>
+                  <gmd:phone>
+                    <gmd:CI_Telephone>
+                      <gmd:voice>
+                        <gco:CharacterString>02 99 01 86 40</gco:CharacterString>
+                      </gmd:voice>
+                    </gmd:CI_Telephone>
+                  </gmd:phone>
+                  <gmd:address>
+                    <gmd:CI_Address>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>Hôtel de Rennes Métropole</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>4 avenue Henri Fréville</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:deliveryPoint>
+                        <gco:CharacterString>CS 40716</gco:CharacterString>
+                      </gmd:deliveryPoint>
+                      <gmd:city>
+                        <gco:CharacterString>RENNES</gco:CharacterString>
+                      </gmd:city>
+                      <gmd:postalCode>
+                        <gco:CharacterString>35207</gco:CharacterString>
+                      </gmd:postalCode>
+                      <gmd:country>
+                        <gco:CharacterString>France</gco:CharacterString>
+                      </gmd:country>
+                      <gmd:electronicMailAddress>
+                        <gco:CharacterString>contact@audiar.org</gco:CharacterString>
+                      </gmd:electronicMailAddress>
+                    </gmd:CI_Address>
+                  </gmd:address>
+                  <gmd:onlineResource>
+                    <gmd:CI_OnlineResource>
+                      <gmd:linkage>
+                        <gmd:URL>http://www.audiar.org/</gmd:URL>
+                      </gmd:linkage>
+                    </gmd:CI_OnlineResource>
+                  </gmd:onlineResource>
+                </gmd:CI_Contact>
+              </gmd:contactInfo>
+              <gmd:role>
+                <gmd:CI_RoleCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" />
+              </gmd:role>
+            </gmd:CI_ResponsibleParty>
+          </gmd:pointOfContact>
+          <gmd:resourceConstraints>
+            <gmd:MD_LegalConstraints>
+              <gmd:accessConstraints>
+                <gmd:MD_RestrictionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" />
+              </gmd:accessConstraints>
+            </gmd:MD_LegalConstraints>
+          </gmd:resourceConstraints>
+          <gmd:spatialResolution>
+            <gmd:MD_Resolution>
+              <gmd:equivalentScale>
+                <gmd:MD_RepresentativeFraction>
+                  <gmd:denominator>
+                    <gco:Integer>25000</gco:Integer>
+                  </gmd:denominator>
+                </gmd:MD_RepresentativeFraction>
+              </gmd:equivalentScale>
+            </gmd:MD_Resolution>
+          </gmd:spatialResolution>
+          <gmd:language>
+            <gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="fre" />
+          </gmd:language>
+          <gmd:characterSet>
+            <gmd:MD_CharacterSetCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/Codelist/ML_gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" />
+          </gmd:characterSet>
+          <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>planningCadastre</gmd:MD_TopicCategoryCode>
+          </gmd:topicCategory>
+          <gmd:extent>
+            <gmd:EX_Extent>
+              <gmd:geographicElement>
+                <gmd:EX_GeographicBoundingBox>
+                  <gmd:westBoundLongitude>
+                    <gco:Decimal>-1.96179</gco:Decimal>
+                  </gmd:westBoundLongitude>
+                  <gmd:southBoundLatitude>
+                    <gco:Decimal>47.93192</gco:Decimal>
+                  </gmd:southBoundLatitude>
+                  <gmd:eastBoundLongitude>
+                    <gco:Decimal>-1.46558</gco:Decimal>
+                  </gmd:eastBoundLongitude>
+                  <gmd:northBoundLatitude>
+                    <gco:Decimal>48.25441</gco:Decimal>
+                  </gmd:northBoundLatitude>
+                </gmd:EX_GeographicBoundingBox>
+              </gmd:geographicElement>
+            </gmd:EX_Extent>
+          </gmd:extent>
+        </gmd:MD_DataIdentification>
+      </gmd:identificationInfo>
+      <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+          <gmd:distributionFormat>
+            <gmd:MD_Format>
+              <gmd:name>
+                <gco:CharacterString>SHP</gco:CharacterString>
+              </gmd:name>
+              <gmd:version>
+                <gco:CharacterString>1.0</gco:CharacterString>
+              </gmd:version>
+            </gmd:MD_Format>
+          </gmd:distributionFormat>
+          <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://geobretagne.fr/geoserver/audiar/wfs?service=wfs&amp;version=1.0.0&amp;request=getfeature&amp;typename=synthese_pos_plu_rennes_metropole&amp;outputformat=shape-zip</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:transferOptions>
+          <gmd:transferOptions>
+            <gmd:MD_DigitalTransferOptions>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>file:///chemin_vers_le_lyr.lyr</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>postgis-bdu:bdu:shema:couche</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+              <gmd:onLine>
+                <gmd:CI_OnlineResource>
+                  <gmd:linkage>
+                    <gmd:URL>http://geobretagne.fr/geoserver/audiar/wms?</gmd:URL>
+                  </gmd:linkage>
+                </gmd:CI_OnlineResource>
+              </gmd:onLine>
+            </gmd:MD_DigitalTransferOptions>
+          </gmd:transferOptions>
+        </gmd:MD_Distribution>
+      </gmd:distributionInfo>
+      <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+          <gmd:lineage>
+            <gmd:LI_Lineage>
+              <gmd:statement>
+                <gco:CharacterString>La précision actuelle est à rapporter au support de saisie et en aucun cas au cadastre labellisé dorénavant disponible sur l’ensemble des communes.
+
+Le document de base est une production datée de 2003 où  le Scan25® servait de support à la saisie. 
+Trois communes en POS sont encore basés sur le Scan25 avec des recalages sur le parcellaire cadastral : Brécé, Parthenay-de-Bretagne. et Le Verger
+
+Depuis, le fond parcellaire cadastral est une référence pour 32 communes.
+- 17 saisies par l’Audiar :  
+1 POS : Acigné, 
+16 PLU : Betton, Bourgbarré, Cesson-Sévigné, Chantepie, La Chapelle-des-Fougertez, Chavagne, Corps-Nuds, Orgères, Montgermont, Le Rheu, St-Armel, St-Erblon, St-Grégoire, St-Sulpice-la-Forêt, Thorigné-Fouillard et Vezin-le-Coquet
+- 15 en import de couches SIG d'origine (PLU uniquement) : 
+Rennes, St-Jacques-de-la-Lande, Bruz, Cintré, Clayes, Gévezé, Mordelles, Nouvoitou, Noyal-Châtillon-sur-Seiche, Pacé, Saint-Gilles, Chartres-de-Bretagne, Pont-Péan, Vern-sur-Seiche et L’Hermitage
+
+Enfin deux communes en POS sont saisies sur un cadastre numérisé par leur géomètre : La Chapelle-Thouarault et Chevaigné.</gco:CharacterString>
+              </gmd:statement>
+            </gmd:LI_Lineage>
+          </gmd:lineage>
+        </gmd:DQ_DataQuality>
+      </gmd:dataQualityInfo>
+    </gmd:MD_Metadata>
+  </csw:SearchResults>
+</csw:GetRecordsResponse>
+
