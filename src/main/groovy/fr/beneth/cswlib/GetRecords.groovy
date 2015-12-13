@@ -1,7 +1,6 @@
 package fr.beneth.cswlib
 
 import fr.beneth.cswlib.metadata.Metadata
-import groovy.xml.XmlUtil
 import groovyx.net.http.ContentType
 import groovyx.net.http.HTTPBuilder
 

@@ -1,6 +1,5 @@
 package fr.beneth.cswlib.metadata
 
-import groovy.xml.XmlUtil;
 
 class Metadata {
 
