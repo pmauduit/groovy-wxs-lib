@@ -62,7 +62,7 @@ class Metadata {
             'gco:CharacterString'.text()
 
         // online resources
-        xml.'gmd:distributionInfo'.'**'.find { it.name() == 'CI_OnlineResource' }.each {
+        xml.'gmd:distributionInfo'.'**'.findAll { it.name() == 'CI_OnlineResource' }.each {
             md.onlineResources <<  OnlineResource.mapFromXmlFragment(it)
         }
         // coupled resources (service only)

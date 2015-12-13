@@ -88,7 +88,7 @@ class MetadataTest {
         assertTrue(md.responsibleParty != null)
         assertTrue(md.title  != null)
         assertTrue(md._abstract != null)
-        assertTrue(md.onlineResources.size() > 0)
+        assertTrue(md.onlineResources.size() == 3)
         assertTrue(md.graphicOverviewUrls.size() > 0)
         assertTrue(md.keywords.size() > 0)
     }
@@ -104,7 +104,7 @@ class MetadataTest {
         assertTrue(md.responsibleParty != null)
         assertTrue(md.title  != null)
         assertTrue(md._abstract != null)
-        assertTrue(md.onlineResources.size() > 0)
+        assertTrue(md.onlineResources.size() == 1)
         assertTrue(md.graphicOverviewUrls.size() > 0)
         assertTrue(md.keywords.size() > 0)
     }
