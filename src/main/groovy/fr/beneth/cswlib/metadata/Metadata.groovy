@@ -13,7 +13,17 @@ class Metadata {
     String title, _abstract
 
     // /gmd:MD_Metadata/gmd:distributionInfo/gmd:transferOptions//gmd:onLine/gmd:CI_OnlineResource
+    // datasets only
     ArrayList<OnlineResource> onlineResources = new ArrayList<OnlineResource>()
+
+    // /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:coupledResource
+    // service only
+    ArrayList<CoupledResource> coupledResources = new ArrayList<CoupledResource>()
+
+    // operatesOn
+    // /gmd:MD_Metadata/gmd:identificationInfo/srv:SV_ServiceIdentification/srv:operatesOn
+    // service only
+    ArrayList<LinkedMetadata> operatesOn = new ArrayList<LinkedMetadata>()
 
     // /gmd:MD_Metadata/gmd:identificationInfo//gmd:graphicOverview//gmd:fileName/gco:CharacterString
     ArrayList<String> graphicOverviewUrls = new ArrayList<String>()
@@ -22,13 +32,15 @@ class Metadata {
     ArrayList<String> keywords = new ArrayList<String>()
 
     public String toString() {
-        return "uuid: ${fileIdentifier}\r\n"               +
-        "scopeCode: ${scopeCode}\r\n"                      +
-        "responsibleParty: ${responsibleParty}\r\n"        +
-        "title: ${title}\r\n"                              +
-        "abstract: ${_abstract}\r\n"                       +
-        "online resources: ${onlineResources}\r\n"         +
-        "graphicOverviewUrls: ${graphicOverviewUrls}\r\n"  +
+        return "uuid: ${fileIdentifier}\r\n"                         +
+        "scopeCode: ${scopeCode}\r\n"                                +
+        "responsibleParty: ${responsibleParty}\r\n"                  +
+        "title: ${title}\r\n"                                        +
+        "abstract: ${_abstract}\r\n"                                 +
+        "online resources: ${onlineResources}\r\n"                   +
+        "coupled resources (service only): ${coupledResources}\r\n"  +
+        "operatesOn (service only): ${operatesOn}\r\n"               +
+        "graphicOverviewUrls: ${graphicOverviewUrls}\r\n"            +
         "keywords: ${keywords}"
     }
 
@@ -49,9 +61,17 @@ class Metadata {
         md._abstract = xml.'gmd:identificationInfo'.'*'.'gmd:abstract'.
             'gco:CharacterString'.text()
 
-        // /gmd:MD_Metadata/gmd:distributionInfo/gmd:transferOptions//gmd:onLine/gmd:CI_OnlineResource
+        // online resources
         xml.'gmd:distributionInfo'.'**'.find { it.name() == 'CI_OnlineResource' }.each {
             md.onlineResources <<  OnlineResource.mapFromXmlFragment(it)
+        }
+        // coupled resources (service only)
+        xml.'gmd:identificationInfo'.'**'.find { it.name() == 'coupledResource' }.each {
+            md.coupledResources << CoupledResource.mapFromXmlFragment(it)
+        }
+        // operatesOn (service only)
+        xml.'gmd:identificationInfo'.'**'.find { it.name() == 'operatesOn' }.each {
+            md.operatesOn << LinkedMetadata.mapFromXmlFragment(it)
         }
         xml.'gmd:identificationInfo'.'*'.'gmd:graphicOverview'.'*'.'gmd:fileName'.each {
             def lu = it.'gco:CharacterString'.text()
@@ -67,16 +87,20 @@ class Metadata {
     public static Metadata mapFromString(String md) {
         def xml = new XmlSlurper().parseText(md)
         xml.declareNamespace("gmd": "http://www.isotc211.org/2005/gmd",
-            "gco" : "http://www.isotc211.org/2005/gco",
-            "gmx" : "http://www.isotc211.org/2005/gmx")
+            "gco"   : "http://www.isotc211.org/2005/gco",
+            "srv"   : "http://www.isotc211.org/2005/srv",
+            "xlink" : "http://www.w3.org/1999/xlink",
+            "gmx"   : "http://www.isotc211.org/2005/gmx")
         return map(xml)
     }
 
     public static Metadata mapFromXmlDocument(String url) {
         def xml = new XmlSlurper().parse(url)
         xml.declareNamespace("gmd": "http://www.isotc211.org/2005/gmd",
-            "gco" : "http://www.isotc211.org/2005/gco",
-            "gmx" : "http://www.isotc211.org/2005/gmx")
+            "gco"   : "http://www.isotc211.org/2005/gco",
+            "srv"   : "http://www.isotc211.org/2005/srv",
+            "xlink" : "http://www.w3.org/1999/xlink",
+            "gmx"   : "http://www.isotc211.org/2005/gmx")
         return map(xml)
     }
 }

@@ -48,6 +48,19 @@ class MetadataTest {
     }
 
     @Test
+    public void testToString() {
+        def testMd = this.getClass().getResource("/fr/beneth/cswlib/geonetwork/erdf-transfo-19139fra.xml")
+        assumeTrue(testMd != null)
+
+        def md = Metadata.mapFromXmlDocument(testMd.toString())
+        def str = md.toString()
+        assertTrue(! str.contains("keywords: []"))
+        assertTrue(! str.contains("keywords: []"))
+        assertTrue(! str.contains("online resources: []"))
+        assertTrue(str.contains("uuid: 26a3f3f4-a3a1-49af-a7d3-5e535e16b935"))
+    }
+
+    @Test
     public void testMapFromXmlDocumentServiceMd() {
         def testMd = this.getClass().getResource("/fr/beneth/cswlib/geonetwork/md-service-19139.xml")
         assumeTrue(testMd != null)
@@ -59,9 +72,11 @@ class MetadataTest {
         assertTrue(md.title  == 'DRJSCS (WMS)')
         assertTrue(md._abstract != null)
         assertTrue(md.onlineResources.size() > 0)
+        assertTrue(md.coupledResources.size() > 0)
+        assertTrue(md.operatesOn.size() > 0)
         assertTrue(md.keywords.size() > 0)
     }
-    
+
     @Test
     public void testMapFromXmlDocumentCigal() {
         def testMd = this.getClass().getResource("/fr/beneth/cswlib/geonetwork/data-md-cigal.xml")
