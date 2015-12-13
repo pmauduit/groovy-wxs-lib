@@ -108,4 +108,13 @@ class MetadataTest {
         assertTrue(md.graphicOverviewUrls.size() > 0)
         assertTrue(md.keywords.size() > 0)
     }
+
+    @Test
+    public void testServiceMetadataFromGeob() {
+        def testMd = this.getClass().getResource("/fr/beneth/cswlib/geob-service-md.xml")
+        assumeTrue(testMd != null)
+
+        def md = Metadata.mapFromXmlDocument(testMd.toString())
+        assertTrue(md.operatesOn.size() == 48)
+    }
 }

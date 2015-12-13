@@ -66,11 +66,11 @@ class Metadata {
             md.onlineResources <<  OnlineResource.mapFromXmlFragment(it)
         }
         // coupled resources (service only)
-        xml.'gmd:identificationInfo'.'**'.find { it.name() == 'coupledResource' }.each {
+        xml.'gmd:identificationInfo'.'**'.findAll { it.name() == 'coupledResource' }.each {
             md.coupledResources << CoupledResource.mapFromXmlFragment(it)
         }
         // operatesOn (service only)
-        xml.'gmd:identificationInfo'.'**'.find { it.name() == 'operatesOn' }.each {
+        xml.'gmd:identificationInfo'.'**'.findAll { it.name() == 'operatesOn' }.each {
             md.operatesOn << LinkedMetadata.mapFromXmlFragment(it)
         }
         xml.'gmd:identificationInfo'.'*'.'gmd:graphicOverview'.'*'.'gmd:fileName'.each {
