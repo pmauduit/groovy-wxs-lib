@@ -1,5 +1,7 @@
 package fr.beneth.cswlib.metadata
 
+import groovy.xml.XmlUtil;
+
 class Metadata {
 
     String fileIdentifier
@@ -45,8 +47,13 @@ class Metadata {
     }
 
     public static Metadata map(def xml) {
-        
         def md = new Metadata()
+        xml.declareNamespace(gmd: "http://www.isotc211.org/2005/gmd",
+            gco   : "http://www.isotc211.org/2005/gco",
+            srv   : "http://www.isotc211.org/2005/srv",
+            xlink : "http://www.w3.org/1999/xlink",
+            gmx   : "http://www.isotc211.org/2005/gmx")
+
         md.fileIdentifier = xml.'gmd:fileIdentifier'.'gco:CharacterString'.text()
         md.scopeCode = xml.'gmd:hierarchyLevel'.'gmd:MD_ScopeCode'.'@codeListValue'.toString()
         
@@ -54,7 +61,6 @@ class Metadata {
         if (rspParty) {
             md.responsibleParty = ResponsibleParty.mapFromXmlFragment(rspParty)
         }
-
         md.title = xml.'gmd:identificationInfo'.'*'.'gmd:citation'.'*'.
             'gmd:title'.'gco:CharacterString'.text()
 
@@ -62,6 +68,7 @@ class Metadata {
             'gco:CharacterString'.text()
 
         // online resources
+        // TODO: if service, online resources are elsewhere
         xml.'gmd:distributionInfo'.'**'.findAll { it.name() == 'CI_OnlineResource' }.each {
             md.onlineResources <<  OnlineResource.mapFromXmlFragment(it)
         }
@@ -86,21 +93,11 @@ class Metadata {
 
     public static Metadata mapFromString(String md) {
         def xml = new XmlSlurper().parseText(md)
-        xml.declareNamespace("gmd": "http://www.isotc211.org/2005/gmd",
-            "gco"   : "http://www.isotc211.org/2005/gco",
-            "srv"   : "http://www.isotc211.org/2005/srv",
-            "xlink" : "http://www.w3.org/1999/xlink",
-            "gmx"   : "http://www.isotc211.org/2005/gmx")
         return map(xml)
     }
 
     public static Metadata mapFromXmlDocument(String url) {
         def xml = new XmlSlurper().parse(url)
-        xml.declareNamespace("gmd": "http://www.isotc211.org/2005/gmd",
-            "gco"   : "http://www.isotc211.org/2005/gco",
-            "srv"   : "http://www.isotc211.org/2005/srv",
-            "xlink" : "http://www.w3.org/1999/xlink",
-            "gmx"   : "http://www.isotc211.org/2005/gmx")
         return map(xml)
     }
 }

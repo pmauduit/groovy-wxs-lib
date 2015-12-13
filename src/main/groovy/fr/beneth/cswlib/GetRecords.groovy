@@ -44,14 +44,21 @@ class GetRecords {
     public static GetRecords getAllMetadatasFromDocument(String document) {
         def ret = new GetRecords()
         def response = new XmlSlurper().parseText(document)
-        .declareNamespace(csw: "http://www.opengis.net/cat/csw/2.0.2",
-            gmd: "http://www.isotc211.org/2005/gmd")
+
+        response.declareNamespace(csw: "http://www.opengis.net/cat/csw/2.0.2",
+                    gmd: "http://www.isotc211.org/2005/gmd")
 
         ret.recordsMatched = Integer.parseInt(response.'csw:SearchResults'.'@numberOfRecordsMatched'.toString())
         ret.nextRecord = Integer.parseInt(response.'csw:SearchResults'.'@nextRecord'.toString())
 
         response.'csw:SearchResults'.'gmd:MD_Metadata'.each { md ->
-            ret.metadatas << Metadata.mapFromString(XmlUtil.serialize(md))
+
+            // FIXME: GeoNetwork does not send the "complete" metadata,
+            // even with outputSchema=iso and resultType=results, See issue #2.
+            // Service metadatas parsed this way will be incomplete, and an extra
+            // GetRecordById will be necessary to have reliable information on the parsed MD.
+
+            ret.metadatas << Metadata.map(md)
         }
         return ret
     }

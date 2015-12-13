@@ -61,6 +61,7 @@ class GetRecordsTest {
             c.call(response)
         }
     }
+
     @Test
     public void testGetRecordsFromEndpoint() {
         def hc = new MockedHttpClient()
