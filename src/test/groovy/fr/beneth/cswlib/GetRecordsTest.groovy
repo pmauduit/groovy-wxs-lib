@@ -48,6 +48,7 @@ class GetRecordsTest {
             dataset2 = d2.getText()
             service1 = s.getText()
         }
+
         def post(_,Closure c) {
             if (numcall == 0) {
                 response.entity.content.text = dataset1
@@ -62,6 +63,17 @@ class GetRecordsTest {
         }
     }
 
+    class MockedHttpClientForGetLastModified {
+        def response = [entity: [ content: [ text: [:] ]]]
+        def post(_,Closure c) {
+            response.entity.content.text = this.getClass().getResource("lastModResp.xml").getText()
+            c.call(response)
+        }
+        def MockedHttpClientForGetLastModified() {
+            assumeTrue(this.getClass().getResource("lastModResp.xml") != null)
+        }
+    }
+    
     @Test
     public void testGetRecordsFromEndpoint() {
         def hc = new MockedHttpClient()
@@ -74,13 +86,19 @@ class GetRecordsTest {
 
         assertTrue(rec2.metadatas.size() == 2)
     }
-    
-    
+
     @Test
-    public void testGetLatestsElements() {
-        def cswRec = GetRecords.buildQueryOrder(1, 10, "dataset", "changeDate", "DESC")
+    public void testbuildQueryOrder() {
+        def cswRec = GetRecords.buildQueryOrder(1, 10, GetRecords.DATASET, "changeDate", "DESC")
         assertTrue(cswRec.contains("DESC"))
         assertTrue(cswRec.contains("<ogc:PropertyName>changeDate</ogc:PropertyName>"))
         
+    }
+    
+    @Test
+    public void testGetLastModifiedMetadatasFromEndpoint() {
+        def hc = new MockedHttpClientForGetLastModified()
+        def rec1 = GetRecords.getLastModifiedMetadatasFromEndpoint("http://localhost:8080/", hc)
+        assertTrue(rec1.metadatas.size() == 10)
     }
 }

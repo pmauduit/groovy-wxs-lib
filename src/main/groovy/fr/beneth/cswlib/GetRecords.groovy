@@ -101,4 +101,16 @@ class GetRecords {
         }
         return ret
     }
+    
+    public static GetRecords getLastModifiedMetadatasFromEndpoint(String url, def hb = null) {
+        def http = hb != null ? hb : new HTTPBuilder(url)
+        def ret = new GetRecords()
+
+        http.post(body: buildQueryOrder(1, GetRecords.DEFAULT_PAGE, GetRecords.DATASET, "changeDate", "DESC")
+            , requestContentType: ContentType.XML) { resp ->
+            def parsedRecs = GetRecords.getAllMetadatasFromDocument(resp.entity.content.text)
+            ret.metadatas += parsedRecs.metadatas
+        }
+        return ret
+    }
 }
