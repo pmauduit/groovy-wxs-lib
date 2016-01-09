@@ -1,6 +1,7 @@
 package fr.beneth.cswlib
 
 import fr.beneth.cswlib.metadata.Metadata
+import groovy.xml.XmlUtil;
 import groovyx.net.http.ContentType
 import groovyx.net.http.HTTPBuilder
 
@@ -8,6 +9,9 @@ class GetRecords {
     /* pagination utils */
     private def recordsMatched = 0, nextRecord = 0
 
+    /* default value for pagination (10 records by calls) */
+    private static int DEFAULT_PAGE = 10
+    
     public static final String DATASET = "dataset"
     public static final String SERVICE = "service"
 
@@ -16,11 +20,11 @@ class GetRecords {
     // GeoNetwork-specific:
     // Possible to search for local MD using the _isHarvested field
     // (even if not promoted in the GetCapabilities)
-
-    public static String buildQuery(int startPosition, String mdType) {
+    
+    public static String buildQuery(int startPosition, int maxRecords, String mdType) {
         return """<?xml version="1.0"?>
        <csw:GetRecords xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:ogc="http://www.opengis.net/ogc"
-        service="CSW" version="2.0.2" resultType="results" outputSchema="csw:IsoRecord" maxRecords="10" startPosition="${startPosition}">
+        service="CSW" version="2.0.2" resultType="results" outputSchema="csw:IsoRecord" maxRecords="${maxRecords}" startPosition="${startPosition}">
             <csw:Query typeNames="csw:Record">
                 <csw:Constraint version="1.1.0">
                     <ogc:Filter>
@@ -38,6 +42,22 @@ class GetRecords {
                 </csw:Constraint>
             </csw:Query>
         </csw:GetRecords>"""
+    }
+    
+    public static String buildQueryOrder(int startPosition, int maxRecord, String mdType, String orderByField, String orderBy) {
+        def q = new XmlSlurper().parseText(GetRecords.buildQuery(startPosition, maxRecord, mdType))
+        q.declareNamespace(csw: "http://www.opengis.net/cat/csw/2.0.2")
+        q."csw:Query".appendNode(
+            new XmlSlurper().parseText("""
+                <ogc:SortBy xmlns:ogc="http://www.opengis.net/ogc">
+                    <ogc:SortProperty>
+                            <ogc:PropertyName>${orderByField}</ogc:PropertyName>
+                        <ogc:SortOrder>${orderBy}</ogc:SortOrder>
+                    </ogc:SortProperty>
+                </ogc:SortBy>
+            """)
+        )
+        return XmlUtil.serialize(q)        
     }
     
     public static GetRecords getAllMetadatasFromDocument(String document) {
@@ -69,7 +89,7 @@ class GetRecords {
 
         int currentIdx = 1
         while (! done) {
-            http.post(body: buildQuery(currentIdx, mdType), requestContentType: ContentType.XML) { resp ->
+            http.post(body: buildQuery(currentIdx, GetRecords.DEFAULT_PAGE, mdType), requestContentType: ContentType.XML) { resp ->
                 def parsedRecs = GetRecords.getAllMetadatasFromDocument(resp.entity.content.text)
                 ret.metadatas += parsedRecs.metadatas
                 if ((parsedRecs.nextRecord > parsedRecs.recordsMatched) || parsedRecs.nextRecord == 0) {

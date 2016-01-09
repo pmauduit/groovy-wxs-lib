@@ -74,4 +74,13 @@ class GetRecordsTest {
 
         assertTrue(rec2.metadatas.size() == 2)
     }
+    
+    
+    @Test
+    public void testGetLatestsElements() {
+        def cswRec = GetRecords.buildQueryOrder(1, 10, "dataset", "changeDate", "DESC")
+        assertTrue(cswRec.contains("DESC"))
+        assertTrue(cswRec.contains("<ogc:PropertyName>changeDate</ogc:PropertyName>"))
+        
+    }
 }
