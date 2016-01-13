@@ -4,7 +4,7 @@ package fr.beneth.wxslib.georchestra;
  * Created by pmauduit on 10/27/15.
  */
 public class Instance {
-    private static String SDI_LIST_ENDPOINT = "http://sdi.georchestra.org/geoserver/wfs?request=getfeature&service=wfs&typeName=geor:sdi"
+    private static String SDI_LIST_ENDPOINT = "https://sdi.georchestra.org/geoserver/wfs?request=getfeature&service=wfs&typeName=geor:sdi"
 
     String title, url, logo_url, _abstract
     boolean isPublic, isInProduction
