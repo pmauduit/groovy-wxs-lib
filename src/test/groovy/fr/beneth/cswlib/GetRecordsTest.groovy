@@ -101,4 +101,5 @@ class GetRecordsTest {
         def rec1 = GetRecords.getLastModifiedMetadatasFromEndpoint("http://localhost:8080/", hc)
         assertTrue(rec1.metadatas.size() == 10)
     }
+
 }

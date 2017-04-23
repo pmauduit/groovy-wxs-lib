@@ -22,7 +22,7 @@ class GetRecords {
     // (even if not promoted in the GetCapabilities)
     
     public static String buildQuery(int startPosition, int maxRecords, String mdType) {
-        return """<?xml version="1.0"?>
+        return """<?xml version="1.0" ?>
        <csw:GetRecords xmlns:csw="http://www.opengis.net/cat/csw/2.0.2" xmlns:ogc="http://www.opengis.net/ogc"
         service="CSW" version="2.0.2" resultType="results" outputSchema="csw:IsoRecord" maxRecords="${maxRecords}" startPosition="${startPosition}">
             <csw:Query typeNames="csw:Record">
@@ -89,7 +89,8 @@ class GetRecords {
 
         int currentIdx = 1
         while (! done) {
-            http.post(body: buildQuery(currentIdx, GetRecords.DEFAULT_PAGE, mdType), requestContentType: ContentType.XML) { resp ->
+            http.post(body: buildQuery(currentIdx, GetRecords.DEFAULT_PAGE, mdType),
+                requestContentType: ContentType.XML) { resp ->
                 def parsedRecs = GetRecords.getAllMetadatasFromDocument(resp.entity.content.text)
                 ret.metadatas += parsedRecs.metadatas
                 if ((parsedRecs.nextRecord > parsedRecs.recordsMatched) || parsedRecs.nextRecord == 0) {
@@ -106,10 +107,10 @@ class GetRecords {
         def http = hb != null ? hb : new HTTPBuilder(url)
         def ret = new GetRecords()
 
-        http.post(body: buildQueryOrder(1, GetRecords.DEFAULT_PAGE, GetRecords.DATASET, "changeDate", "DESC")
-            , requestContentType: ContentType.XML) { resp ->
-            def parsedRecs = GetRecords.getAllMetadatasFromDocument(resp.entity.content.text)
-            ret.metadatas += parsedRecs.metadatas
+        http.post(requestContentType: ContentType.XML.toString() + "; charset=UTF-8",
+            body: buildQueryOrder(1, GetRecords.DEFAULT_PAGE, GetRecords.DATASET, "changeDate", "DESC"),
+            contentType: ContentType.XML.toString() + "; charset=UTF-8") { resp ->
+            ret = GetRecords.getAllMetadatasFromDocument(resp.entity.content.text)
         }
         return ret
     }
