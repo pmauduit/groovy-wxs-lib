@@ -11,7 +11,7 @@ Here are some sample code that can be directly pasted into a groovy console for 
 
 ```groovy
 // Execute a getrecords operation querying for datasets
-@GrabResolver(name='wxslib', root='http://download.qualitystreetmap.org/maven/')
+@GrabResolver(name='wxslib', root='https://java.spironet.fr/maven/')
 @Grab(group='fr.beneth', module='wxslib', version='1.1-SNAPSHOT')
 
 import fr.beneth.cswlib.GetRecords
@@ -30,7 +30,7 @@ println "${rec.metadatas.size()} metadata returned"
 ## CSW GetRecords & GetRecordById
 
 ```groovy
-@GrabResolver(name='wxslib', root='http://download.qualitystreetmap.org/maven/')
+@GrabResolver(name='wxslib', root='https://java.spironet.fr/maven/')
 @Grab(group='fr.beneth', module='wxslib', version='1.1-SNAPSHOT')
 
 import fr.beneth.cswlib.GetRecords

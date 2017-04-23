@@ -6,17 +6,17 @@
   <name>WxS library</name>
   <version>1.1-SNAPSHOT</version>
   <properties>
-    <groovy.version>2.4.5</groovy.version>
+    <groovy.version>2.4.10</groovy.version>
   </properties>
   <distributionManagement>
     <repository>
-      <id>download.qsm.org</id>
-      <url>scpexe://download.qualitystreetmap.org/var/www/download.qualitystreetmap.org/htdocs/maven</url>
+      <id>java.spironet.fr</id>
+      <url>scpexe://java.spironet.fr/var/www/spironet-java/htdocs/maven</url>
     </repository>
     <site>
-      <id>download.qsm.org</id>
-      <name>download qualitystreetmap</name>
-      <url>scpexe://download.qualitystreetmap.org/var/www/download.qualitystreetmap.org/htdocs/wxslib</url>
+      <id>java.spironet.fr</id>
+      <name>java.spironet.fr</name>
+      <url>scpexe://java.spironet.fr/var/www/spironet-java/htdocs/groovy-wxs-lib</url>
     </site>
   </distributionManagement>
   <scm>
