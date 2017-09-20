@@ -15,9 +15,14 @@ Here are some sample code that can be directly pasted into a groovy console for 
 @Grab(group='fr.beneth', module='wxslib', version='1.1-SNAPSHOT')
 
 import fr.beneth.cswlib.GetRecords
+import groovyx.net.http.HTTPBuilder
 
-def rec = GetRecords.getAllMetadatasFromEndpoint("http://sdi.georchestra.org/geonetwork/srv/eng/csw",
-            GetRecords.DATASET)
+// Note: the current groovy version uses a HTTPClient which is buggy in regards to SNI
+def http = new HTTPBuilder("https://sandbox.georchestra.org/geonetwork/srv/eng/csw")
+http.ignoreSSLIssues()
+
+def rec = GetRecords.getAllMetadatasFromEndpoint("http://sandbox.georchestra.org/geonetwork/srv/eng/csw",
+            GetRecords.DATASET, http)
 
 rec.metadatas.each {
   println "title: ${it.title}"
