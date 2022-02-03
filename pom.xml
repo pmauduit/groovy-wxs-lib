@@ -4,9 +4,11 @@
   <groupId>fr.beneth</groupId>
   <artifactId>wxslib</artifactId>
   <name>WxS library</name>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.2-SNAPSHOT</version>
   <properties>
-    <groovy.version>2.4.10</groovy.version>
+    <groovy.version>3.0.9</groovy.version>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
   <distributionManagement>
     <repository>
@@ -30,6 +32,7 @@
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy-xml</artifactId>
       <version>${groovy.version}</version>
+      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>org.codehaus.groovy.modules.http-builder</groupId>
